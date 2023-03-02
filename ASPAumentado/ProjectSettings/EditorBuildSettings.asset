@@ -131,6 +131,9 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Peninsula/Spanish/photoboothEspa\xF1ol.unity"
     guid: f9ef16cdd90e0d5449b9dfe9dde51f31
+  - enabled: 1
+    path: "Assets/Scenes/Peninsula/Spanish/VAPeninsula4Espa\xF1ol.unity"
+    guid: 52cbb88bd000c564dabbf5a1cf986c75
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e471d2b2d7b6eac49b49d3fbb452be59, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5fe3e23ba01914840b281db9bc319331, type: 2}

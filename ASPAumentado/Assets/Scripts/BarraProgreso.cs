@@ -91,6 +91,8 @@ public class BarraProgreso : MonoBehaviour
             /* 3n = Península scena n en español*/
             if (numEscena == 3){
                 SceneManager.LoadScene("VAPeninsula");
+            }if(numEscena == 34){
+                SceneManager.LoadScene("VAPeninsula4Español");
             }
 
 
