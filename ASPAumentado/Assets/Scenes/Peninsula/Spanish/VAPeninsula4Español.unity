@@ -706,6 +706,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 590950381446924520, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2403493819941028741, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
       propertyPath: m_PlayOnAwake
       value: 1
@@ -713,6 +717,14 @@ PrefabInstance:
     - target: {fileID: 3925100846384532420, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5329217604738849572, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5439643643514268832, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8865329437003978723, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
       propertyPath: m_BoundingSphereOverride.w
@@ -815,9 +827,17 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8865329437415524332, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
+      propertyPath: OnTargetLost.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 868637122}
+    - target: {fileID: 8865329437415524332, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
       propertyPath: OnTargetLost.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 868637121}
+    - target: {fileID: 8865329437415524332, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 868637122}
     - target: {fileID: 8865329437415524332, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -831,7 +851,15 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8865329437415524332, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
+      propertyPath: OnTargetLost.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865329437415524332, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
       propertyPath: OnTargetLost.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865329437415524332, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
+      propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 8865329437415524332, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
@@ -874,6 +902,31 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3925100846384532420, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
   m_PrefabInstance: {fileID: 868637120}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &868637122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 590950381446924520, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
+  m_PrefabInstance: {fileID: 868637120}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &868637123
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868637122}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: be62baba585b1f34dbfe36c1ef7a7e56, type: 3}
+  m_Controller: {fileID: 9100000, guid: c755abb1aa848854eb7975324c4f3de1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &907506396
 GameObject:
   m_ObjectHideFlags: 0
