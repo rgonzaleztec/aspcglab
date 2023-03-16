@@ -91,6 +91,20 @@ public class BarraProgreso : MonoBehaviour
             /* 3n = Península scena n en español*/
             if (numEscena == 3){                                
                 SceneManager.LoadScene("mapEspañolPeninsula");
+            }if (numEscena == 31) {                                   //Casetilla
+                SceneManager.LoadScene("mapEspañolPeninsula");
+            }if (numEscena == 32) {                                   //Mirador Turismo Responsable
+                SceneManager.LoadScene("mapEspañolPeninsula");
+            }if (numEscena == 33) {                                   //Tororoi
+                SceneManager.LoadScene("TororoiEspañol");
+            }if (numEscena == 34) {                                   //Momotorufo
+                SceneManager.LoadScene("mapEspañolPeninsula");
+            }if (numEscena == 35) {                                   //Bosque Sano
+                SceneManager.LoadScene("mapEspañolPeninsula");
+            }if (numEscena == 36) {                                   //Torre
+                SceneManager.LoadScene("mapEspañolPeninsula");
+            }if (numEscena == 37) {                                   //Mirador  Lago
+                SceneManager.LoadScene("mapEspañolPeninsula");
             }
 
 

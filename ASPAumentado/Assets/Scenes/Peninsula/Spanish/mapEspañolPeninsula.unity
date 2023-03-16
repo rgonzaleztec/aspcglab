@@ -2155,7 +2155,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1726857136}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: goObservatorioExperience3
+        m_MethodName: "goTororoiEspa\xF1ol"
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
