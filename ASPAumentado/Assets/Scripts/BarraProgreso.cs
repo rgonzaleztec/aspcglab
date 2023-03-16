@@ -98,7 +98,7 @@ public class BarraProgreso : MonoBehaviour
             }if (numEscena == 33) {                                   //Tororoi
                 SceneManager.LoadScene("TororoiEspañol");
             }if (numEscena == 34) {                                   //Momotorufo
-                SceneManager.LoadScene("mapEspañolPeninsula");
+                SceneManager.LoadScene("VAPeninsula4Español");
             }if (numEscena == 35) {                                   //Bosque Sano
                 SceneManager.LoadScene("mapEspañolPeninsula");
             }if (numEscena == 36) {                                   //Torre

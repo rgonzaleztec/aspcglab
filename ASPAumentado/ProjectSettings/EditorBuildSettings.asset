@@ -120,26 +120,29 @@ EditorBuildSettings:
     path: Assets/Scenes/Peninsula/English/LoadPeninsula.unity
     guid: b060e3b4a8f761b41bd6f232cca08b2c
   - enabled: 1
-    path: Assets/Scenes/Peninsula/English/VAPeninsula.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol3.unity"
+    guid: f8ab5e0c5e227494b901fafe8783086f
+  - enabled: 1
+    path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol4.unity"
+    guid: bab212ea3e59b424cbefb08f96c8e6a1
+  - enabled: 1
+    path: "Assets/Scenes/Peninsula/Spanish/mapEspa\xF1olPeninsula.unity"
+    guid: 5055a64a4f85604448bb42cd155b6c4f
   - enabled: 1
     path: "Assets/Scenes/Peninsula/Spanish/TororoiEspa\xF1ol.unity"
     guid: 2b46ee14b14704246871c27b7390ae5b
+  - enabled: 1
+    path: "Assets/Scenes/Peninsula/Spanish/VAPeninsula4Espa\xF1ol.unity"
+    guid: 52cbb88bd000c564dabbf5a1cf986c75
+  - enabled: 1
+    path: Assets/Scenes/Peninsula/English/VAPeninsula.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
     path: Assets/Scenes/Peninsula/Spanish/Volcan.unity
     guid: f43f95002c3429e46bc3d4e52dc28456
   - enabled: 1
     path: "Assets/Scenes/Peninsula/Spanish/photoboothEspa\xF1ol.unity"
     guid: f9ef16cdd90e0d5449b9dfe9dde51f31
-  - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/mapEspa\xF1olPeninsula.unity"
-    guid: 5055a64a4f85604448bb42cd155b6c4f
-  - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol3.unity"
-    guid: f8ab5e0c5e227494b901fafe8783086f
-  - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol4.unity"
-    guid: bab212ea3e59b424cbefb08f96c8e6a1
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e471d2b2d7b6eac49b49d3fbb452be59, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5fe3e23ba01914840b281db9bc319331, type: 2}

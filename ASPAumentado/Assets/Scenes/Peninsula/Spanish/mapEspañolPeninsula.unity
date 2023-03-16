@@ -855,7 +855,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1726857136}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: goObservatorioExperience6
+        m_MethodName: "goPeninsulaExperience4Espa\xF1ol"
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1185,7 +1185,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1726857136}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: goObservatorioExperience7
+        m_MethodName: "goPeninsulaExperience4Espa\xF1ol"
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1541,7 +1541,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1726857136}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: goObservatorioExperience1
+        m_MethodName: "goPeninsulaExperience4Espa\xF1ol"
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1675,7 +1675,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1726857136}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: goObservatorioExperience5
+        m_MethodName: "goPeninsulaExperience4Espa\xF1ol"
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2639,7 +2639,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1726857136}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: goObservatorioExperience2
+        m_MethodName: "goPeninsulaExperience4Espa\xF1ol"
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3252,7 +3252,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1726857136}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: goObservatorioExperience4
+        m_MethodName: "goPeninsulaExperience4Espa\xF1ol"
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

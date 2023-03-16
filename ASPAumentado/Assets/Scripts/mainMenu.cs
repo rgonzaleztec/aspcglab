@@ -94,17 +94,26 @@ public class mainMenu : MonoBehaviour
 
 
     /* Península Scenes */
+
+    public void goPeninsulaEspañol()
+    {
+        SceneManager.LoadScene("LoadPeninsulaEspañol");
+    }
+
     public void goTororoiEspañol(){
         SceneManager.LoadScene("LoadPeninsulaEspañol3");
+    }
+
+    public void goPeninsulaExperience4Español()
+    {
+        SceneManager.LoadScene("LoadPeninsulaEspañol4");
     }
 
     public void goVolcanEspañol(){
         SceneManager.LoadScene("Volcan");
     }
 
-    public void goPeninsulaEspañol(){
-        SceneManager.LoadScene("VAPeninsulaEspañol");
-    }
+   
     /* END Península Scenes */
 
 
