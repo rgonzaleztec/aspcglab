@@ -95,7 +95,7 @@ public class mainMenu : MonoBehaviour
 
     /* Península Scenes */
     public void goTororoiEspañol(){
-        SceneManager.LoadScene("TororoiEspañol");
+        SceneManager.LoadScene("LoadPeninsulaEspañol3");
     }
 
     public void goVolcanEspañol(){
