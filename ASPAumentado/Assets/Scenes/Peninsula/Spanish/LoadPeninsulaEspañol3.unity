@@ -589,7 +589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa04b3a97872e454eb77d3ad9dbc3106, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numEscena: 3
+  numEscena: 33
 --- !u!114 &1533383172
 MonoBehaviour:
   m_ObjectHideFlags: 0
