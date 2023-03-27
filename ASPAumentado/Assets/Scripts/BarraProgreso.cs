@@ -102,7 +102,7 @@ public class BarraProgreso : MonoBehaviour
             }if (numEscena == 35) {                                   //Bosque Sano
                 SceneManager.LoadScene("mapEspañolPeninsula");
             }if (numEscena == 36) {                                   //Torre
-                SceneManager.LoadScene("mapEspañolPeninsula");
+                SceneManager.LoadScene("VAPeninsula6Español");
             }if (numEscena == 37) {                                   //Mirador  Lago
                 SceneManager.LoadScene("mapEspañolPeninsula");
             }

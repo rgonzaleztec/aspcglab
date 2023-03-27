@@ -109,6 +109,11 @@ public class mainMenu : MonoBehaviour
         SceneManager.LoadScene("LoadPeninsulaEspañol4");
     }
 
+    public void goPeninsulaExperience6Español()
+    {
+        SceneManager.LoadScene("LoadPeninsulaEspañol6");
+    }
+
     public void goVolcanEspañol(){
         SceneManager.LoadScene("Volcan");
     }
