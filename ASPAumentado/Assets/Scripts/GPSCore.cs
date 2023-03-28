@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -7,8 +8,8 @@ public class GPSCore : MonoBehaviour
 {
     public TextMeshProUGUI texto;
     public TextMeshProUGUI texto2;
-    public float[] Lat;
-    public float[] Lon;
+    public double[] Lat;
+    public double[] Lon;
     internal int PointCounter = 0; // the amount of points that we want to check in GPS process
     private double distance;
     private Vector3 TargetPosition;
@@ -65,7 +66,7 @@ public class GPSCore : MonoBehaviour
             }
         }
     }
-    public void Calc(float lat1, float lon1, float lat2, float lon2)
+    public void Calc(double lat1, double lon1, double lat2, double lon2)
     {
         this.texto.SetText("(lat1,long1)(" + lat1 + "," +lon1 + ")\n(lat2,long2)" + lat2 + "," + lon2+")");
 
@@ -73,10 +74,11 @@ public class GPSCore : MonoBehaviour
         var R = 6378.137; // Radius of earth in KM
         var dLat = lat2 * Mathf.PI / 180 - lat1 * Mathf.PI / 180;
         var dLon = lon2 * Mathf.PI / 180 - lon1 * Mathf.PI / 180;
-        float a = Mathf.Sin(dLat / 2) * Mathf.Sin(dLat / 2) +
-            Mathf.Cos(lat1 * Mathf.PI / 180) * Mathf.Cos(lat2 * Mathf.PI / 180) *
-            Mathf.Sin(dLon / 2) * Mathf.Sin(dLon / 2);
-        var c = 2 * Mathf.Atan2(Mathf.Sqrt(a), Mathf.Sqrt(1 - a));
+        
+        double a = Math.Sin(dLat / 2) * Math.Sin(dLat / 2) +
+            Math.Cos(lat1 * Math.PI / 180) * Math.Cos(lat2 * Math.PI / 180) *
+            Math.Sin(dLon / 2) * Math.Sin(dLon / 2);
+        var c = 2 * Math.Atan2(Math.Sqrt(a), Math.Sqrt(1 - a));
         distance = R * c;
         distance = distance * 1000f;
         float distanceFloat = (float)distance;
