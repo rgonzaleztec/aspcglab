@@ -111,7 +111,21 @@ public class BarraProgreso : MonoBehaviour
             /* 5 = Península ingles*/
             /* 5n = Península scena n en ingles*/
             if (numEscena == 5){
-                SceneManager.LoadScene("VAPeninsulaEspañol");
+                SceneManager.LoadScene("mapPeninsula");
+            }if (numEscena == 51) {                                   //Casetilla
+                SceneManager.LoadScene("VAPeninsula1");
+            }if (numEscena == 52) {                                   //Mirador Turismo Responsable
+                SceneManager.LoadScene("VAPeninsula2");
+            }if (numEscena == 53) {                                   //Tororoi
+                SceneManager.LoadScene("VAPeninsula3");
+            }if (numEscena == 54) {                                   //Momotorufo
+                SceneManager.LoadScene("VAPeninsula4");
+            }if (numEscena == 55) {                                   //Bosque Sano
+                SceneManager.LoadScene("VAPeninsula5");
+            }if (numEscena == 56) {                                   //Torre
+                SceneManager.LoadScene("VAPeninsula6");
+            }if (numEscena == 57) {                                   //Mirador  Lago - Volcan
+                SceneManager.LoadScene("VAPeninsula7");
             }
         }
 

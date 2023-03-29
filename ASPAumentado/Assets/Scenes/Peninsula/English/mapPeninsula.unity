@@ -586,7 +586,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 567946774}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: "goChooseExperienceEspa\xF1ol"
+        m_MethodName: goChooseExperience
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -692,7 +692,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Elije tu ubicaci\xF3n"
+  m_text: Choose your location
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -855,7 +855,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1726857136}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: "goPeninsulaExperienceEspa\xF1ol6"
+        m_MethodName: goPeninsulaExperience6
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1185,7 +1185,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1726857136}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: "goPeninsulaExperienceEspa\xF1ol7"
+        m_MethodName: goPeninsulaExperience7
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1331,7 +1331,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 856158350}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: "goRateEspa\xF1ol"
+        m_MethodName: goRate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1541,7 +1541,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1726857136}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: "goPeninsulaExperienceEspa\xF1ol1"
+        m_MethodName: goPeninsulaExperience1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1675,7 +1675,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1726857136}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: "goPeninsulaExperienceEspa\xF1ol5"
+        m_MethodName: goPeninsulaExperience5
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2155,7 +2155,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1726857136}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: "goPeninsulaExperienceEspa\xF1ol3"
+        m_MethodName: goPeninsulaExperience3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2639,7 +2639,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1726857136}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: "goPeninsulaExperienceEspa\xF1ol2"
+        m_MethodName: goPeninsulaExperience2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3252,7 +3252,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1726857136}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: "goPeninsulaExperienceEspa\xF1ol4"
+        m_MethodName: goPeninsulaExperience4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

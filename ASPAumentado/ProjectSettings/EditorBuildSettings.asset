@@ -111,12 +111,6 @@ EditorBuildSettings:
     path: "Assets/Scenes/Observatorio/Spanish/VAObservatorio7Espa\xF1ol.unity"
     guid: 5b094e30a098e7749acab6c7517caaf9
   - enabled: 1
-    path: Assets/Scenes/Peninsula/English/LoadPeninsula.unity
-    guid: b060e3b4a8f761b41bd6f232cca08b2c
-  - enabled: 1
-    path: Assets/Scenes/Peninsula/English/VAPeninsula.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
     path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol.unity"
     guid: 22c69c047aec1cc48b1c366925d1e782
   - enabled: 1
@@ -158,6 +152,36 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Peninsula/Spanish/photoboothEspa\xF1ol.unity"
     guid: f9ef16cdd90e0d5449b9dfe9dde51f31
+  - enabled: 1
+    path: Assets/Scenes/Peninsula/English/LoadPeninsula.unity
+    guid: b060e3b4a8f761b41bd6f232cca08b2c
+  - enabled: 1
+    path: Assets/Scenes/Peninsula/English/LoadPeninsula1.unity
+    guid: 8aac8100bb8c37b4fb882c5ebe187cda
+  - enabled: 1
+    path: Assets/Scenes/Peninsula/English/LoadPeninsula2.unity
+    guid: f8fa8bf78e8f043448de025e7e7837c3
+  - enabled: 1
+    path: Assets/Scenes/Peninsula/English/LoadPeninsula3.unity
+    guid: 4fbcd9a968371c4499f24f850ef6225e
+  - enabled: 1
+    path: Assets/Scenes/Peninsula/English/LoadPeninsula4.unity
+    guid: dedb9002eda43364d878bcef0e918d8a
+  - enabled: 1
+    path: Assets/Scenes/Peninsula/English/LoadPeninsula5.unity
+    guid: f30e32b5a4dd35f4cb013901862d6e16
+  - enabled: 1
+    path: Assets/Scenes/Peninsula/English/LoadPeninsula6.unity
+    guid: 64945c6654a40ee4b9acc93afaaea639
+  - enabled: 1
+    path: Assets/Scenes/Peninsula/English/LoadPeninsula7.unity
+    guid: 4a6871cd4e547ad4d817307847955270
+  - enabled: 1
+    path: Assets/Scenes/Peninsula/English/mapPeninsula.unity
+    guid: d8085cde63aed5a4ebe9804a255083e0
+  - enabled: 1
+    path: Assets/Scenes/Peninsula/English/VAPeninsula.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e471d2b2d7b6eac49b49d3fbb452be59, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5fe3e23ba01914840b281db9bc319331, type: 2}
