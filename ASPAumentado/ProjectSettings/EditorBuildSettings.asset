@@ -180,7 +180,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Peninsula/English/mapPeninsula.unity
     guid: d8085cde63aed5a4ebe9804a255083e0
   - enabled: 1
-    path: Assets/Scenes/Peninsula/English/VAPeninsula.unity
+    path: Assets/Scenes/Peninsula/English/VAPeninsula1.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e471d2b2d7b6eac49b49d3fbb452be59, type: 2}
