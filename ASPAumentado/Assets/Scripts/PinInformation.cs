@@ -20,7 +20,7 @@ public class PinInformation : MonoBehaviour
 
     public void showFloatingText(string text)
     {
-        var offset = this.transform.position; //+ (this.transform.right) + (this.transform.up * 0.030f);
+        var offset = this.transform.position + (this.transform.up * 0.080f); ; //+ (this.transform.right) + (this.transform.up * 0.0030f);
         var floatingText = Instantiate(_floatingTextPrefab, offset, Quaternion.identity, this.transform);
         floatingText.GetComponent<TextMeshPro>().text = text;
 
