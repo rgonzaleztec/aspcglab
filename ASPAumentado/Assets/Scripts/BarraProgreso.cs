@@ -90,28 +90,42 @@ public class BarraProgreso : MonoBehaviour
             /* 3 = Península Español*/
             /* 3n = Península scena n en español*/
             if (numEscena == 3){                                
-                SceneManager.LoadScene("mapEspañolPeninsula");
+                SceneManager.LoadScene("mapPeninsulaEspañol");
             }if (numEscena == 31) {                                   //Casetilla
-                SceneManager.LoadScene("mapEspañolPeninsula");
+                SceneManager.LoadScene("VAPeninsulaEspañol1");
             }if (numEscena == 32) {                                   //Mirador Turismo Responsable
-                SceneManager.LoadScene("mapEspañolPeninsula");
+                SceneManager.LoadScene("VAPeninsulaEspañol2");
             }if (numEscena == 33) {                                   //Tororoi
-                SceneManager.LoadScene("TororoiEspañol");
+                SceneManager.LoadScene("VAPeninsulaEspañol3");
             }if (numEscena == 34) {                                   //Momotorufo
-                SceneManager.LoadScene("VAPeninsula4Español");
+                SceneManager.LoadScene("VAPeninsulaEspañol4");
             }if (numEscena == 35) {                                   //Bosque Sano
-                SceneManager.LoadScene("mapEspañolPeninsula");
+                SceneManager.LoadScene("VAPeninsulaEspañol5");
             }if (numEscena == 36) {                                   //Torre
-                SceneManager.LoadScene("VAPeninsula6Español");
-            }if (numEscena == 37) {                                   //Mirador  Lago
-                SceneManager.LoadScene("mapEspañolPeninsula");
+                SceneManager.LoadScene("VAPeninsulaEspañol6");
+            }if (numEscena == 37) {                                   //Mirador  Lago - Volcan
+                SceneManager.LoadScene("VAPeninsulaEspañol7");
             }
 
 
             /* 5 = Península ingles*/
             /* 5n = Península scena n en ingles*/
             if (numEscena == 5){
-                SceneManager.LoadScene("VAPeninsulaEspañol");
+                SceneManager.LoadScene("mapPeninsula");
+            }if (numEscena == 51) {                                   //Casetilla
+                SceneManager.LoadScene("VAPeninsula1");
+            }if (numEscena == 52) {                                   //Mirador Turismo Responsable
+                SceneManager.LoadScene("VAPeninsula2");
+            }if (numEscena == 53) {                                   //Tororoi
+                SceneManager.LoadScene("VAPeninsula3");
+            }if (numEscena == 54) {                                   //Momotorufo
+                SceneManager.LoadScene("VAPeninsula4");
+            }if (numEscena == 55) {                                   //Bosque Sano
+                SceneManager.LoadScene("VAPeninsula5");
+            }if (numEscena == 56) {                                   //Torre
+                SceneManager.LoadScene("VAPeninsula6");
+            }if (numEscena == 57) {                                   //Mirador  Lago - Volcan
+                SceneManager.LoadScene("VAPeninsula7");
             }
         }
 
