@@ -691,7 +691,7 @@ GameObject:
   - component: {fileID: 1494340602}
   - component: {fileID: 1494340601}
   m_Layer: 5
-  m_Name: btnTororoi
+  m_Name: btnExit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -775,7 +775,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1494340601}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: "goTororoiEspa\xF1ol"
+        m_MethodName: goPeninsula
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
