@@ -48,12 +48,6 @@ EditorBuildSettings:
     path: "Assets/Scenes/MenuSpanish/rateEspa\xF1ol.unity"
     guid: c9aeeb91558e8f74da2c4341cef35c45
   - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol.unity"
-    guid: 22c69c047aec1cc48b1c366925d1e782
-  - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/VAPeninsulaEspa\xF1ol.unity"
-    guid: 8dec00e6c8feacf4ebfc2dd4faf2204c
-  - enabled: 1
     path: "Assets/Scenes/Observatorio/Spanish/LoadObservatorioEspa\xF1ol.unity"
     guid: 7d867d3502370e8429a00282b42752b3
   - enabled: 1
@@ -120,25 +114,46 @@ EditorBuildSettings:
     path: Assets/Scenes/Peninsula/English/LoadPeninsula.unity
     guid: b060e3b4a8f761b41bd6f232cca08b2c
   - enabled: 1
+    path: Assets/Scenes/Peninsula/English/VAPeninsula.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol.unity"
+    guid: 22c69c047aec1cc48b1c366925d1e782
+  - enabled: 1
+    path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol1.unity"
+    guid: 65ca6853aea5e834697c4e7c6b50dec2
+  - enabled: 1
+    path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol2.unity"
+    guid: c94686328b9a52c4d8ebab6b1eeebeb3
+  - enabled: 1
     path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol3.unity"
     guid: f8ab5e0c5e227494b901fafe8783086f
   - enabled: 1
     path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol4.unity"
     guid: bab212ea3e59b424cbefb08f96c8e6a1
   - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/mapEspa\xF1olPeninsula.unity"
+    path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol5.unity"
+    guid: e3d47c14f867cf84dbfdbf38215f8d69
+  - enabled: 1
+    path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol6.unity"
+    guid: 99f26ad4fe4199143b18db58369e852b
+  - enabled: 1
+    path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol7.unity"
+    guid: bbf4c2c4b46622d49b1cc4e1d7c7c243
+  - enabled: 1
+    path: "Assets/Scenes/Peninsula/Spanish/mapPeninsulaEspa\xF1ol.unity"
     guid: 5055a64a4f85604448bb42cd155b6c4f
   - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/TororoiEspa\xF1ol.unity"
+    path: "Assets/Scenes/Peninsula/Spanish/VAPeninsulaEspa\xF1ol1.unity"
+    guid: 8dec00e6c8feacf4ebfc2dd4faf2204c
+  - enabled: 1
+    path: "Assets/Scenes/Peninsula/Spanish/VAPeninsulaEspa\xF1ol3.unity"
     guid: 2b46ee14b14704246871c27b7390ae5b
   - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/VAPeninsula4Espa\xF1ol.unity"
+    path: "Assets/Scenes/Peninsula/Spanish/VAPeninsulaEspa\xF1ol4.unity"
     guid: 52cbb88bd000c564dabbf5a1cf986c75
   - enabled: 1
-    path: Assets/Scenes/Peninsula/English/VAPeninsula.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
-    path: Assets/Scenes/Peninsula/Spanish/Volcan.unity
+    path: "Assets/Scenes/Peninsula/Spanish/VAPeninsulaEspa\xF1ol7.unity"
     guid: f43f95002c3429e46bc3d4e52dc28456
   - enabled: 1
     path: "Assets/Scenes/Peninsula/Spanish/photoboothEspa\xF1ol.unity"
