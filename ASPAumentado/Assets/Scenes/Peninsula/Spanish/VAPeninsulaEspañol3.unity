@@ -10992,14 +10992,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 0
   RuntimeOcclusion: 0
-  mTrackableName: tablero_scaled
+  mTrackableName: targetASP
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.97558594
+  mAspectRatio: 1.1615798
   mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.19511719
-  mRuntimeTexture: {fileID: 2800000, guid: 61e4686bcc7a495ca2d93d3609939ee6, type: 3}
+  mWidth: 0.17217928
+  mHeight: 0.19999999
+  mRuntimeTexture: {fileID: 2800000, guid: 4d811520d335c564a9814d7ee3e77414, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -11013,7 +11013,7 @@ Transform:
   m_GameObject: {fileID: 2143416251}
   m_LocalRotation: {x: 0.0013023529, y: -0.05815918, z: 0.022349369, w: 0.9980563}
   m_LocalPosition: {x: 0.3748, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1.0348, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1085550975}
@@ -11036,7 +11036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 2143416254}
   mHiddenRoot: {fileID: 0}
-  mTargetName: tablero_scaled
+  mTargetName: targetASP
   mDatasetName: 
   mCastedBehaviour: {fileID: 2143416254}
   mMeshFilter: {fileID: 0}
