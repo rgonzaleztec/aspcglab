@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8149088112463340249}
   - component: {fileID: 6542465318019022350}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Rod
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -129,11 +129,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e15cbd366b9dbd149adc469463a5a2e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tipo_Pin: 0
-  Offset: 0.03
-  _floatingTextPrefab: {fileID: 6610893333822029104, guid: 03006a11dc42714429fe365e201a5ef5, type: 3}
   _Pointer: {fileID: 1838353817357335322}
+  _Rod: {fileID: 1342176378897114273}
+  _Show_Rod: 1
+  _floatingTextPrefab: {fileID: 6610893333822029104, guid: 03006a11dc42714429fe365e201a5ef5, type: 3}
+  Pin_Type: 0
   Text: 
+  TextOffset: 0.03
 --- !u!1001 &7552403805363469970
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -17,14 +17,18 @@ public class PinInformation : MonoBehaviour
     //Verde = Montanas y cerros 
     //Amarillo = Localidades
 
-    enum Tipo {Volcan, RioLago, Cerro, Localidad};
-    [SerializeField] Tipo Pin_Type;
 
-    public float Offset = 0.030f;
-    public GameObject _floatingTextPrefab;
+
     public GameObject _Pointer;
-    public string Text;
+    public GameObject _Rod;
+    public bool _Show_Rod = true;
+    public GameObject _floatingTextPrefab;
     
+     enum Tipo {Volcan, RioLago, Cerro, Localidad};
+    [SerializeField] Tipo Pin_Type;
+    public string Text;
+    public float TextOffset = 0.030f;
+
     private Color redColor    = new Color(1f, 0f, 0f);
     private Color blueColor   = new Color(0f, 0f, 1f);
     private Color greenColor  = new Color(0f, 1f, 0f);
@@ -38,11 +42,15 @@ public class PinInformation : MonoBehaviour
         showFloatingText(Text);
         changePinColor(this.Pin_Type);
 
+        if (!this._Show_Rod)
+        {
+            hideObject(_Rod);
+        }
     }
 
     private void showFloatingText(string text)
     {
-        var offset = this.transform.position + (this.transform.up * Offset); ; //+ (this.transform.right) + (this.transform.up * 0.0030f);
+        var offset = this.transform.position + (this.transform.up * TextOffset); ; //+ (this.transform.right) + (this.transform.up * 0.0030f);
         var floatingText = Instantiate(_floatingTextPrefab, offset, Quaternion.identity, this.transform);
         floatingText.GetComponent<TextMeshPro>().text = text;
 
@@ -67,16 +75,16 @@ public class PinInformation : MonoBehaviour
                 changeColor(this._Pointer, yellowColor);
                 break;
         }
-
     }
 
     private void changeColor( GameObject pObject, Color color)
     {
-        Debug.Log("<color=red>GameObject:</color> " + pObject.name);
-        Debug.Log("<color=red>Color:</color> " + color.ToString());
         pObject.GetComponent<Renderer>().material.SetColor("_Color", color);
+    }
 
-
+    private void hideObject( GameObject pObject)
+    {
+        pObject.SetActive(false);
     }
 
     // Update is called once per frame
