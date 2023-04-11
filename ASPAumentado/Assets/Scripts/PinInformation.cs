@@ -27,7 +27,7 @@ public class PinInformation : MonoBehaviour
      enum Tipo {Volcan, RioLago, Cerro, Localidad};
     [SerializeField] Tipo Pin_Type;
     public string Text;
-    public float TextOffset = 0.030f;
+    private float TextOffset = 0.050f;
 
     private Color redColor    = new Color(1f, 0f, 0f);
     private Color blueColor   = new Color(0f, 0f, 1f);
