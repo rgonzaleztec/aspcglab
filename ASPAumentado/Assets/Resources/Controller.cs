@@ -1,3 +1,5 @@
+//Referencia https://github.com/yasirkula/UnityNativeGallery
+
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -63,13 +65,22 @@ public class Controller : MonoBehaviour
         StartCoroutine(captureIt2());
 
     }
-    IEnumerator captureIt2()
+
+    WaitForSeconds waitTime = new WaitForSeconds(0.1F);
+    WaitForEndOfFrame frameEnd = new WaitForEndOfFrame();
+
+    private IEnumerator captureIt2()
     {
-        yield return new WaitForSeconds(0.4f); ;
+        yield return waitTime;
+        yield return frameEnd;
+
         Texture2D ss = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
         ss.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
         ss.Apply();
-        NativeGallery.Permission permission= NativeGallery.SaveImageToGallery(ss,"photobooth",string.Format("screen_{0}.png", System.DateTime.Now.ToString("yyy-MM-dd_HH-mm-ss")));
+       
+        NativeGallery.Permission permission = NativeGallery.SaveImageToGallery(ss, "GalleryTest", "Image.png", (success, path) => Debug.Log("Media save result: " + success + " " + path));
+
+        Debug.Log("Permission result: " + permission);
         Destroy(ss);
        
         active = true;
