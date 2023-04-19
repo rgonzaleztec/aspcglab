@@ -16,6 +16,7 @@ public class Controller : MonoBehaviour
     bool active = false;
     bool active2 = false;
     public string pathg = "";
+    public string experienceTitle = "PhotoBooth";
     public void encuentra()
     {
         active = true;
@@ -78,7 +79,7 @@ public class Controller : MonoBehaviour
         ss.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
         ss.Apply();
        
-        NativeGallery.Permission permission = NativeGallery.SaveImageToGallery(ss, "GalleryTest", "Image.png", (success, path) => Debug.Log("Media save result: " + success + " " + path));
+        NativeGallery.Permission permission = NativeGallery.SaveImageToGallery(ss, "Arenal_Volcano_National_Park_AR", string.Format("{0}-{1}.png", experienceTitle, System.DateTime.Now.ToString("yyy-MM-dd_HH-mm-ss")) , (success, path) => Debug.Log("Media save result: " + success + " " + path));
 
         Debug.Log("Permission result: " + permission);
         Destroy(ss);
