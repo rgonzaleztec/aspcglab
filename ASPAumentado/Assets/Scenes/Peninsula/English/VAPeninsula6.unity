@@ -953,6 +953,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8865329437415524332, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
+      propertyPath: StatusFilter
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865329437415524332, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
       propertyPath: OnTargetLost.m_PersistentCalls.m_Calls.Array.size
       value: 6
       objectReference: {fileID: 0}
