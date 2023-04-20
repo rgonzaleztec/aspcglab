@@ -1222,6 +1222,11 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 4949402149932347561, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
   m_PrefabInstance: {fileID: 868637120}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &868637125 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8865329437415524333, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
+  m_PrefabInstance: {fileID: 868637120}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &907506396
 GameObject:
   m_ObjectHideFlags: 0
@@ -1284,7 +1289,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canva: {fileID: 93878465}
   camera: {fileID: 572892944}
-  target: {fileID: 0}
+  target: {fileID: 868637125}
   pathg: 
   experienceTitle: Rufous_Motmot
 --- !u!4 &938732585

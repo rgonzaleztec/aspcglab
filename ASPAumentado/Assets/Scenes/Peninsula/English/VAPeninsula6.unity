@@ -1155,6 +1155,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8973649264128948481, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
   m_PrefabInstance: {fileID: 1477928905}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1477928910 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8865329437415524333, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
+  m_PrefabInstance: {fileID: 1477928905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1529544285
 GameObject:
   m_ObjectHideFlags: 0
@@ -1285,7 +1290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canva: {fileID: 1233422407}
   camera: {fileID: 33466012}
-  target: {fileID: 0}
+  target: {fileID: 1477928910}
   pathg: 
   experienceTitle: Tower
 --- !u!4 &1672336495
