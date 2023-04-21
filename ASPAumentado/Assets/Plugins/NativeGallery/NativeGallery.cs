@@ -177,10 +177,10 @@ public static class NativeGallery
 	// provided custom album
 	private const bool PermissionFreeMode = true;
 
-	public static Permission CheckPermission( PermissionType permissionType )
+	public static Permission CheckPermission( PermissionType permissionType, MediaType mediaTypes )
 	{
 #if !UNITY_EDITOR && UNITY_ANDROID
-		Permission result = (Permission) AJC.CallStatic<int>( "CheckPermission", Context, permissionType == PermissionType.Read );
+		Permission result = (Permission) AJC.CallStatic<int>( "CheckPermission", Context, permissionType == PermissionType.Read, (int) mediaTypes );
 		if( result == Permission.Denied && (Permission) PlayerPrefs.GetInt( "NativeGalleryPermission", (int) Permission.ShouldAsk ) == Permission.ShouldAsk )
 			result = Permission.ShouldAsk;
 
@@ -194,7 +194,7 @@ public static class NativeGallery
 #endif
 	}
 
-	public static Permission RequestPermission( PermissionType permissionType )
+	public static Permission RequestPermission( PermissionType permissionType, MediaType mediaTypes )
 	{
 #if !UNITY_EDITOR && UNITY_ANDROID
 		object threadLock = new object();
@@ -202,7 +202,7 @@ public static class NativeGallery
 		{
 			NGPermissionCallbackAndroid nativeCallback = new NGPermissionCallbackAndroid( threadLock );
 
-			AJC.CallStatic( "RequestPermission", Context, nativeCallback, permissionType == PermissionType.Read, PlayerPrefs.GetInt( "NativeGalleryPermission", (int) Permission.ShouldAsk ) );
+			AJC.CallStatic( "RequestPermission", Context, nativeCallback, permissionType == PermissionType.Read, (int) mediaTypes, PlayerPrefs.GetInt( "NativeGalleryPermission", (int) Permission.ShouldAsk ) );
 
 			if( nativeCallback.Result == -1 )
 				System.Threading.Monitor.Wait( threadLock );
@@ -423,7 +423,7 @@ public static class NativeGallery
 	#region Internal Functions
 	private static Permission SaveToGallery( byte[] mediaBytes, string album, string filename, MediaType mediaType, MediaSaveCallback callback )
 	{
-		Permission result = RequestPermission( PermissionType.Write );
+		Permission result = RequestPermission( PermissionType.Write, mediaType );
 		if( result == Permission.Granted )
 		{
 			if( mediaBytes == null || mediaBytes.Length == 0 )
@@ -453,7 +453,7 @@ public static class NativeGallery
 
 	private static Permission SaveToGallery( string existingMediaPath, string album, string filename, MediaType mediaType, MediaSaveCallback callback )
 	{
-		Permission result = RequestPermission( PermissionType.Write );
+		Permission result = RequestPermission( PermissionType.Write, mediaType );
 		if( result == Permission.Granted )
 		{
 			if( !File.Exists( existingMediaPath ) )
@@ -552,7 +552,7 @@ public static class NativeGallery
 
 	private static Permission GetMediaFromGallery( MediaPickCallback callback, MediaType mediaType, string mime, string title )
 	{
-		Permission result = RequestPermission( PermissionType.Read );
+		Permission result = RequestPermission( PermissionType.Read, mediaType );
 		if( result == Permission.Granted && !IsMediaPickerBusy() )
 		{
 #if UNITY_EDITOR
@@ -609,7 +609,7 @@ public static class NativeGallery
 
 	private static Permission GetMultipleMediaFromGallery( MediaPickMultipleCallback callback, MediaType mediaType, string mime, string title )
 	{
-		Permission result = RequestPermission( PermissionType.Read );
+		Permission result = RequestPermission( PermissionType.Read, mediaType );
 		if( result == Permission.Granted && !IsMediaPickerBusy() )
 		{
 			if( CanSelectMultipleFilesFromGallery() )
@@ -806,9 +806,11 @@ public static class NativeGallery
 			maxSize = SystemInfo.maxTextureSize;
 
 #if !UNITY_EDITOR && UNITY_ANDROID
-		string loadPath = await TryCallNativeAndroidFunctionOnSeparateThread( () => AJC.CallStatic<string>( "LoadImageAtPath", Context, imagePath, TemporaryImagePath, maxSize ) );
+		string temporaryImagePath = TemporaryImagePath; // Must be accessed from main thread
+		string loadPath = await TryCallNativeAndroidFunctionOnSeparateThread( () => AJC.CallStatic<string>( "LoadImageAtPath", Context, imagePath, temporaryImagePath, maxSize ) );
 #elif !UNITY_EDITOR && UNITY_IOS
-		string loadPath = await Task.Run( () => _NativeGallery_LoadImageAtPath( imagePath, TemporaryImagePath, maxSize ) );
+		string temporaryImagePath = TemporaryImagePath; // Must be accessed from main thread
+		string loadPath = await Task.Run( () => _NativeGallery_LoadImageAtPath( imagePath, temporaryImagePath, maxSize ) );
 #else
 		string loadPath = imagePath;
 #endif
@@ -941,9 +943,11 @@ public static class NativeGallery
 			maxSize = SystemInfo.maxTextureSize;
 
 #if !UNITY_EDITOR && UNITY_ANDROID
-		string thumbnailPath = await TryCallNativeAndroidFunctionOnSeparateThread( () => AJC.CallStatic<string>( "GetVideoThumbnail", Context, videoPath, TemporaryImagePath + ".png", false, maxSize, captureTimeInSeconds ) );
+		string temporaryImagePath = TemporaryImagePath; // Must be accessed from main thread
+		string thumbnailPath = await TryCallNativeAndroidFunctionOnSeparateThread( () => AJC.CallStatic<string>( "GetVideoThumbnail", Context, videoPath, temporaryImagePath + ".png", false, maxSize, captureTimeInSeconds ) );
 #elif !UNITY_EDITOR && UNITY_IOS
-		string thumbnailPath = await Task.Run( () => _NativeGallery_GetVideoThumbnail( videoPath, TemporaryImagePath + ".png", maxSize, captureTimeInSeconds ) );
+		string temporaryImagePath = TemporaryImagePath; // Must be accessed from main thread
+		string thumbnailPath = await Task.Run( () => _NativeGallery_GetVideoThumbnail( videoPath, temporaryImagePath + ".png", maxSize, captureTimeInSeconds ) );
 #else
 		string thumbnailPath = null;
 #endif
