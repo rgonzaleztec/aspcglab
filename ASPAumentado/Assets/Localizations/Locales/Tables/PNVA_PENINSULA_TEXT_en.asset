@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: PNVA_PENINSULA_TEXT_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 07bada97028454bb3b94fb1e64fbb6ad, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 13215195136
+    m_Localized: Choose your location
+    m_Metadata:
+      m_Items: []
+  - m_Id: 208342605824
+    m_Localized: Arenal Volcano
+    m_Metadata:
+      m_Items: []
+  - m_Id: 672438149120
+    m_Localized: Chato Volcano
+    m_Metadata:
+      m_Items: []
+  - m_Id: 808564285440
+    m_Localized: Mount Plano
+    m_Metadata:
+      m_Items: []
+  - m_Id: 910611701760
+    m_Localized: El Cairo Ridge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041478180864
+    m_Localized: "Ca\xF1o Negro        River Mouth"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1246722252800
+    m_Localized: "Tilar\xE1n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1356248113152
+    m_Localized: Los Arrepentidos Ridge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1491308896256
+    m_Localized: Iguanas Island
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1593016573952
+    m_Localized: Lake Arenal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713405681664
+    m_Localized: La Fortuna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1847795376128
+    m_Localized: Park Tower
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

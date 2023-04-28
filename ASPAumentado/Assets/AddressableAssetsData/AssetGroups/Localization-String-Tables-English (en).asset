@@ -23,6 +23,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     - Preload
+  - m_GUID: a3d79eb2c825744fe814ad400c92cb8f
+    m_Address: PNVA_PENINSULA_TEXT_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 03c4f1130b51a7e4690206959b9a0069, type: 2}
   m_SchemaSet:

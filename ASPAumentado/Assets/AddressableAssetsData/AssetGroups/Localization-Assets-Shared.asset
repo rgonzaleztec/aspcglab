@@ -21,6 +21,14 @@ MonoBehaviour:
     m_Address: Assets/Localizations/Locales/Tables/General_Menu_Text Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 07bada97028454bb3b94fb1e64fbb6ad
+    m_Address: Assets/Localizations/Locales/Tables/PNVA_PENINSULA_TEXT Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 468ed99f1d3cf4feb9fda351e3404d87
+    m_Address: Assets/Localizations/Locales/Tables/PNVA_PENINSULA_AUDIOS Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 03c4f1130b51a7e4690206959b9a0069, type: 2}
   m_SchemaSet:

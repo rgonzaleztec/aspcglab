@@ -135,7 +135,6 @@ MonoBehaviour:
   _floatingTextPrefab: {fileID: 6610893333822029104, guid: 03006a11dc42714429fe365e201a5ef5, type: 3}
   Pin_Type: 0
   Text: 
-  TextOffset: 0.03
 --- !u!1001 &7552403805363469970
 PrefabInstance:
   m_ObjectHideFlags: 0

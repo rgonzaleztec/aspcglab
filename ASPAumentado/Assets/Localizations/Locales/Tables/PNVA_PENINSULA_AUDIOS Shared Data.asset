@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: PNVA_PENINSULA_AUDIOS Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: PNVA_PENINSULA_AUDIOS
+  m_TableCollectionNameGuidString: 468ed99f1d3cf4feb9fda351e3404d87
+  m_Entries:
+  - m_Id: 32290889728
+    m_Key: Pen1_SignPosting_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127530950656
+    m_Key: Pen1_Snack_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198033006592
+    m_Key: Pen1_Repellent_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 244610752512
+    m_Key: Pen1_Volcano_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289477222400
+    m_Key: Pen1_ParkRanger_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353977229312
+    m_Key: Pen3_TororoiInfo_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 428191244288
+    m_Key: Pen4_MotmotInfo_Audio
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items:
+    - rid: 5044602863899639828
+  m_KeyGenerator:
+    rid: 5044602863899639823
+  references:
+    version: 2
+    RefIds:
+    - rid: 5044602863899639823
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1682657403498
+    - rid: 5044602863899639828
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 32290889728
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 127530950656
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 198033006592
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 244610752512
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 289477222400
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 428191244288
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 353977229312
+          m_TableCodes:
+          - en
+          - es
+        m_TypeString: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
