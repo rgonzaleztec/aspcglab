@@ -66,6 +66,37 @@ MonoBehaviour:
     m_Localized: Torre
     m_Metadata:
       m_Items: []
+  - m_Id: 669562403020800
+    m_Localized: "No te salgas del sendero, ya que podr\xEDas perturbar el ecosistema,
+      poner en peligro la vida silvestre y alterar el equilibrio natural del \xE1rea"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669749485756416
+    m_Localized: "\xA1Alim\xE9ntame!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669833082429440
+    m_Localized: No alimente a los animales para evitar su dependencia de los humanos,
+      ya que puede alterar su comportamiento natural y afectar la biodiversidad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669916658130944
+    m_Localized: Alimentar Venado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669976938668032
+    m_Localized: Cortar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 670027362590720
+    m_Localized: No extraer flora para preservar el equilibrio del medio ambiente
+      y proteger la biodiversidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 670100846796800
+    m_Localized: Cortar Flor
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

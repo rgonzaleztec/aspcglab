@@ -66,6 +66,37 @@ MonoBehaviour:
     m_Localized: Park Tower
     m_Metadata:
       m_Items: []
+  - m_Id: 669562403020800
+    m_Localized: Do not leave the trail, as you could disturb the ecosystem, endanger
+      wildlife, and alter the natural balance of the area
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669749485756416
+    m_Localized: Feed me!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669833082429440
+    m_Localized: Do not feed animals to avoid their dependence on humans, as it can
+      alter their natural behavior and affect biodiversity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669916658130944
+    m_Localized: Feed Deer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669976938668032
+    m_Localized: Take me!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 670027362590720
+    m_Localized: Do not extract flora to preserve the balance of the environment
+      and protect biodiversity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 670100846796800
+    m_Localized: Cut Flower
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
