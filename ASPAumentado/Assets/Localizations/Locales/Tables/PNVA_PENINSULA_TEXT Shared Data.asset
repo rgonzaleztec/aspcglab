@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: PNVA_PENINSULA_TEXT Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: PNVA_PENINSULA_TEXT
+  m_TableCollectionNameGuidString: 07bada97028454bb3b94fb1e64fbb6ad
+  m_Entries:
+  - m_Id: 13215195136
+    m_Key: Pen_MapTitle_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 208342605824
+    m_Key: Pen6_ArenalVolcano_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 672438149120
+    m_Key: Pen6_ChatoVolcano_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 808564285440
+    m_Key: Pen6_CerroPlano_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 910611701760
+    m_Key: Pen6_ElCairo_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041478180864
+    m_Key: Pen6_CanoNegro_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1246722252800
+    m_Key: Pen6_Tilaran_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1356248113152
+    m_Key: Pen6_LosArrepentidos_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1491308896256
+    m_Key: Pen6_Iguanas_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1593016573952
+    m_Key: Pen6_LagoArenal_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713405681664
+    m_Key: Pen6_LaFortuna_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1847795376128
+    m_Key: Pen6_ParkTower_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669562403020800
+    m_Key: Pen2_TrailActionMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669749485756416
+    m_Key: Pen2_DeerSign_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669833082429440
+    m_Key: Pen2_DeerActionMessage_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669916658130944
+    m_Key: Pen2_FeedDeer_Btn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669976938668032
+    m_Key: Pen2_FlowerSign_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 670027362590720
+    m_Key: Pen2_FlowerActionMessage_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 670100846796800
+    m_Key: Pen2_CutFlower_Btn
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5044602863899639814
+  references:
+    version: 2
+    RefIds:
+    - rid: 5044602863899639814
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1682653489614

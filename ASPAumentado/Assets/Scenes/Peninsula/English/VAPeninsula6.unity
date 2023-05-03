@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17276844, g: 0.21589246, b: 0.2978263, a: 1}
+  m_IndirectSpecularColor: {r: 0.1727681, g: 0.21589208, b: 0.29782575, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -872,6 +872,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 808126563049674859, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2542781514612325785, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
       propertyPath: Text
       value: Chato Volcano
@@ -880,21 +884,57 @@ PrefabInstance:
       propertyPath: Text
       value: El Cairo Rigde
       objectReference: {fileID: 0}
+    - target: {fileID: 2672064356303103653, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2688010215486809103, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
       propertyPath: Text
       value: Los Arrepentidos Ridge
+      objectReference: {fileID: 0}
+    - target: {fileID: 2732744420424250874, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3008964365599308421, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3390831595071438536, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3470355337292836375, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4624665975195057245, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
       propertyPath: Text
       value: Arenal Lake
       objectReference: {fileID: 0}
+    - target: {fileID: 4773091813839101643, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5107441829199722512, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
       propertyPath: Text
       value: Iguanas Island
       objectReference: {fileID: 0}
+    - target: {fileID: 5351137678327458869, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5379028891306916673, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5477301303860114210, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
       propertyPath: Text
       value: "Ca\xF1o Negro        River Mouth"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522076263956259543, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5547014488640790653, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
       propertyPath: Text
@@ -907,6 +947,10 @@ PrefabInstance:
     - target: {fileID: 7122700945152990899, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
       propertyPath: Text
       value: Park Tower
+      objectReference: {fileID: 0}
+    - target: {fileID: 7520498116744198816, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8865329437415524322, guid: 9141192ed74f5ba46b6f19cf9f64e655, type: 3}
       propertyPath: m_RootOrder

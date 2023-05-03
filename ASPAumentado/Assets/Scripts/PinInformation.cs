@@ -7,6 +7,9 @@ using TMPro;
 using UnityEditor;
 //using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Localization.Settings;
+
+
 
 public class PinInformation : MonoBehaviour
 {
@@ -23,23 +26,44 @@ public class PinInformation : MonoBehaviour
     public GameObject _Rod;
     public bool _Show_Rod = true;
     public GameObject _floatingTextPrefab;
-    
-     enum Tipo {Volcan, RioLago, Cerro, Localidad};
+
+
+    enum Tipo {Volcan, RioLago, Cerro, Localidad};
     [SerializeField] Tipo Pin_Type;
     public string Text;
+    public string LocalizedKey;
     private float TextOffset = 0.050f;
+
 
     private Color redColor    = new Color(1f, 0f, 0f);
     private Color blueColor   = new Color(0f, 0f, 1f);
     private Color greenColor  = new Color(0f, 1f, 0f);
     private Color yellowColor = new Color(1f, 1f, 0f);
   
+    private string loadString()
+    {
+        Debug.Log("Load String");
+
+        var location = LocalizationSettings.StringDatabase.GetLocalizedString("PNVA_PENINSULA_TEXT", this.LocalizedKey);
+
+        if (location != null)
+        {
+            Debug.Log(location);
+            return location;
+        }
+
+        else {
+            Debug.Log(location);
+            return this.Text;
+        }
+        
+    }
 
     // Start is called before the first frame update
     void Start()
     {
 
-        showFloatingText(Text);
+        showFloatingText();
         changePinColor(this.Pin_Type);
 
         if (!this._Show_Rod)
@@ -48,11 +72,11 @@ public class PinInformation : MonoBehaviour
         }
     }
 
-    private void showFloatingText(string text)
+    private void showFloatingText()
     {
         var offset = this.transform.position + (this.transform.up * TextOffset); ; //+ (this.transform.right) + (this.transform.up * 0.0030f);
         var floatingText = Instantiate(_floatingTextPrefab, offset, Quaternion.identity, this.transform);
-        floatingText.GetComponent<TextMeshPro>().text = text;
+        floatingText.GetComponent<TextMeshPro>().text = loadString();
 
     }
 

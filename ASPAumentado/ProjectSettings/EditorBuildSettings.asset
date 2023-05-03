@@ -9,50 +9,26 @@ EditorBuildSettings:
     path: Assets/Scenes/LoadMenu.unity
     guid: de7dcd10235ccf0489cf0eb5502e20d4
   - enabled: 1
-    path: Assets/Scenes/MenuEnglish/Languaje.unity
+    path: Assets/Scenes/Menu/Languaje.unity
     guid: f43f62171161280448cd7d61a3f828dd
   - enabled: 1
-    path: Assets/Scenes/MenuEnglish/information.unity
+    path: Assets/Scenes/Menu/information.unity
     guid: e97e567a4e43148448e7ac6839d950f3
   - enabled: 1
-    path: "Assets/Scenes/MenuSpanish/informationEspa\xF1ol.unity"
-    guid: a32498b9a6169784d91f559720b9e7ad
-  - enabled: 1
-    path: Assets/Scenes/MenuEnglish/experience.unity
+    path: Assets/Scenes/Menu/experience.unity
     guid: 1817f7850c8f29248b2acee5f335feef
   - enabled: 1
-    path: "Assets/Scenes/MenuSpanish/experienceEspa\xF1ol.unity"
-    guid: 244776a322b6ffd408fc3c668904e325
-  - enabled: 1
-    path: Assets/Scenes/MenuEnglish/settings.unity
+    path: Assets/Scenes/Menu/settings.unity
     guid: acef56460baa59a4fa5d188f72ca22e7
   - enabled: 1
-    path: "Assets/Scenes/MenuSpanish/settingsEspa\xF1ol.unity"
-    guid: ec6e308484360374990bd38c4dbe60e6
-  - enabled: 1
-    path: Assets/Scenes/MenuEnglish/LanguajeSettings.unity
+    path: Assets/Scenes/Menu/LanguajeSettings.unity
     guid: d330cee9bbebcb94f85083cecf49c1c8
   - enabled: 1
-    path: "Assets/Scenes/MenuSpanish/LanguajeSettingsEspa\xF1ol.unity"
-    guid: 82876ad129b54ea4781452db936c082e
-  - enabled: 1
-    path: Assets/Scenes/MenuEnglish/developers.unity
+    path: Assets/Scenes/Menu/developers.unity
     guid: f3561d68bc2dc7a458a136613c18114b
   - enabled: 1
-    path: "Assets/Scenes/MenuSpanish/developersEspa\xF1ol.unity"
-    guid: 12a576827b4b4ef4e9186bcda56ef38e
-  - enabled: 1
-    path: Assets/Scenes/MenuEnglish/rate.unity
+    path: Assets/Scenes/Menu/rate.unity
     guid: fa3490a67228b0a42971b015a78b40b2
-  - enabled: 1
-    path: "Assets/Scenes/MenuSpanish/rateEspa\xF1ol.unity"
-    guid: c9aeeb91558e8f74da2c4341cef35c45
-  - enabled: 1
-    path: "Assets/Scenes/Observatorio/Spanish/LoadObservatorioEspa\xF1ol.unity"
-    guid: 7d867d3502370e8429a00282b42752b3
-  - enabled: 1
-    path: "Assets/Scenes/MenuSpanish/LanguajeEspa\xF1ol.unity"
-    guid: 253fc3ef41c8edd4ea4196d67b114ceb
   - enabled: 1
     path: Assets/Scenes/Observatorio/English/LoadObservatorio.unity
     guid: 504f8ea0ac654b4489fc4fdb9fe93c72
@@ -78,14 +54,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Observatorio/English/LoadObservatorio7.unity
     guid: 34910099cfec510438b62fe774ce94ca
   - enabled: 1
-    path: "Assets/Scenes/Observatorio/Spanish/LoadObservatorio7Espa\xF1ol.unity"
-    guid: 9788eb8268336194c9b4646b80b92d0e
-  - enabled: 1
     path: Assets/Scenes/Observatorio/English/map.unity
     guid: 3aa86a591ea1ea34eb29d9c3d00e94bd
-  - enabled: 1
-    path: "Assets/Scenes/Observatorio/Spanish/mapEspa\xF1ol.unity"
-    guid: 9dcee81a6cf8b884ab3eec9a02b7dda8
   - enabled: 1
     path: Assets/Scenes/Observatorio/English/VAObservatorio1.unity
     guid: bfd113cc3684c6047922d56ac799d4ad
@@ -107,54 +77,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Observatorio/English/VAObservatorio7.unity
     guid: aefbba9b599e98749b22047a1aed0234
-  - enabled: 1
-    path: "Assets/Scenes/Observatorio/Spanish/VAObservatorio7Espa\xF1ol.unity"
-    guid: 5b094e30a098e7749acab6c7517caaf9
-  - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol.unity"
-    guid: 22c69c047aec1cc48b1c366925d1e782
-  - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol1.unity"
-    guid: 65ca6853aea5e834697c4e7c6b50dec2
-  - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol2.unity"
-    guid: c94686328b9a52c4d8ebab6b1eeebeb3
-  - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol3.unity"
-    guid: f8ab5e0c5e227494b901fafe8783086f
-  - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol4.unity"
-    guid: bab212ea3e59b424cbefb08f96c8e6a1
-  - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol5.unity"
-    guid: e3d47c14f867cf84dbfdbf38215f8d69
-  - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol6.unity"
-    guid: 99f26ad4fe4199143b18db58369e852b
-  - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/LoadPeninsulaEspa\xF1ol7.unity"
-    guid: bbf4c2c4b46622d49b1cc4e1d7c7c243
-  - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/mapPeninsulaEspa\xF1ol.unity"
-    guid: 5055a64a4f85604448bb42cd155b6c4f
-  - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/VAPeninsulaEspa\xF1ol1.unity"
-    guid: 8dec00e6c8feacf4ebfc2dd4faf2204c
-  - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/VAPeninsulaEspa\xF1ol3.unity"
-    guid: 2b46ee14b14704246871c27b7390ae5b
-  - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/VAPeninsulaEspa\xF1ol4.unity"
-    guid: 52cbb88bd000c564dabbf5a1cf986c75
-  - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/VAPeninsulaEspa\xF1ol6.unity"
-    guid: a0da8ddf7e23b734b9a8220840a01b6f
-  - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/VAPeninsulaEspa\xF1ol7.unity"
-    guid: f43f95002c3429e46bc3d4e52dc28456
-  - enabled: 1
-    path: "Assets/Scenes/Peninsula/Spanish/photoboothEspa\xF1ol.unity"
-    guid: f9ef16cdd90e0d5449b9dfe9dde51f31
   - enabled: 1
     path: Assets/Scenes/Peninsula/English/LoadPeninsula.unity
     guid: b060e3b4a8f761b41bd6f232cca08b2c
@@ -202,4 +124,6 @@ EditorBuildSettings:
     guid: fa533186e938f274eba059b412f608de
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e471d2b2d7b6eac49b49d3fbb452be59, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: f596f96c4aa63d547ae29720beceafca, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: c09f130fbcb3f0341b4c5f968be21196, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5fe3e23ba01914840b281db9bc319331, type: 2}

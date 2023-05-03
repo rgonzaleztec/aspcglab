@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Spanish (es)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Spanish (es)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ed2b949598d634d8380d3897c6084a2e
+  m_SerializeEntries:
+  - m_GUID: fe39dd703ee1e534babb50369504487b
+    m_Address: guardaparques
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: 69c866daa9b971146a766a4fc657faf2
+    m_Address: merienda
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: 179d7f294ba2f6c439f9accca2cb64b8
+    m_Address: repelente
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: 65e4f16cb952c354d8f9d14857c0a2ff
+    m_Address: volcan
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: 722fcc83801a5aa4eb6d1693fa5111cf
+    m_Address: "se\xF1alizacion"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: ec35a4278c40b5c4ea3941be9d976823
+    m_Address: Momoto_Rufo_Descripcion_Espaniol
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  - m_GUID: 68f8f8381522d8c48b44a487c9461c1d
+    m_Address: tororoiInfo
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 03c4f1130b51a7e4690206959b9a0069, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 67b09fff45767476391c7e827f784464, type: 2}
+    - {fileID: 11400000, guid: 4fe0fcae3852244a2bc551f8bb447f7f, type: 2}

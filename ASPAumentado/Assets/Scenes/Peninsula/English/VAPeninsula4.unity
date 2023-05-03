@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17276844, g: 0.21589246, b: 0.2978263, a: 1}
+  m_IndirectSpecularColor: {r: 0.1727681, g: 0.21589208, b: 0.29782575, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &41709486 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5491587731198207086, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
+  m_PrefabInstance: {fileID: 868637120}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &93878465
 GameObject:
   m_ObjectHideFlags: 0
@@ -1227,6 +1232,41 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8865329437415524333, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
   m_PrefabInstance: {fileID: 868637120}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &868637126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41709486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18ed12b29a9aa3479eb5083b95f899d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:468ed99f1d3cf4feb9fda351e3404d87
+    m_TableEntryReference:
+      m_KeyId: 428191244288
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 868637124}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!1 &907506396
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Localization.Settings;
 
 public class mainMenu : MonoBehaviour
 {
@@ -17,16 +18,53 @@ public class mainMenu : MonoBehaviour
 
     }
 
+    enum Languages {English, Spanish};
+
+    private void changeAppLanguage(Languages lang)
+    {
+
+        switch(lang)
+        {
+            case Languages.English:
+                LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[0];
+                break;
+            case Languages.Spanish:
+                LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[1];
+                break;
+        }
+        
+    }
+
+
+    public void changeLanguageToSpanish()
+    {
+        changeAppLanguage(Languages.Spanish);
+    }
+
+    public void changeLanguageToEnglish()
+    {
+        changeAppLanguage(Languages.English);
+    }
 
     /* English Scenes */
     public void goChooseExperience(){
         SceneManager.LoadScene("experience");
     }
 
+    //English Button Pressed
     public void goUserInformation(){
+        changeLanguageToEnglish();
         SceneManager.LoadScene("information");
     }
-    //Carga el Mapa de Peninsula en ingles 
+
+    //Spanish Button Pressed
+    public void goUserInformationEspañol()
+    {
+        changeLanguageToSpanish();
+        SceneManager.LoadScene("information");
+    }
+
+    //Carga el Mapa de Peninsula
     public void goPeninsulaExperience(){
         SceneManager.LoadScene("LoadPeninsula");
     }
@@ -59,12 +97,8 @@ public class mainMenu : MonoBehaviour
         SceneManager.LoadScene("experienceEspañol");
     }
 
-    public void goUserInformationEspañol(){
-        SceneManager.LoadScene("informationEspañol");
-    }
-
     public void goSettingsEspañol(){
-        SceneManager.LoadScene("settingsEspañol");
+        SceneManager.LoadScene("settings");
     }
 
     public void goLaguangeSettingsEspañol(){

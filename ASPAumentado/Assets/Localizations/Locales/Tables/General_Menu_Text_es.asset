@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: General_Menu_Text_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 73c3baaac97254d04981a008d08d2f7a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 61625851904
+    m_Localized: Elija un lenguaje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193176002560
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 356074381312
+    m_Localized: "Espa\xF1ol\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 518142287872
+    m_Localized: "Informaci\xF3n de Usuario"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1478348496896
+    m_Localized: "G\xE9nero"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1828333805568
+    m_Localized: Otro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2242601017344
+    m_Localized: Ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1893303574528
+    m_Localized: "El formulario a\xFAn tiene campos vac\xEDos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1398967099392
+    m_Localized: Nacionalidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1701401583616
+    m_Localized: Masculino
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1785681928192
+    m_Localized: Femenino
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1339781275648
+    m_Localized: Edad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2295591854080
+    m_Localized: Elije tu experiencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4054041223168
+    m_Localized: Ajustes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4158651359232
+    m_Localized: Lenguaje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4134978707456
+    m_Localized: "Cr\xE9ditos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4749788176384
+    m_Localized: Elija un lenguaje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4910186749952
+    m_Localized: English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5022933835776
+    m_Localized: "Espa\xF1ol"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5165204627456
+    m_Localized: "Cr\xE9ditos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5750314229760
+    m_Localized: Desarrolladores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6298677534720
+    m_Localized: Soleado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6359822098432
+    m_Localized: Nublado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6425697837056
+    m_Localized: Lluvioso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6501669265408
+    m_Localized: "El formulario a\xFAn tiene campos vac\xEDos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6732087549952
+    m_Localized: Ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6107912200192
+    m_Localized: "Evaluaci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6208923623424
+    m_Localized: "\xBFC\xF3mo estuvo el clima?"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
