@@ -43,6 +43,10 @@ MonoBehaviour:
     m_Key: Pen4_MotmotInfo_Audio
     m_Metadata:
       m_Items: []
+  - m_Id: 4305021103460352
+    m_Key: Pen6_TowerInfo_Audio
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 5044602863899639828
@@ -84,6 +88,10 @@ MonoBehaviour:
           - en
           - es
         - m_KeyId: 353977229312
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 4305021103460352
           m_TableCodes:
           - en
           - es
