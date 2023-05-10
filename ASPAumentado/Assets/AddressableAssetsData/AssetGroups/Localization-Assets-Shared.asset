@@ -29,6 +29,11 @@ MonoBehaviour:
     m_Address: Assets/Localizations/Locales/Tables/PNVA_PENINSULA_AUDIOS Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 216cd85cb28c7de409bf4ee3b425b855
+    m_Address: Assets/Localizations/Locales/Tables/PNVA_OBSERVATORIO_AUDIOS Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 03c4f1130b51a7e4690206959b9a0069, type: 2}
   m_SchemaSet:
