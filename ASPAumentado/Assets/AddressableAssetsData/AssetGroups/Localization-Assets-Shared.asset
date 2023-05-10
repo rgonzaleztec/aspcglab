@@ -34,6 +34,23 @@ MonoBehaviour:
       Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: b2218d51e37c2a742b92db05ff3fcec2
+    m_Address: Assets/Localizations/Locales/Tables/PNVA_OBSERVATORIO_TEXT Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: ed6c2b3e76cbf5a4cae172c6e8fa7d69
+    m_Address: PumaInfoEspanol
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: 72f653f3810940545a00764b56660899
+    m_Address: EstratoInferiorInfoEspanol
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 03c4f1130b51a7e4690206959b9a0069, type: 2}
   m_SchemaSet:

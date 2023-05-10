@@ -22,6 +22,14 @@ MonoBehaviour:
     m_Localized: 30cdcdd04597acd4991b49ef32a1621b
     m_Metadata:
       m_Items: []
+  - m_Id: 55740184088576
+    m_Localized: ed6c2b3e76cbf5a4cae172c6e8fa7d69
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55847038177280
+    m_Localized: 72f653f3810940545a00764b56660899
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

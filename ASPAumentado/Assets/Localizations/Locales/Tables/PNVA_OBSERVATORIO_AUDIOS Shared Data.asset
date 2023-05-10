@@ -19,6 +19,14 @@ MonoBehaviour:
     m_Key: Obs6_ColadasLavaInfo_Audio
     m_Metadata:
       m_Items: []
+  - m_Id: 55740184088576
+    m_Key: Obs2_PumaInfo_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55847038177280
+    m_Key: Obs2_EstratoInferiorInfo_Audio
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 4185710153481846787
@@ -36,6 +44,14 @@ MonoBehaviour:
       data:
         m_Entries:
         - m_KeyId: 10689138688
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 55740184088576
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 55847038177280
           m_TableCodes:
           - en
           - es
