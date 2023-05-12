@@ -27,6 +27,14 @@ MonoBehaviour:
     m_Key: Obs2_EstratoInferiorInfo_Audio
     m_Metadata:
       m_Items: []
+  - m_Id: 726937267818496
+    m_Key: Obs3_CaciqueEstratoInfo_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 727098190680064
+    m_Key: Obs5_RiverInfo_Audio
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 4185710153481846787
@@ -52,6 +60,14 @@ MonoBehaviour:
           - en
           - es
         - m_KeyId: 55847038177280
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 726937267818496
+          m_TableCodes:
+          - es
+          - en
+        - m_KeyId: 727098190680064
           m_TableCodes:
           - en
           - es
