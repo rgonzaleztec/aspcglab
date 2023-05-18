@@ -35,6 +35,10 @@ MonoBehaviour:
     m_Key: Obs5_RiverInfo_Audio
     m_Metadata:
       m_Items: []
+  - m_Id: 2880781187764224
+    m_Key: Obs1_CharacterAudio
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 4185710153481846787
@@ -68,6 +72,10 @@ MonoBehaviour:
           - es
           - en
         - m_KeyId: 727098190680064
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 2880781187764224
           m_TableCodes:
           - en
           - es
