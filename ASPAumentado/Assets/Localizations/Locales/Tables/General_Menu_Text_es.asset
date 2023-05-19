@@ -130,6 +130,18 @@ MonoBehaviour:
     m_Localized: "\xBFC\xF3mo estuvo el clima?"
     m_Metadata:
       m_Items: []
+  - m_Id: 7541962154397696
+    m_Localized: Encuentra el Marcador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7549773743607808
+    m_Localized: Encuentra una Superficie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7550742166458368
+    m_Localized: Toque la Pantalla
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

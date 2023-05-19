@@ -10,47 +10,38 @@ using System;
 
 public class Controller : MonoBehaviour
 {
-    public GameObject canva;
-    public GameObject camera;
-    public GameObject target;
-    bool active = false;
-    bool active2 = false;
+    //public GameObject canvas;
+    public List<GameObject> hide_Elements;
+
+
+
+    //public GameObject cameraBtn;
+    //public GameObject target;
+    //bool active = true;
+    // active2 = false;
     public string pathg = "";
     public string experienceTitle = "PhotoBooth";
-    public void encuentra()
+
+    
+    private void hideShowElements()
     {
-        active = true;
-        active2 = true;
+        if(hide_Elements.Count != 0)
+        {
+            foreach (GameObject element in hide_Elements)
+            {
+                //Se activan o desactivan los elementos
+                element.SetActive(!element.activeInHierarchy);
+            }
+        }
     }
-    public void pierde()
-    {
-        active = false;
-        active2 = false;
-    }
+
+
     private void Start()
     {
-      
-       
-        camera.SetActive(false);
     }
     private void Update()
     {
-        if (active)
-        {
-            camera.SetActive(true);
-           
-        }
-        else
-        {
-          camera.SetActive(false);
-            
-        }
-        if (active2 == true)
-        {
-            canva.SetActive(true);
-
-        }
-        else { canva.SetActive(false); }
+       
     }
 
 
@@ -60,9 +51,8 @@ public class Controller : MonoBehaviour
     }
 
     public void TakeHiResShot()
-    {active = false;
-        camera.SetActive(false);
-
+    {
+        hideShowElements();
         StartCoroutine(captureIt2());
 
     }
@@ -83,7 +73,7 @@ public class Controller : MonoBehaviour
 
         Debug.Log("Permission result: " + permission);
         Destroy(ss);
-       
-        active = true;
+
+        hideShowElements();
     }
 }

@@ -127,6 +127,18 @@ MonoBehaviour:
     m_Key: Sett_Title_Text
     m_Metadata:
       m_Items: []
+  - m_Id: 7541962154397696
+    m_Key: Sce_FindMarker_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7549773743607808
+    m_Key: Sce_FindSurface_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7550742166458368
+    m_Key: Sce_PlaceObject_Text
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
