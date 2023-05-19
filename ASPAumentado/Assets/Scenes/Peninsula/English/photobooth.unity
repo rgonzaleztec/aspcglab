@@ -674,6 +674,38 @@ PrefabInstance:
       propertyPath: hide_Elements.Array.data[1]
       value: 
       objectReference: {fileID: 1281250819}
+    - target: {fileID: 6209192672743048625, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209192672743048625, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209192672831494458, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209192672831494458, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209192672831494458, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209192672831494458, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209192672831494458, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209192672831494458, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6209192673247091362, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
       propertyPath: m_Name
       value: UI
@@ -762,6 +794,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6209192673564362519, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6209192673902970299, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
       propertyPath: showFindMarker
       value: 1
@@ -792,17 +828,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6209192674326290536, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
   m_PrefabInstance: {fileID: 1281250817}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1281250820 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6209192673902970299, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+--- !u!1 &1281250820 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6209192673564362519, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
   m_PrefabInstance: {fileID: 1281250817}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2ffbd3d0d76eaa43bee7719bc862d60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1500201738
 GameObject:
   m_ObjectHideFlags: 0
@@ -864,9 +894,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1281250820}
-        m_TargetAssemblyTypeName: HideShowSceneMessage, Assembly-CSharp
-        m_MethodName: toggleFindMarkerVisibility
-        m_Mode: 1
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -879,16 +909,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1281250820}
-        m_TargetAssemblyTypeName: HideShowSceneMessage, Assembly-CSharp
-        m_MethodName: toggleFindMarkerVisibility
-        m_Mode: 1
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1500201741
 MonoBehaviour:
@@ -904,6 +934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
+  RuntimeCollider: 0
   mTrackableName: targetASP
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/LXD-VF.xml

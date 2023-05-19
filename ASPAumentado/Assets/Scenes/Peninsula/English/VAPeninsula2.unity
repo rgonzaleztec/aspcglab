@@ -1747,16 +1747,16 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1673200581}
-        m_TargetAssemblyTypeName: HideShowSceneMessage, Assembly-CSharp
-        m_MethodName: toggleFindMarkerVisibility
-        m_Mode: 1
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
@@ -1774,16 +1774,16 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1673200581}
-        m_TargetAssemblyTypeName: HideShowSceneMessage, Assembly-CSharp
-        m_MethodName: toggleFindMarkerVisibility
-        m_Mode: 1
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1643176132
 MonoBehaviour:
@@ -1799,6 +1799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
+  RuntimeCollider: 0
   mTrackableName: targetASP
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/VuforiaMars_Images.xml
@@ -1873,6 +1874,38 @@ PrefabInstance:
       propertyPath: hide_Elements.Array.data[1]
       value: 
       objectReference: {fileID: 1433591142}
+    - target: {fileID: 6209192672743048625, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209192672743048625, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209192672831494458, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209192672831494458, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209192672831494458, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209192672831494458, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209192672831494458, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209192672831494458, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6209192673247091362, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
       propertyPath: m_Name
       value: UI
@@ -1967,7 +2000,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6209192673247091375, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
-      value: 0
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209192673564362519, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6209192673902970299, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
       propertyPath: showFindMarker
@@ -1979,17 +2016,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
---- !u!114 &1673200581 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6209192673902970299, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+--- !u!1 &1673200581 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6209192673564362519, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
   m_PrefabInstance: {fileID: 1673200580}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2ffbd3d0d76eaa43bee7719bc862d60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1673200582 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6209192674314740754, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}

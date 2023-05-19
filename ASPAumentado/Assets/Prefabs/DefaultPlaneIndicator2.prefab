@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
+  RuntimeCollider: 0
   mTrackableName: 
   mInitializedInEditor: 0
   mSelectedStageType: 0
