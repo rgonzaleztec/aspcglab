@@ -236,7 +236,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6209192673812170874}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -495,7 +495,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6209192673812170874}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1459,10 +1459,10 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6209192672612338600}
-  - {fileID: 6209192674314740755}
-  - {fileID: 6209192673902970296}
   - {fileID: 6209192672500701687}
+  - {fileID: 6209192672612338600}
+  - {fileID: 6209192673902970296}
+  - {fileID: 6209192674314740755}
   m_Father: {fileID: 6209192673247091374}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1774,6 +1774,7 @@ MonoBehaviour:
   placeObjectObj: {fileID: 6209192672540538723}
   showFindMarker: 0
   showFindSurface: 0
+  showPlaceObject: 0
 --- !u!1 &6209192674045269982
 GameObject:
   m_ObjectHideFlags: 0
@@ -2211,7 +2212,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6209192673812170874}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
