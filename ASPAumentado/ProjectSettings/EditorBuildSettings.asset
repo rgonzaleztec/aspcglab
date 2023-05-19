@@ -58,7 +58,7 @@ EditorBuildSettings:
     guid: 3aa86a591ea1ea34eb29d9c3d00e94bd
   - enabled: 1
     path: Assets/Scenes/Observatorio/English/VAObservatorio1.unity
-    guid: bfd113cc3684c6047922d56ac799d4ad
+    guid: 1ceb4f224cc3da046a00eb8c66edce67
   - enabled: 1
     path: Assets/Scenes/Observatorio/English/VAObservatorio2.unity
     guid: e85c774863684db4d8918b8c03b4550f

@@ -10,13 +10,14 @@ public class HideShowSceneMessage : MonoBehaviour
 
     public bool showFindMarker = false;
     public bool showFindSurface = false;
+    public bool showPlaceObject = false;
 
     // Start is called before the first frame update
     void Start()
     {
         findMarkerObj.SetActive(showFindMarker);
         findSurfaceObj.SetActive(showFindSurface);
-        placeObjectObj.SetActive(false);
+        placeObjectObj.SetActive(showPlaceObject);
         
     }
 
@@ -34,6 +35,15 @@ public class HideShowSceneMessage : MonoBehaviour
     {
         placeObjectObj.SetActive(!placeObjectObj.activeInHierarchy);
     }
+
+
+    public void planeDetected()
+    {
+        placeObjectObj.SetActive(true);
+        findSurfaceObj.SetActive(false);
+    }
+
+
 
 
     // Update is called once per frame
