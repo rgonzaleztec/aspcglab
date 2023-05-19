@@ -3544,7 +3544,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 416383498}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: goObservatorioExperience1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
