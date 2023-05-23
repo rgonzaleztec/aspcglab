@@ -135,11 +135,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7549773743607808
-    m_Localized: Find Surface
+    m_Localized: Looking for a flat surface
     m_Metadata:
       m_Items: []
   - m_Id: 7550742166458368
-    m_Localized: Tap the Screen
+    m_Localized: Tap screen to place AR object
     m_Metadata:
       m_Items: []
   references:
