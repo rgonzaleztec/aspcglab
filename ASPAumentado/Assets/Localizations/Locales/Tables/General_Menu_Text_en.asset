@@ -135,7 +135,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7549773743607808
-    m_Localized: Looking for a flat surface
+    m_Localized: Point the camera downwards and scan the floor to detect the surface.
     m_Metadata:
       m_Items: []
   - m_Id: 7550742166458368

@@ -135,7 +135,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7549773743607808
-    m_Localized: 'Buscando superficie plana '
+    m_Localized: " Apunta la c\xE1mara hacia abajo y escanea el piso para detectar
+      la superficie."
     m_Metadata:
       m_Items: []
   - m_Id: 7550742166458368
