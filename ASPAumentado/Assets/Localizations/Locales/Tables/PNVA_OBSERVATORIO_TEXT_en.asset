@@ -22,6 +22,10 @@ MonoBehaviour:
     m_Localized: Information
     m_Metadata:
       m_Items: []
+  - m_Id: 5660798527426560
+    m_Localized: Choose your location
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

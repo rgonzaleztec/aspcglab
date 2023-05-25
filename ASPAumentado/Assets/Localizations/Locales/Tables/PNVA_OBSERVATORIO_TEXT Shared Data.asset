@@ -19,6 +19,10 @@ MonoBehaviour:
     m_Key: Obs2_Information_Btn
     m_Metadata:
       m_Items: []
+  - m_Id: 5660798527426560
+    m_Key: Obs_MapTitle_Text
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
