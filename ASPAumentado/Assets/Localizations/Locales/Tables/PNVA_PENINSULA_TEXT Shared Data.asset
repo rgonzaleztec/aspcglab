@@ -19,76 +19,84 @@ MonoBehaviour:
     m_Key: Pen_MapTitle_Text
     m_Metadata:
       m_Items: []
-  - m_Id: 208342605824
-    m_Key: Pen6_ArenalVolcano_Text
+  - m_Id: 10070650058133504
+    m_Key: Pen1_EntranceSignText
     m_Metadata:
       m_Items: []
-  - m_Id: 672438149120
-    m_Key: Pen6_ChatoVolcano_Text
+  - m_Id: 10070830723584000
+    m_Key: Pen1_InformationSign
     m_Metadata:
       m_Items: []
-  - m_Id: 808564285440
-    m_Key: Pen6_CerroPlano_Text
-    m_Metadata:
-      m_Items: []
-  - m_Id: 910611701760
-    m_Key: Pen6_ElCairo_Text
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1041478180864
-    m_Key: Pen6_CanoNegro_Text
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1246722252800
-    m_Key: Pen6_Tilaran_Text
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1356248113152
-    m_Key: Pen6_LosArrepentidos_Text
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1491308896256
-    m_Key: Pen6_Iguanas_Text
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1593016573952
-    m_Key: Pen6_LagoArenal_Text
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1713405681664
-    m_Key: Pen6_LaFortuna_Text
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1847795376128
-    m_Key: Pen6_ParkTower_Text
-    m_Metadata:
-      m_Items: []
-  - m_Id: 669562403020800
-    m_Key: Pen2_TrailActionMessage
-    m_Metadata:
-      m_Items: []
-  - m_Id: 669749485756416
-    m_Key: Pen2_DeerSign_Text
+  - m_Id: 670100846796800
+    m_Key: Pen2_CutFlower_Btn
     m_Metadata:
       m_Items: []
   - m_Id: 669833082429440
     m_Key: Pen2_DeerActionMessage_Text
     m_Metadata:
       m_Items: []
-  - m_Id: 669916658130944
-    m_Key: Pen2_FeedDeer_Btn
+  - m_Id: 669749485756416
+    m_Key: Pen2_DeerSign_Text
     m_Metadata:
       m_Items: []
-  - m_Id: 669976938668032
-    m_Key: Pen2_FlowerSign_Text
+  - m_Id: 669916658130944
+    m_Key: Pen2_FeedDeer_Btn
     m_Metadata:
       m_Items: []
   - m_Id: 670027362590720
     m_Key: Pen2_FlowerActionMessage_Text
     m_Metadata:
       m_Items: []
-  - m_Id: 670100846796800
-    m_Key: Pen2_CutFlower_Btn
+  - m_Id: 669976938668032
+    m_Key: Pen2_FlowerSign_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 669562403020800
+    m_Key: Pen2_TrailActionMessage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 208342605824
+    m_Key: Pen6_ArenalVolcano_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1041478180864
+    m_Key: Pen6_CanoNegro_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 808564285440
+    m_Key: Pen6_CerroPlano_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 672438149120
+    m_Key: Pen6_ChatoVolcano_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 910611701760
+    m_Key: Pen6_ElCairo_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1491308896256
+    m_Key: Pen6_Iguanas_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713405681664
+    m_Key: Pen6_LaFortuna_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1593016573952
+    m_Key: Pen6_LagoArenal_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1356248113152
+    m_Key: Pen6_LosArrepentidos_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1847795376128
+    m_Key: Pen6_ParkTower_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1246722252800
+    m_Key: Pen6_Tilaran_Text
     m_Metadata:
       m_Items: []
   m_Metadata:

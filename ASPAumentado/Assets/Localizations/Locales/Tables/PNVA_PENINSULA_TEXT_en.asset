@@ -97,6 +97,14 @@ MonoBehaviour:
     m_Localized: Cut Flower
     m_Metadata:
       m_Items: []
+  - m_Id: 10070650058133504
+    m_Localized: Information Booth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10070830723584000
+    m_Localized: Touch the Posters
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
