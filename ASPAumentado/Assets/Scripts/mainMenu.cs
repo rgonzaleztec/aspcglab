@@ -89,81 +89,9 @@ public class mainMenu : MonoBehaviour
         SceneManager.LoadScene("rate");
     }
     /* END English Scenes */
+    
 
-
-
-    /* Spanish scenes */
-    public void goChooseExperienceEspañol(){
-        SceneManager.LoadScene("experienceEspañol");
-    }
-
-    public void goSettingsEspañol(){
-        SceneManager.LoadScene("settings");
-    }
-
-    public void goLaguangeSettingsEspañol(){
-        SceneManager.LoadScene("LanguajeSettingsEspañol");
-    }
-
-    public void gocreditsEspañol(){
-        SceneManager.LoadScene("developersEspañol");
-    }
-
-    public void goRateEspañol(){
-        SceneManager.LoadScene("rateEspañol");
-    }
-
-    public void goObservatorioExperienceEspañol(){
-        SceneManager.LoadScene("LoadObservatorioEspañol");
-    }
-
-    //Carga el Mapa de Peninsula Espanol
-    public void goPeninsulaExperienceEspaol(){
-        SceneManager.LoadScene("LoadPeninsulaEspañol");
-    }
-    public void goPhotoboothEspañol(){
-        SceneManager.LoadScene("photoboothEspañol");
-    }
-    /* END Spanish scenes */
-
-
-
-    /* Península Scenes */
-    //                                                                                 ****** Peninsula Spanish Scenes ******
-    public void goPeninsulaEspañol()                              //Mapa Peninsula Espanol
-    {
-        SceneManager.LoadScene("LoadPeninsulaEspañol");
-    }
-    public void goPeninsulaExperienceEspañol1()                   //Casetilla
-    {
-        SceneManager.LoadScene("LoadPeninsulaEspañol1");
-    }
-    public void goPeninsulaExperienceEspañol2()                   //Turismo Responsable
-    {
-        SceneManager.LoadScene("LoadPeninsulaEspañol2");
-    }
-    public void goPeninsulaExperienceEspañol3()                   //Tororoi
-    {
-        SceneManager.LoadScene("LoadPeninsulaEspañol3");
-    }
-    public void goPeninsulaExperienceEspañol4()                   //Momoto
-    {
-        SceneManager.LoadScene("LoadPeninsulaEspañol4");
-    }
-    public void goPeninsulaExperienceEspañol5()                   //Bosque Sano
-    {
-        SceneManager.LoadScene("LoadPeninsulaEspañol5");
-    }
-    public void goPeninsulaExperienceEspañol6()                   //Torre
-    {
-        SceneManager.LoadScene("LoadPeninsulaEspañol6");
-    }
-    public void goPeninsulaExperienceEspañol7()                   //Volcan
-    {
-        SceneManager.LoadScene("LoadPeninsulaEspañol7");
-    }
-
-    //                                                                                 ****** Peninsula English Scenes ******
+    //                                                                                 ****** Peninsula Scenes ******
     public void goPeninsula()                              //Mapa Peninsula Espanol
     {
         SceneManager.LoadScene("LoadPeninsula");
@@ -201,7 +129,7 @@ public class mainMenu : MonoBehaviour
     /* END Península Scenes */
 
 
-
+    //                                                                                 ****** Observatorio Scenes ******
 
     /* Observatorio Scenes */
     public void goObservatorioExperience(){

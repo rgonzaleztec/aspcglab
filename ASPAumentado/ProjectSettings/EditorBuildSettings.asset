@@ -121,6 +121,9 @@ EditorBuildSettings:
     guid: 5602786ad88742347b6a914d2044cc37
   - enabled: 1
     path: Assets/Scenes/Peninsula/English/VAPeninsula7.unity
+    guid: cb9eb945afa191f4e8cb2ce41264b1d8
+  - enabled: 0
+    path: Assets/Scenes/Peninsula/English/VAPeninsula_UsedTobe7.unity
     guid: fa533186e938f274eba059b412f608de
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e471d2b2d7b6eac49b49d3fbb452be59, type: 2}
