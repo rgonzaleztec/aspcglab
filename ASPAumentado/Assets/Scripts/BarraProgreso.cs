@@ -68,24 +68,24 @@ public class BarraProgreso : MonoBehaviour
             }
 
 
-            /* 3 = Parque Nacional Juan Castro Blanco*/
-            /* 3n = PNJCB scena */
-            if (numEscena == 3){                                
-                SceneManager.LoadScene("mapPeninsulaEspañol");
-            }if (numEscena == 31) {                                   //Casetilla
-                SceneManager.LoadScene("VAPeninsulaEspañol1");
-            }if (numEscena == 32) {                                   //Mirador Turismo Responsable
-                SceneManager.LoadScene("VAPeninsulaEspañol2");
-            }if (numEscena == 33) {                                   //Tororoi
-                SceneManager.LoadScene("VAPeninsulaEspañol3");
-            }if (numEscena == 34) {                                   //Momotorufo
-                SceneManager.LoadScene("VAPeninsulaEspañol4");
-            }if (numEscena == 35) {                                   //Bosque Sano
-                SceneManager.LoadScene("VAPeninsulaEspañol5");
-            }if (numEscena == 36) {                                   //Torre
-                SceneManager.LoadScene("VAPeninsulaEspañol6");
-            }if (numEscena == 37) {                                   //Mirador  Lago - Volcan
-                SceneManager.LoadScene("VAPeninsulaEspañol7");
+            /* 5 = Península ingles*/
+            /* 5n = Península Escena*/
+            if (numEscena == 3){
+                SceneManager.LoadScene("mapPeninsula");
+            }if (numEscena == 31) {                                   
+                SceneManager.LoadScene("PNAgua1");
+            }if (numEscena == 32) {                                   
+                SceneManager.LoadScene("PNAgua2");
+            }if (numEscena == 33) {                                   
+                SceneManager.LoadScene("PNAgua3");
+            }if (numEscena == 34) {                                   
+                SceneManager.LoadScene("PNAgua4");
+            }if (numEscena == 35) {                                   
+                SceneManager.LoadScene("PNAgua5");
+            }if (numEscena == 36) {                                   
+                SceneManager.LoadScene("PNAgua6");
+            }if (numEscena == 37) {                                   
+                SceneManager.LoadScene("PNAgua7");
             }
 
             /* 4 = Refugio Nacional de Vida Silvestre Cano Negrp*/
