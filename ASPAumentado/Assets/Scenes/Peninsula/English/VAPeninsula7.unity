@@ -148,7 +148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6209192672612338603, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
       propertyPath: experienceTitle
-      value: Casetilla
+      value: PhotoBooth
       objectReference: {fileID: 0}
     - target: {fileID: 6209192672612338603, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
       propertyPath: hide_Elements.Array.size
