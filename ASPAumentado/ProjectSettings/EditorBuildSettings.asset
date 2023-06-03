@@ -125,6 +125,66 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Peninsula/English/VAPeninsula_UsedTobe7.unity
     guid: fa533186e938f274eba059b412f608de
+  - enabled: 1
+    path: Assets/Scenes/CanoNegro/LoadCanoNegro.unity
+    guid: c57a6d986f3507e48aa7692bb97d7f60
+  - enabled: 1
+    path: Assets/Scenes/CanoNegro/LoadCanoNegro1.unity
+    guid: 63e66426298b65a42bb0f9a2862c37cf
+  - enabled: 1
+    path: Assets/Scenes/CanoNegro/LoadCanoNegro2.unity
+    guid: 4575493714d7f8f4f92efe40971c5a56
+  - enabled: 1
+    path: Assets/Scenes/CanoNegro/LoadCanoNegro3.unity
+    guid: e163cf18d0c49124c8192a58d865e0cd
+  - enabled: 1
+    path: Assets/Scenes/CanoNegro/LoadCanoNegro4.unity
+    guid: 921578e6ce1117444ac7dec39858ccdc
+  - enabled: 1
+    path: Assets/Scenes/CanoNegro/LoadCanoNegro5.unity
+    guid: 182493982e950ff4db0b14f1f96d38ae
+  - enabled: 1
+    path: Assets/Scenes/CanoNegro/LoadCanoNegro6.unity
+    guid: 37f42c306f4b6e141aaf5c2323ae1085
+  - enabled: 1
+    path: Assets/Scenes/CanoNegro/LoadCanoNegro7.unity
+    guid: 3b061aaa5f61ced499b350cdefedacdf
+  - enabled: 1
+    path: Assets/Scenes/CanoNegro/map_RCanoNegro.unity
+    guid: 2a38add829d07344bb4adb0a25a3c793
+  - enabled: 1
+    path: Assets/Scenes/CanoNegro/RCanoNegro1.unity
+    guid: 281b2b46955d728438161990d89fb554
+  - enabled: 1
+    path: Assets/Scenes/ParqueAgua/LoadParqueAgua.unity
+    guid: a97f596bf2931ce47aae05da75ac0670
+  - enabled: 1
+    path: Assets/Scenes/ParqueAgua/LoadParqueAgua1.unity
+    guid: 6614be25178b4154b8f5fbc33233398a
+  - enabled: 1
+    path: Assets/Scenes/ParqueAgua/LoadParqueAgua2.unity
+    guid: 637bb635eb866e542a6a120587fb5604
+  - enabled: 1
+    path: Assets/Scenes/ParqueAgua/LoadParqueAgua3.unity
+    guid: aac832ae974b9154c878c72b3fa2c24f
+  - enabled: 1
+    path: Assets/Scenes/ParqueAgua/LoadParqueAgua4.unity
+    guid: 1b12e7d37c8a2e84d8ca883312caf130
+  - enabled: 1
+    path: Assets/Scenes/ParqueAgua/LoadParqueAgua5.unity
+    guid: f6c410aa9f001e34fb11941a3e63d822
+  - enabled: 1
+    path: Assets/Scenes/ParqueAgua/LoadParqueAgua6.unity
+    guid: 15e69dfc62e021146b93a7b98a276fb6
+  - enabled: 1
+    path: Assets/Scenes/ParqueAgua/LoadParqueAgua7.unity
+    guid: 242f1fe751fe0b644bab6baae1599104
+  - enabled: 1
+    path: Assets/Scenes/ParqueAgua/map_PNAgua.unity
+    guid: 9e8c3620db440ee4ea7e50793641c69a
+  - enabled: 1
+    path: Assets/Scenes/ParqueAgua/PNAgua1.unity
+    guid: 7b38b3aa0a001944a9690ffa15344a97
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e471d2b2d7b6eac49b49d3fbb452be59, type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: f596f96c4aa63d547ae29720beceafca, type: 2}
