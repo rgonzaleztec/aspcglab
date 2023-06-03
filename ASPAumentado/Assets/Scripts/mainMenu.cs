@@ -128,7 +128,6 @@ public class mainMenu : MonoBehaviour
 
     /* END Península Scenes */
 
-
     //                                                                                 ****** Observatorio Scenes ******
 
     /* Observatorio Scenes */
@@ -164,4 +163,96 @@ public class mainMenu : MonoBehaviour
         SceneManager.LoadScene("LoadObservatorio7");
     }
     /* END Observatorio Scenes */
+
+
+    //                                                                                 ****** Parque del Agua PNJCB Scenes ******
+
+    /* Observatorio Scenes */
+    public void goParqueAguaExperience()
+    {
+        SceneManager.LoadScene("LoadParqueAgua");
+    }
+
+    public void goParqueAguaExperience1()
+    {
+        SceneManager.LoadScene("LoadParqueAgua1");
+    }
+
+    public void goParqueAguaExperience2()
+    {
+        SceneManager.LoadScene("LoadParqueAgua2");
+    }
+
+    public void goParqueAguaExperience3()
+    {
+        SceneManager.LoadScene("LoadParqueAgua3");
+    }
+
+    public void goParqueAguaExperience4()
+    {
+        SceneManager.LoadScene("LoadParqueAgua4");
+    }
+
+    public void goParqueAguaExperience5()
+    {
+        SceneManager.LoadScene("LoadParqueAgua5");
+    }
+
+    public void goParqueAguaExperience6()
+    {
+        SceneManager.LoadScene("LoadParqueAgua6");
+    }
+
+    public void goParqueAguaExperience7()
+    {
+        SceneManager.LoadScene("LoadParqueAgua7");
+    }
+    /* END Observatorio Scenes */
+
+
+    //                                                                                 ****** Cano Negro RNVSCN Scenes ******
+
+    /* Observatorio Scenes */
+    public void goCanoNegroExperience()
+    {
+        SceneManager.LoadScene("LoadCanoNegro");
+    }
+
+    public void goCanoNegroExperience1()
+    {
+        SceneManager.LoadScene("LoadCanoNegro1");
+    }
+
+    public void goCanoNegroExperience2()
+    {
+        SceneManager.LoadScene("LoadCanoNegro2");
+    }
+
+    public void goCanoNegroExperience3()
+    {
+        SceneManager.LoadScene("LoadCanoNegro3");
+    }
+
+    public void goCanoNegroExperience4()
+    {
+        SceneManager.LoadScene("LoadCanoNegro4");
+    }
+
+    public void goCanoNegroExperience5()
+    {
+        SceneManager.LoadScene("LoadCanoNegro5");
+    }
+
+    public void goCanoNegroExperience6()
+    {
+        SceneManager.LoadScene("LoadCanoNegro6");
+    }
+
+    public void goCanoNegroExperience7()
+    {
+        SceneManager.LoadScene("LoadCanoNegro7");
+    }
+    /* END Observatorio Scenes */
+
+
 }

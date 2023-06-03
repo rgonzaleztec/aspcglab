@@ -48,7 +48,7 @@ public class BarraProgreso : MonoBehaviour
             }
 
             /* 2 = Observatorio Ingles*/
-            /* 2n = Observatorio scena n en ingles*/
+            /* 2n = Observatorio scena */
             if (numEscena == 2){
                 SceneManager.LoadScene("map");
             }if (numEscena == 21){
@@ -67,28 +67,9 @@ public class BarraProgreso : MonoBehaviour
                 SceneManager.LoadScene("VAObservatorio7");
             }
 
-            /* 4 = Observatorio Ingles*/
-            /* 4n = Observatorio scena n en español*/
-            if (numEscena == 4){
-                SceneManager.LoadScene("mapEspañol");
-            }if (numEscena == 41){
-                SceneManager.LoadScene("VAObservatorio1Español");
-            }if (numEscena == 42){
-                SceneManager.LoadScene("VAObservatorio2Español");
-            }if (numEscena == 43){
-                SceneManager.LoadScene("VAObservatorio3Español");
-            }if (numEscena == 44){
-                SceneManager.LoadScene("VAObservatorio4Español");
-            }if (numEscena == 45){
-                SceneManager.LoadScene("VAObservatorio5Español");
-            }if (numEscena == 46){
-                SceneManager.LoadScene("VAObservatorio6Español");
-            }if (numEscena == 47){
-                SceneManager.LoadScene("VAObservatorio7Español");
-            }
 
-            /* 3 = Península Español*/
-            /* 3n = Península scena n en español*/
+            /* 3 = Parque Nacional Juan Castro Blanco*/
+            /* 3n = PNJCB scena */
             if (numEscena == 3){                                
                 SceneManager.LoadScene("mapPeninsulaEspañol");
             }if (numEscena == 31) {                                   //Casetilla
@@ -107,9 +88,29 @@ public class BarraProgreso : MonoBehaviour
                 SceneManager.LoadScene("VAPeninsulaEspañol7");
             }
 
+            /* 4 = Refugio Nacional de Vida Silvestre Cano Negrp*/
+            /* 4n = RFVSCN scena */
+            if (numEscena == 4){
+                SceneManager.LoadScene("map_RCanoNegro");
+            }if (numEscena == 41){
+                SceneManager.LoadScene("RCanoNegro1");
+            }if (numEscena == 42){
+                SceneManager.LoadScene("RCanoNegro2");
+            }if (numEscena == 43){
+                SceneManager.LoadScene("RCanoNegro3");
+            }if (numEscena == 44){
+                SceneManager.LoadScene("RCanoNegro4");
+            }if (numEscena == 45){
+                SceneManager.LoadScene("RCanoNegro5");
+            }if (numEscena == 46){
+                SceneManager.LoadScene("RCanoNegro6");
+            }if (numEscena == 47){
+                SceneManager.LoadScene("RCanoNegro7");
+            }
+
 
             /* 5 = Península ingles*/
-            /* 5n = Península scena n en ingles*/
+            /* 5n = Península Escena*/
             if (numEscena == 5){
                 SceneManager.LoadScene("mapPeninsula");
             }if (numEscena == 51) {                                   //Casetilla

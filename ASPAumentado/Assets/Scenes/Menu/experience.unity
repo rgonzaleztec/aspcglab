@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 212559993}
   - component: {fileID: 212559992}
   m_Layer: 5
-  m_Name: peninsulaBTN
+  m_Name: cnBTN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -221,7 +221,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 212559992}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: goPeninsulaExperience
+        m_MethodName: goCanoNegroExperience
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1377,7 +1377,7 @@ GameObject:
   - component: {fileID: 930819213}
   - component: {fileID: 930819212}
   m_Layer: 5
-  m_Name: peninsulaBTN
+  m_Name: jcbBTN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1461,7 +1461,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 930819212}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: goPeninsulaExperience
+        m_MethodName: goParqueAguaExperience
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
