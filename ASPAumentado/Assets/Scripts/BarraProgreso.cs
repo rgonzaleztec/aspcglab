@@ -71,7 +71,7 @@ public class BarraProgreso : MonoBehaviour
             /* 5 = Península ingles*/
             /* 5n = Península Escena*/
             if (numEscena == 3){
-                SceneManager.LoadScene("mapPeninsula");
+                SceneManager.LoadScene("map_PNAgua");
             }if (numEscena == 31) {                                   
                 SceneManager.LoadScene("PNAgua1");
             }if (numEscena == 32) {                                   
