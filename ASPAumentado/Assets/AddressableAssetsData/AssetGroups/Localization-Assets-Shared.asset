@@ -57,6 +57,22 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     - Locale-es
+  - m_GUID: c8bf8d50c96034744a278f04847b9a11
+    m_Address: Assets/Localizations/Locales/Tables/RN_CANONEGRO_TEXT Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: aec53637bcab9f847bd822a8f7fa15c6
+    m_Address: Assets/Localizations/Locales/Tables/RN_CANONEGRO_AUDIOS Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: f7c8d8b5d904473458d8414c5846e36e
+    m_Address: Assets/Localizations/Locales/Tables/PN_AGUA_TEXT Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: bcbe1393934d7304c94b46a64115bdd7
+    m_Address: Assets/Localizations/Locales/Tables/PN_AGUA_AUDIOS Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 03c4f1130b51a7e4690206959b9a0069, type: 2}
   m_SchemaSet:

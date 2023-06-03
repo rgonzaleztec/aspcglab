@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db626ad063b13545924a9839ac5fa83, type: 3}
+  m_Name: PN_AGUA_AUDIOS
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: bcbe1393934d7304c94b46a64115bdd7, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: d6d6265c06ff4c24a934054e4ab9e78c, type: 2}
+  - {fileID: 11400000, guid: cf1b8224d546ae34b818db177851b153, type: 2}
+  m_Extensions: []
+  m_Group: Asset Table
+  references:
+    version: 2
+    RefIds: []
