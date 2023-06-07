@@ -120,6 +120,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Peninsula/English/VAPeninsula2.unity
     guid: 687d82db11eac3c49a6203085ac548c5
   - enabled: 1
+    path: Assets/Scenes/Peninsula/English/VAPeninsula2PD.unity
+    guid: 6696e5c0eccd92e4c9c88f2e01194a55
+  - enabled: 1
     path: Assets/Scenes/Peninsula/English/VAPeninsula3.unity
     guid: a930aaa90085cda43804dcca998cffa5
   - enabled: 1

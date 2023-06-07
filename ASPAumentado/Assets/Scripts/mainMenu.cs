@@ -36,6 +36,31 @@ public class mainMenu : MonoBehaviour
     }
 
 
+    // Esto hay que borrarlo *************************************
+    public void goObservatorioExperience1PD()
+    {
+        SceneManager.LoadScene("VAObservatorio1PD");
+    }
+
+    public void goObservatorioExperience2PD()
+    {
+        SceneManager.LoadScene("VAObservatorio2PD");
+    }
+
+    public void goObservatorioExperience7T()
+    {
+        SceneManager.LoadScene("VAObservatorio7_PhotoBooth_ConTarget");
+    }
+
+    public void goPeninsulaExperience2PD()                   //Turismo Responsable
+    {
+        SceneManager.LoadScene("VAPeninsula2PD");
+    }
+    //*************************************
+
+
+
+
     public void changeLanguageToSpanish()
     {
         changeAppLanguage(Languages.Spanish);
@@ -142,23 +167,6 @@ public class mainMenu : MonoBehaviour
     public void goObservatorioExperience2(){
         SceneManager.LoadScene("LoadObservatorio2");
     }
-
-    // Esto hay que borrarlo *************************************
-    public void goObservatorioExperience1PD()
-    {
-        SceneManager.LoadScene("VAObservatorio1PD");
-    }
-
-    public void goObservatorioExperience2PD()
-    {
-        SceneManager.LoadScene("VAObservatorio2PD");
-    }
-
-    public void goObservatorioExperience7T()
-    {
-        SceneManager.LoadScene("VAObservatorio7_PhotoBooth_ConTarget");
-    }
-    //*************************************
 
 
     public void goObservatorioExperience3(){
