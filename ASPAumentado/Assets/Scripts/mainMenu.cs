@@ -143,6 +143,24 @@ public class mainMenu : MonoBehaviour
         SceneManager.LoadScene("LoadObservatorio2");
     }
 
+    // Esto hay que borrarlo *************************************
+    public void goObservatorioExperience1PD()
+    {
+        SceneManager.LoadScene("VAObservatorio1PD");
+    }
+
+    public void goObservatorioExperience2PD()
+    {
+        SceneManager.LoadScene("VAObservatorio2PD");
+    }
+
+    public void goObservatorioExperience7T()
+    {
+        SceneManager.LoadScene("VAObservatorio7_PhotoBooth_ConTarget");
+    }
+    //*************************************
+
+
     public void goObservatorioExperience3(){
         SceneManager.LoadScene("LoadObservatorio3");
     }

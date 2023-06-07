@@ -257,8 +257,8 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: /Users/gilda/Desktop/Repositorios/Unity/aspcglab/Unity_Key_Store_ANDROID/jochaes.keystore
-  AndroidKeyaliasName: cglabitcr
+  AndroidKeystoreName: E:/Unity_Projects/AndroidUnityKey/pnva.keystore
+  AndroidKeyaliasName: cglabpnva
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
@@ -870,8 +870,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Template_3D
-  metroPackageVersion: 
+  metroPackageName: Template3D
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -879,7 +879,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Template_3D
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: PNVA
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -949,7 +949,13 @@ PlayerSettings:
   windowsGamepadBackendHint: 0
   cloudProjectId: c00eaf1f-bd2e-4489-bc19-b99871063d0a
   framebufferDepthMemorylessMode: 0
-  qualitySettingsNames: []
+  qualitySettingsNames:
+  - Very Low
+  - Low
+  - Medium
+  - High
+  - Very High
+  - Ultra
   projectName: mainMenuASP
   organizationId: rogelio-gonzalez-quiros
   cloudEnabled: 0
