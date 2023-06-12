@@ -39,12 +39,12 @@ public class mainMenu : MonoBehaviour
     // Esto hay que borrarlo *************************************
     public void goObservatorioExperience1PD()
     {
-        SceneManager.LoadScene("VAObservatorio1PD");
+        SceneManager.LoadScene("VAObservatorio1PD-Prueba_Plane_Detection");
     }
 
     public void goObservatorioExperience2PD()
     {
-        SceneManager.LoadScene("VAObservatorio2PD");
+        SceneManager.LoadScene("VAObservatorio2PD-Prueba_Plane_Detection");
     }
 
     public void goObservatorioExperience7T()
@@ -54,7 +54,7 @@ public class mainMenu : MonoBehaviour
 
     public void goPeninsulaExperience2PD()                   //Turismo Responsable
     {
-        SceneManager.LoadScene("VAPeninsula2PD");
+        SceneManager.LoadScene("VAPeninsula2PD-Prueba_Plane_Detection");
     }
     //*************************************
 
