@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R5CW33D4RJM",
         "name": "com.ITCRSC.CGLAB.PNVA",
-        "processId": 20702,
+        "processId": 17863,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -12,6 +12,12 @@
             "deviceId": "R5CW33D4RJM",
             "name": "com.ITCRSC.CGLAB.PNVA",
             "processId": 20702,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CW33D4RJM",
+            "name": "com.ITCRSC.CGLAB.PNVA",
+            "processId": 17863,
             "exited": false
         }
     ],
