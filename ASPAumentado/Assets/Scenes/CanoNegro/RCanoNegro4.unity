@@ -321,6 +321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jaribu
       objectReference: {fileID: 0}
+    - target: {fileID: 6515560423409231076, guid: 5adbb62cfd6b8a34285ae17c118e325b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5adbb62cfd6b8a34285ae17c118e325b, type: 3}
 --- !u!4 &97718903 stripped

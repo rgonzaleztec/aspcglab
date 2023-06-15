@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: RN_CANONEGRO_TEXT
   m_TableCollectionNameGuidString: c8bf8d50c96034744a278f04847b9a11
-  m_Entries: []
+  m_Entries:
+  - m_Id: 4389185676857344
+    m_Key: RNC1_Animal_Text
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
