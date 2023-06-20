@@ -18,12 +18,13 @@ public class PinInformation_wImage : MonoBehaviour
     public GameObject _Pointer;
     public GameObject _Rod;
     public bool _Show_Rod = true;
-    public GameObject _floatingTextPrefab;
+    public GameObject _floatingTextPrefabwImage;
+    public Animal[] animals;
+
+    private GameObject _floatingTextInstance;
 
 
-  
 
-  
 
     // Start is called before the first frame update
     void Start()
@@ -40,9 +41,15 @@ public class PinInformation_wImage : MonoBehaviour
     private void showFloatingText()
     {
         var offset = this._Pointer.transform.position + (this._Pointer.transform.up * 0.014f); ; //+ (this.transform.right) + (this.transform.up * 0.0030f);
-        var floatingText = Instantiate(_floatingTextPrefab, offset, Quaternion.identity, this.transform);
-        floatingText.GetComponent<TextMeshPro>().text = loadString();
+        this._floatingTextInstance = Instantiate(_floatingTextPrefabwImage, offset, Quaternion.identity, this.transform);
 
+        this._floatingTextInstance.GetComponent<FloatingText_wImage>().setAnimal(animals[0]);
+        this._floatingTextInstance.GetComponent<FloatingText_wImage>().setAnimal(animals[1]);
+    }
+
+    public void changeSeason()
+    {
+        this._floatingTextInstance.GetComponent<FloatingText_wImage>().changeSeasonAnimal();
     }
 
 

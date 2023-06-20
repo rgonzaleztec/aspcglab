@@ -129,6 +129,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfb0dfa2347ede84d90e62de9e7d19c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _Pointer: {fileID: 7209962762774135747}
+  _Rod: {fileID: 1342176378897114273}
+  _Show_Rod: 1
+  _floatingTextPrefabwImage: {fileID: 6610893333822029104, guid: 3a6b25dab6b4d2541b78a5874964ed0c, type: 3}
+  animals:
+  - season: Seca
+    nameKey: 
+    audioKey: 
+    TextTable: RN_CANONEGRO_TEXT
+    AudioTable: RN_CANONEGRO_AUDIOS
+    image: {fileID: 0}
+  - season: Lluviosa
+    nameKey: 
+    audioKey: 
+    TextTable: RN_CANONEGRO_TEXT
+    AudioTable: RN_CANONEGRO_AUDIOS
+    image: {fileID: 0}
 --- !u!1001 &7552403805363469970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -206,6 +223,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32c403e8e87d3da4c946a5e27af08302, type: 3}
+--- !u!1 &7209962762774135747 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 32c403e8e87d3da4c946a5e27af08302, type: 3}
+  m_PrefabInstance: {fileID: 7552403805363469970}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8017883166339635577 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 32c403e8e87d3da4c946a5e27af08302, type: 3}

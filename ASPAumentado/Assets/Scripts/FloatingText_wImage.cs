@@ -14,7 +14,7 @@ public class FloatingText_wImage : MonoBehaviour
 
     private Animal drySeasonAnimal;
     private Animal rainySeasonAnimal;
-    private bool isDrySeason = true;
+    private bool isDrySeason = false;
 
 
     // Start is called before the first frame update
@@ -23,6 +23,7 @@ public class FloatingText_wImage : MonoBehaviour
         if(animal.season == "Seca")
         {
             this.drySeasonAnimal = animal;
+            setAssets(this.drySeasonAnimal);
         }
         else
         {
@@ -42,7 +43,7 @@ public class FloatingText_wImage : MonoBehaviour
     }
 
 
-    private void changeSeasonAnimal()
+    public void changeSeasonAnimal()
     {
         if (this.isDrySeason)
         {
@@ -52,7 +53,7 @@ public class FloatingText_wImage : MonoBehaviour
         else
         {
             setAssets(this.rainySeasonAnimal);
-            this.isDrySeason = false;
+            this.isDrySeason = true;
         }
        
     }
