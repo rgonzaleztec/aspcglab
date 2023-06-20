@@ -70,6 +70,14 @@ MonoBehaviour:
     m_Localized: Tropical gar
     m_Metadata:
       m_Items: []
+  - m_Id: 6131741624324096
+    m_Localized: Keel-billed Toucan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6133477227319296
+    m_Localized: Jabiru Stork
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -63,6 +63,18 @@ MonoBehaviour:
     m_Key: RNC1_Basilisc_Audio
     m_Metadata:
       m_Items: []
+  - m_Id: 6130910711730176
+    m_Key: RCN1_Damselflies_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6132234996109312
+    m_Key: RCN1_KeelBilledToucan_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6133519254245376
+    m_Key: RCN1_Jabiru_Audio
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 8475763956886536194
@@ -127,5 +139,17 @@ MonoBehaviour:
           m_TableCodes:
           - es
           - en
+        - m_KeyId: 6130910711730176
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 6132234996109312
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 6133519254245376
+          m_TableCodes:
+          - en
+          - es
         m_TypeString: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null

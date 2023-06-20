@@ -127,6 +127,24 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     - Locale-es
+  - m_GUID: 586fe8af4c4a7904685c3c44942bb91f
+    m_Address: LibelulaAzul
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: ae06a77bb9faf43e78e8c58759edd067
+    m_Address: Tucan
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: 39011371959619041ab56496b4106b7d
+    m_Address: JaribuSound
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 03c4f1130b51a7e4690206959b9a0069, type: 2}
   m_SchemaSet:

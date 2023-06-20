@@ -67,6 +67,14 @@ MonoBehaviour:
     m_Key: RCN1_TropicalGar_Text
     m_Metadata:
       m_Items: []
+  - m_Id: 6131741624324096
+    m_Key: RCN1_KeelBilledToucan_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6133477227319296
+    m_Key: RCN1_Jabiru_Text
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
