@@ -75,6 +75,10 @@ MonoBehaviour:
     m_Key: RCN1_Jabiru_Audio
     m_Metadata:
       m_Items: []
+  - m_Id: 6235822158204928
+    m_Key: RCN1_Description_Audio
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 8475763956886536194
@@ -148,6 +152,9 @@ MonoBehaviour:
           - en
           - es
         - m_KeyId: 6133519254245376
+          m_TableCodes:
+          - es
+        - m_KeyId: 6235822158204928
           m_TableCodes:
           - en
           - es

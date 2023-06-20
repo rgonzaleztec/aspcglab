@@ -194,6 +194,16 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7855820564329653829, guid: 2409a95fad496ce4f8fb49dd047e88a7, type: 3}
   m_PrefabInstance: {fileID: 38253352}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &38253355 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3072375190436530254, guid: 2409a95fad496ce4f8fb49dd047e88a7, type: 3}
+  m_PrefabInstance: {fileID: 38253352}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &38253356 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 984518645466815225, guid: 2409a95fad496ce4f8fb49dd047e88a7, type: 3}
+  m_PrefabInstance: {fileID: 38253352}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &48423745
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,9 +355,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6209192672500701686, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: audioSources.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209192672500701686, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
       propertyPath: audioSources.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 38253356}
+    - target: {fileID: 6209192672500701686, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: audioSources.Array.data[1]
+      value: 
+      objectReference: {fileID: 38253355}
     - target: {fileID: 6209192672568245612, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
