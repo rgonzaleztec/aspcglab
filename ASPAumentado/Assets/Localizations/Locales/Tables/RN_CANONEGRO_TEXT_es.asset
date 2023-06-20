@@ -22,6 +22,30 @@ MonoBehaviour:
     m_Localized: Nombre Animal
     m_Metadata:
       m_Items: []
+  - m_Id: 5910451357437952
+    m_Localized: Basilisco Verde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5910615044345856
+    m_Localized: Mono Cariblanco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911295406592000
+    m_Localized: Rana Arboricola
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911413232979968
+    m_Localized: Rana Amarilla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911523367014400
+    m_Localized: Gran Potoo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911613649408000
+    m_Localized: Calamoncillo Americano
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

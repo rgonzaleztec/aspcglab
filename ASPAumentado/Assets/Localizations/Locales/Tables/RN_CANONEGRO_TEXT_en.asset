@@ -22,6 +22,30 @@ MonoBehaviour:
     m_Localized: Animal Name
     m_Metadata:
       m_Items: []
+  - m_Id: 5910451357437952
+    m_Localized: Green Basilisc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5910615044345856
+    m_Localized: White-faced Capuchin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911295406592000
+    m_Localized: Tree Frog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911413232979968
+    m_Localized: Yellow Frog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911523367014400
+    m_Localized: Great Potoo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911613649408000
+    m_Localized: American Purple Galline
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

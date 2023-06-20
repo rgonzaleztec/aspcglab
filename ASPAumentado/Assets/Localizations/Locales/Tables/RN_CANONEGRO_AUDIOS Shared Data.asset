@@ -14,9 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: RN_CANONEGRO_AUDIOS
   m_TableCollectionNameGuidString: aec53637bcab9f847bd822a8f7fa15c6
-  m_Entries: []
+  m_Entries:
+  - m_Id: 5910778169217024
+    m_Key: RNC1_TreeFrog_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911031077359616
+    m_Key: RNC1_YellowFrog_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911705072652288
+    m_Key: RNC1_PurpleGalline_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911756217995264
+    m_Key: RNC1_GreatPotoo_Audio
+    m_Metadata:
+      m_Items: []
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 8475763956886536194
   m_KeyGenerator:
     rid: 8475763586258173959
   references:
@@ -26,3 +43,25 @@ MonoBehaviour:
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
         m_CustomEpoch: 1685811500353
+    - rid: 8475763956886536194
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 5910778169217024
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 5911031077359616
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 5911705072652288
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 5911756217995264
+          m_TableCodes:
+          - en
+          - es
+        m_TypeString: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null

@@ -73,6 +73,30 @@ MonoBehaviour:
     m_Address: Assets/Localizations/Locales/Tables/PN_AGUA_AUDIOS Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 2528176e68fbc7c4da51c393a037b7d5
+    m_Address: RanaArboricolaZonaCanal
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: fab3f49956c36d049a09d984ee0a26bd
+    m_Address: RanaAmarilla
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: 69da58352df63524ca3df2decf2c5dde
+    m_Address: CalamoncilloAmericanoAudio
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: 0baae190eccd84f478f8674bb9baccf7
+    m_Address: GranPotoo
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 03c4f1130b51a7e4690206959b9a0069, type: 2}
   m_SchemaSet:

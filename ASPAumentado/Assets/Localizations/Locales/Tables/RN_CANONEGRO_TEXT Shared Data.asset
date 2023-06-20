@@ -19,6 +19,30 @@ MonoBehaviour:
     m_Key: RNC1_Animal_Text
     m_Metadata:
       m_Items: []
+  - m_Id: 5910451357437952
+    m_Key: RNC1_Basilisc_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5910615044345856
+    m_Key: RNC1_Whiteface_Capuchin_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911295406592000
+    m_Key: RNC1_TreeFrog_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911413232979968
+    m_Key: RNC1_YellowFrog_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911523367014400
+    m_Key: RNC1_GreatPotoo_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911613649408000
+    m_Key: RNC1_PurpleGalline_Text
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
