@@ -14,9 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: PN_AGUA_AUDIOS
   m_TableCollectionNameGuidString: bcbe1393934d7304c94b46a64115bdd7
-  m_Entries: []
+  m_Entries:
+  - m_Id: 6241537354584064
+    m_Key: PNA4_OrchidDescription_Audio
+    m_Metadata:
+      m_Items: []
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 8475763977363914758
   m_KeyGenerator:
     rid: 8475763586258173961
   references:
@@ -26,3 +31,13 @@ MonoBehaviour:
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
         m_CustomEpoch: 1685811587878
+    - rid: 8475763977363914758
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 6241537354584064
+          m_TableCodes:
+          - en
+          - es
+        m_TypeString: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null

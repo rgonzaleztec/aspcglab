@@ -266,6 +266,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &66988115 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5844399663553720570, guid: 5adbb62cfd6b8a34285ae17c118e325b, type: 3}
+  m_PrefabInstance: {fileID: 97718902}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &97718902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -345,9 +350,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6209192672500701686, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: audioSources.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6209192672500701686, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
       propertyPath: audioSources.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 354132051}
+    - target: {fileID: 6209192672500701686, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
+      propertyPath: audioSources.Array.data[1]
+      value: 
+      objectReference: {fileID: 66988115}
     - target: {fileID: 6209192672568245612, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -506,6 +519,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 637889c23eeec6b4588714cdfa3f635c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &354132051 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4505209628705708462, guid: 5adbb62cfd6b8a34285ae17c118e325b, type: 3}
+  m_PrefabInstance: {fileID: 97718902}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &458092359
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,7 +535,7 @@ GameObject:
   - component: {fileID: 458092363}
   - component: {fileID: 458092362}
   - component: {fileID: 458092361}
-  - component: {fileID: 458092360}
+  - component: {fileID: 458092364}
   m_Layer: 0
   m_Name: Jaribu
   m_TagString: Untagged
@@ -525,25 +543,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &458092360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 458092359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 458092362}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: targetASP
-  mDatasetName: 
-  mCastedBehaviour: {fileID: 458092362}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &458092361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -609,6 +608,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 66988115}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
@@ -661,7 +672,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 458092360}
+  mPreview: {fileID: 458092364}
 --- !u!4 &458092363
 Transform:
   m_ObjectHideFlags: 0
@@ -678,6 +689,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &458092364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458092359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 458092362}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: targetASP
+  mDatasetName: 
+  mCastedBehaviour: {fileID: 458092362}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &816759923
 GameObject:
   m_ObjectHideFlags: 0
