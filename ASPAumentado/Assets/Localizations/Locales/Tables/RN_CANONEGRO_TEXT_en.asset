@@ -78,6 +78,19 @@ MonoBehaviour:
     m_Localized: Jabiru Stork
     m_Metadata:
       m_Items: []
+  - m_Id: 6167491707359232
+    m_Localized: Press to Change Season
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6167776618041344
+    m_Localized: "Dry Season Animals\n\nMost Likely to see from: \n\nDecember to
+      April"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6168136082477056
+    m_Localized: "Rainy Season Animals\n\nMost likely to see from: \n\nMay to November"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

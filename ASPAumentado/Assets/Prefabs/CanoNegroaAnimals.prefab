@@ -72,7 +72,7 @@ Transform:
   m_Children:
   - {fileID: 6483651052818497587}
   m_Father: {fileID: 3734926544461925649}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8259470008510900812
 MeshFilter:
@@ -158,6 +158,7 @@ MonoBehaviour:
   - {fileID: 6646418404700879396}
   - {fileID: 8064065222444807474}
   button: {fileID: 8324828637219087673}
+  informationLabelText: {fileID: 6931809523253907456}
 --- !u!1 &572775674642207209
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,7 +225,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Dry Season Animals\n\nMost Likely to see from: \n\nDecember to March\n"
+  m_text: "Dry Season Animals\n\nMost Likely to see from: \n\nDecember to April"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -305,7 +306,6 @@ GameObject:
   - component: {fileID: 6288790966638467207}
   - component: {fileID: 6994742011155523727}
   - component: {fileID: 4899508014272121740}
-  - component: {fileID: 9167427696347535571}
   m_Layer: 5
   m_Name: CanvasInformacion
   m_TagString: Untagged
@@ -396,41 +396,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &9167427696347535571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669515857056313296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d18ed12b29a9aa3479eb5083b95f899d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_LocalizedAssetReference:
-    m_TableReference:
-      m_TableCollectionName: GUID:468ed99f1d3cf4feb9fda351e3404d87
-    m_TableEntryReference:
-      m_KeyId: 32290889728
-      m_Key: 
-    m_FallbackState: 0
-    m_WaitForCompletion: 0
-  m_UpdateAsset:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: set_clip
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
 --- !u!1 &3165657195066527774
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,7 +428,7 @@ Transform:
   m_Children:
   - {fileID: 5878389098885526589}
   m_Father: {fileID: 3734926544461925649}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -35, y: -90, z: 0}
 --- !u!33 &284972285355431368
 MeshFilter:
@@ -600,7 +565,6 @@ GameObject:
   - component: {fileID: 198386461649958530}
   - component: {fileID: 6904936644764596367}
   - component: {fileID: 7492433074585031220}
-  - component: {fileID: 8308502004530659362}
   m_Layer: 5
   m_Name: "CanvasSe\xF1alizacion"
   m_TagString: Untagged
@@ -690,41 +654,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &8308502004530659362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5960159243828011316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d18ed12b29a9aa3479eb5083b95f899d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_LocalizedAssetReference:
-    m_TableReference:
-      m_TableCollectionName: GUID:468ed99f1d3cf4feb9fda351e3404d87
-    m_TableEntryReference:
-      m_KeyId: 32290889728
-      m_Key: 
-    m_FallbackState: 0
-    m_WaitForCompletion: 0
-  m_UpdateAsset:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: set_clip
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
 --- !u!1 &7779180081141981437
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,6 +665,7 @@ GameObject:
   - component: {fileID: 8085118835865375717}
   - component: {fileID: 5817690972376858943}
   - component: {fileID: 9008371187922780643}
+  - component: {fileID: 4547263813375618772}
   m_Layer: 5
   m_Name: Texto
   m_TagString: Untagged
@@ -791,7 +721,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press to Change Season
+  m_text: "Presionar para Cambiar \xC9poca"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -860,6 +790,46 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &4547263813375618772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7779180081141981437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:c8bf8d50c96034744a278f04847b9a11
+    m_TableEntryReference:
+      m_KeyId: 6167491707359232
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 9008371187922780643}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &7855820564329653829
 GameObject:
   m_ObjectHideFlags: 0
@@ -890,8 +860,8 @@ Transform:
   m_Children:
   - {fileID: 3391074342662155955}
   - {fileID: 5226795516193673631}
-  - {fileID: 4535998442413863881}
   - {fileID: 2332052116692522530}
+  - {fileID: 4535998442413863881}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}

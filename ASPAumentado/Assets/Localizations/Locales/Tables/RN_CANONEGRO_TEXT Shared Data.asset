@@ -75,6 +75,18 @@ MonoBehaviour:
     m_Key: RCN1_Jabiru_Text
     m_Metadata:
       m_Items: []
+  - m_Id: 6167491707359232
+    m_Key: RCN1_ChanceSeasonBTN_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6167776618041344
+    m_Key: RCN1_DrySeasonInformationLabel_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6168136082477056
+    m_Key: RCN1_RainySeasonInformationLabel_Text
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
