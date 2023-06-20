@@ -92,7 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5624467896728904434}
-  - component: {fileID: 4015490429125352657}
+  - component: {fileID: 3826439738782452824}
   m_Layer: 0
   m_Name: Pin-EtiquetaInfo_Imagen
   m_TagString: Untagged
@@ -117,7 +117,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4015490429125352657
+--- !u!114 &3826439738782452824
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,17 +126,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5653050591739768148}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e15cbd366b9dbd149adc469463a5a2e2, type: 3}
+  m_Script: {fileID: 11500000, guid: bfb0dfa2347ede84d90e62de9e7d19c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Pointer: {fileID: 1838353817357335322}
-  _Rod: {fileID: 1342176378897114273}
-  _Show_Rod: 1
-  _floatingTextPrefab: {fileID: 6610893333822029104, guid: 3a6b25dab6b4d2541b78a5874964ed0c, type: 3}
-  localizedDatabase: RN_CANONEGRO_TEXT
-  Pin_Type: 4
-  Text: Animal Name
-  LocalizedKey: RNC1_Animal_Text
 --- !u!1001 &7552403805363469970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -214,11 +206,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32c403e8e87d3da4c946a5e27af08302, type: 3}
---- !u!1 &1838353817357335322 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: 32c403e8e87d3da4c946a5e27af08302, type: 3}
-  m_PrefabInstance: {fileID: 7552403805363469970}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8017883166339635577 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 32c403e8e87d3da4c946a5e27af08302, type: 3}
