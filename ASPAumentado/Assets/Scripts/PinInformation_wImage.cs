@@ -23,6 +23,8 @@ public class PinInformation_wImage : MonoBehaviour
 
     private GameObject _floatingTextInstance;
 
+    private Color rodColor = new Color(0.96f, 0f, 0.43f);
+    private Color pointerColor = new Color(0.65f, 0f, 0.32f);
 
 
 
@@ -31,6 +33,8 @@ public class PinInformation_wImage : MonoBehaviour
     {
 
         showFloatingText();
+        changeColor(this._Rod, rodColor);
+        this._Pointer.GetComponent<ChangePointerColor>().changecolor(pointerColor);
 
         if (!this._Show_Rod)
         {
@@ -52,6 +56,11 @@ public class PinInformation_wImage : MonoBehaviour
         this._floatingTextInstance.GetComponent<FloatingText_wImage>().changeSeasonAnimal();
     }
 
+
+    private void changeColor(GameObject pObject, Color color)
+    {
+        pObject.GetComponent<Renderer>().material.SetColor("_Color", color);
+    }
 
 
     private void hideObject(GameObject pObject)

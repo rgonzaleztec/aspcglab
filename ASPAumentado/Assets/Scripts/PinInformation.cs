@@ -40,7 +40,7 @@ public class PinInformation : MonoBehaviour
     private Color blueColor   = new Color(0f, 0f, 1f);
     private Color greenColor  = new Color(0f, 1f, 0f);
     private Color yellowColor = new Color(1f, 1f, 0f);
-  
+    private Color information = new Color(0.43f, 0.45f, 0.18f);  
     private string loadString()
     {
         Debug.Log("Load String");
@@ -100,7 +100,7 @@ public class PinInformation : MonoBehaviour
                 changeColor(this._Pointer, yellowColor);
                 break;
             case Tipo.EtiquetaInformacion:
-                changeColor(this._Pointer, greenColor);
+                changeColor(this._Pointer, information);
                 break;
         }
     }
