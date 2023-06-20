@@ -31,6 +31,38 @@ MonoBehaviour:
     m_Key: RNC1_GreatPotoo_Audio
     m_Metadata:
       m_Items: []
+  - m_Id: 6125791819550720
+    m_Key: RCN1_TropicalGar_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6126137048518656
+    m_Key: RNC1_Basilisc_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6126242224885760
+    m_Key: RNC1_Spoonbill_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6126320842919936
+    m_Key: RNC1_Crocodile_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6126362148425728
+    m_Key: RNC1_RedVenemousFrog_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6126570701803520
+    m_Key: RNC1_ProboscisBat_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6126628402843648
+    m_Key: RNC1_Whiteface_Capuchin_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6126711546531840
+    m_Key: RNC1_Basilisc_Audio
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 8475763956886536194
@@ -63,5 +95,37 @@ MonoBehaviour:
           m_TableCodes:
           - en
           - es
+        - m_KeyId: 6125791819550720
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 6126137048518656
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 6126242224885760
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 6126320842919936
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 6126362148425728
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 6126570701803520
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 6126628402843648
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 6126711546531840
+          m_TableCodes:
+          - es
+          - en
         m_TypeString: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null

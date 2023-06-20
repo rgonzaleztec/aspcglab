@@ -43,6 +43,30 @@ MonoBehaviour:
     m_Key: RNC1_PurpleGalline_Text
     m_Metadata:
       m_Items: []
+  - m_Id: 6123573812875264
+    m_Key: RNC1_ProboscisBat_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6123935198302208
+    m_Key: RNC1_RedVenemousFrog_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6124613182377984
+    m_Key: RNC1_Crocodile_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6124707763933184
+    m_Key: RNC1_Spoonbill_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6125086899654656
+    m_Key: RCN1_Damselflies_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6125468501626880
+    m_Key: RCN1_TropicalGar_Text
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

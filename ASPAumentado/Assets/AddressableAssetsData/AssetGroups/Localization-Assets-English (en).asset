@@ -72,6 +72,16 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
+  - m_GUID: a662e921297664b4188cebc395c7d9c6
+    m_Address: PezGaspar_English
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: a53af3321f2a1460ebcb6a96c96896b6
+    m_Address: BasiliscoVerde_English
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 03c4f1130b51a7e4690206959b9a0069, type: 2}
   m_SchemaSet:

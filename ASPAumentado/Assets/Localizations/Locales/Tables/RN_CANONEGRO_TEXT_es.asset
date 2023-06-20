@@ -46,6 +46,30 @@ MonoBehaviour:
     m_Localized: Calamoncillo Americano
     m_Metadata:
       m_Items: []
+  - m_Id: 6123573812875264
+    m_Localized: "Murci\xE9lago Narig\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6123935198302208
+    m_Localized: Rana Venenosa Roja y Azul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6124613182377984
+    m_Localized: Cocodrilo Americano
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6124707763933184
+    m_Localized: "Esp\xE1tula Rosada"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6125086899654656
+    m_Localized: Caballito del Diablo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6125468501626880
+    m_Localized: Pez Gaspar
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
