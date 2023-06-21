@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R5CW33D4RJM",
         "name": "com.ITCRSC.CGLAB.PNVA",
-        "processId": 17863,
+        "processId": 17225,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,13 +11,37 @@
         {
             "deviceId": "R5CW33D4RJM",
             "name": "com.ITCRSC.CGLAB.PNVA",
-            "processId": 20702,
+            "processId": 11590,
             "exited": true
         },
         {
             "deviceId": "R5CW33D4RJM",
             "name": "com.ITCRSC.CGLAB.PNVA",
-            "processId": 17863,
+            "processId": 12848,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CW33D4RJM",
+            "name": "com.ITCRSC.CGLAB.PNVA",
+            "processId": 14811,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CW33D4RJM",
+            "name": "com.teslacoilsw.launcher",
+            "processId": 5721,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CW33D4RJM",
+            "name": "com.ITCRSC.CGLAB.PNVA",
+            "processId": 16034,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CW33D4RJM",
+            "name": "com.ITCRSC.CGLAB.PNVA",
+            "processId": 17225,
             "exited": false
         }
     ],
