@@ -188,6 +188,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ParqueAgua/PNAgua4.unity
     guid: 21c0149a36b587d4dafebad90490134d
+  - enabled: 1
+    path: Assets/Scenes/PruebasPlaneDetection/VAPeninsula2PD-Prueba_Plane_Detection.unity
+    guid: 6696e5c0eccd92e4c9c88f2e01194a55
+  - enabled: 1
+    path: Assets/Scenes/PruebasPlaneDetection/VAObservatorio2PD-Prueba_Plane_Detection.unity
+    guid: a574fdf3df5d943498b31e374bf6a820
+  - enabled: 1
+    path: Assets/Scenes/PruebasPlaneDetection/VAObservatorio1PD-Prueba_Plane_Detection.unity
+    guid: 76c9d423b11b6cc4481d463dd868f9ec
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e471d2b2d7b6eac49b49d3fbb452be59, type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: f596f96c4aa63d547ae29720beceafca, type: 2}
