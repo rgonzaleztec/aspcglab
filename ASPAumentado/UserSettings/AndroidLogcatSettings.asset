@@ -1,19 +1,13 @@
 {
-    "m_SelectedDeviceId": "R5CW33D4RJM",
+    "m_SelectedDeviceId": "LHBDU17930002558",
     "m_SelectedPackage": {
-        "deviceId": "R5CW33D4RJM",
+        "deviceId": "LHBDU17930002558",
         "name": "com.ITCRSC.CGLAB.PNVA",
-        "processId": 17225,
+        "processId": 15157,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "R5CW33D4RJM",
-            "name": "com.ITCRSC.CGLAB.PNVA",
-            "processId": 11590,
-            "exited": true
-        },
         {
             "deviceId": "R5CW33D4RJM",
             "name": "com.ITCRSC.CGLAB.PNVA",
@@ -42,6 +36,24 @@
             "deviceId": "R5CW33D4RJM",
             "name": "com.ITCRSC.CGLAB.PNVA",
             "processId": 17225,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CW33D4RJM",
+            "name": "com.ITCRSC.CGLAB.PNVA",
+            "processId": 21622,
+            "exited": false
+        },
+        {
+            "deviceId": "LHBDU17930002558",
+            "name": "com.huawei.android.launcher",
+            "processId": 1779,
+            "exited": false
+        },
+        {
+            "deviceId": "LHBDU17930002558",
+            "name": "com.ITCRSC.CGLAB.PNVA",
+            "processId": 15157,
             "exited": false
         }
     ],
