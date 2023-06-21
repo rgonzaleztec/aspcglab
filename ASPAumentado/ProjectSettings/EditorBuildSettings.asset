@@ -60,8 +60,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Observatorio/English/VAObservatorio1.unity
     guid: 1ceb4f224cc3da046a00eb8c66edce67
   - enabled: 1
+    path: Assets/Scenes/PruebasPlaneDetection/VAObservatorio1PD-Prueba_Plane_Detection.unity
+    guid: 76c9d423b11b6cc4481d463dd868f9ec
+  - enabled: 1
     path: Assets/Scenes/Observatorio/English/VAObservatorio2.unity
     guid: e85c774863684db4d8918b8c03b4550f
+  - enabled: 1
+    path: Assets/Scenes/PruebasPlaneDetection/VAObservatorio2PD-Prueba_Plane_Detection.unity
+    guid: a574fdf3df5d943498b31e374bf6a820
   - enabled: 1
     path: Assets/Scenes/Observatorio/English/VAObservatorio3.unity
     guid: ab60a726b3b537e4bb90e1efcfe52d48
@@ -77,6 +83,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Observatorio/English/VAObservatorio7.unity
     guid: db8cf9a77f6f26c4eaa4b3537a4bcc5a
+  - enabled: 1
+    path: Assets/Scenes/Observatorio/English/VAObservatorio7_PhotoBooth_ConTarget.unity
+    guid: aefbba9b599e98749b22047a1aed0234
   - enabled: 1
     path: Assets/Scenes/Peninsula/English/LoadPeninsula.unity
     guid: b060e3b4a8f761b41bd6f232cca08b2c
@@ -111,6 +120,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Peninsula/English/VAPeninsula2.unity
     guid: 687d82db11eac3c49a6203085ac548c5
   - enabled: 1
+    path: Assets/Scenes/PruebasPlaneDetection/VAPeninsula2PD-Prueba_Plane_Detection.unity
+    guid: 6696e5c0eccd92e4c9c88f2e01194a55
+  - enabled: 1
     path: Assets/Scenes/Peninsula/English/VAPeninsula3.unity
     guid: a930aaa90085cda43804dcca998cffa5
   - enabled: 1
@@ -119,15 +131,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Peninsula/English/VAPeninsula6.unity
     guid: 5602786ad88742347b6a914d2044cc37
-<<<<<<< HEAD
   - enabled: 1
     path: Assets/Scenes/Peninsula/English/VAPeninsula7.unity
     guid: 4faa28c0c2ef0ed47a0683b2a4c48bdf
-=======
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
->>>>>>> main
   - enabled: 1
     path: Assets/Scenes/CanoNegro/LoadCanoNegro.unity
     guid: c57a6d986f3507e48aa7692bb97d7f60
@@ -193,7 +199,7 @@ EditorBuildSettings:
     guid: 7b38b3aa0a001944a9690ffa15344a97
   - enabled: 1
     path: Assets/Scenes/ParqueAgua/PNAgua4.unity
-    guid: 21c0149a36b587d4dafebad90490134d
+    guid: 45ee5553108986547bc753e36e85fb17
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e471d2b2d7b6eac49b49d3fbb452be59, type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: f596f96c4aa63d547ae29720beceafca, type: 2}
