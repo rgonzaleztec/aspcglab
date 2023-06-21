@@ -19,6 +19,10 @@ MonoBehaviour:
     m_Key: PNA4_OrchidDescription_Audio
     m_Metadata:
       m_Items: []
+  - m_Id: 6459872550838272
+    m_Key: PNA4_MenDescription_Audio
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 8475763977363914758
@@ -36,6 +40,10 @@ MonoBehaviour:
       data:
         m_Entries:
         - m_KeyId: 6241537354584064
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 6459872550838272
           m_TableCodes:
           - en
           - es
