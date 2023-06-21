@@ -73,6 +73,78 @@ MonoBehaviour:
     m_Address: Assets/Localizations/Locales/Tables/PN_AGUA_AUDIOS Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 2528176e68fbc7c4da51c393a037b7d5
+    m_Address: RanaArboricolaZonaCanal
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: fab3f49956c36d049a09d984ee0a26bd
+    m_Address: RanaAmarilla
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: 69da58352df63524ca3df2decf2c5dde
+    m_Address: CalamoncilloAmericanoAudio
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: 0baae190eccd84f478f8674bb9baccf7
+    m_Address: GranPotoo
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: a7525923dab904fc997e8b57c5d01ab4
+    m_Address: espatularosada
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: 4f937559d169742bbb6e1500480be0d8
+    m_Address: cocodrilo
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: e8c39e42d613443eaa24d56cfb897fa9
+    m_Address: RanaRojaVenenosa
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: 1d40f096d19184014ad38c51002e6e8b
+    m_Address: MurcielagoNarigon
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: 9da8b18ee9d3640b099818789d309253
+    m_Address: MonoCariblanco
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: 586fe8af4c4a7904685c3c44942bb91f
+    m_Address: LibelulaAzul
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: ae06a77bb9faf43e78e8c58759edd067
+    m_Address: Tucan
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: 39011371959619041ab56496b4106b7d
+    m_Address: JaribuSound
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 03c4f1130b51a7e4690206959b9a0069, type: 2}
   m_SchemaSet:

@@ -14,7 +14,79 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: RN_CANONEGRO_TEXT
   m_TableCollectionNameGuidString: c8bf8d50c96034744a278f04847b9a11
-  m_Entries: []
+  m_Entries:
+  - m_Id: 4389185676857344
+    m_Key: RNC1_Animal_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5910451357437952
+    m_Key: RNC1_Basilisc_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5910615044345856
+    m_Key: RNC1_Whiteface_Capuchin_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911295406592000
+    m_Key: RNC1_TreeFrog_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911413232979968
+    m_Key: RNC1_YellowFrog_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911523367014400
+    m_Key: RNC1_GreatPotoo_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911613649408000
+    m_Key: RNC1_PurpleGalline_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6123573812875264
+    m_Key: RNC1_ProboscisBat_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6123935198302208
+    m_Key: RNC1_RedVenemousFrog_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6124613182377984
+    m_Key: RNC1_Crocodile_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6124707763933184
+    m_Key: RNC1_Spoonbill_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6125086899654656
+    m_Key: RCN1_Damselflies_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6125468501626880
+    m_Key: RCN1_TropicalGar_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6131741624324096
+    m_Key: RCN1_KeelBilledToucan_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6133477227319296
+    m_Key: RCN1_Jabiru_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6167491707359232
+    m_Key: RCN1_ChanceSeasonBTN_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6167776618041344
+    m_Key: RCN1_DrySeasonInformationLabel_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6168136082477056
+    m_Key: RCN1_RainySeasonInformationLabel_Text
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

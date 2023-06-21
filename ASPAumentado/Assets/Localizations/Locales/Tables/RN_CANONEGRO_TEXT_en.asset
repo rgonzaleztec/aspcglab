@@ -17,7 +17,80 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: c8bf8d50c96034744a278f04847b9a11, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 4389185676857344
+    m_Localized: Animal Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5910451357437952
+    m_Localized: Green Basilisc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5910615044345856
+    m_Localized: White-faced Capuchin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911295406592000
+    m_Localized: Tree Frog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911413232979968
+    m_Localized: Yellow Frog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911523367014400
+    m_Localized: Great Potoo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5911613649408000
+    m_Localized: American Purple Galline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6123573812875264
+    m_Localized: Proboscis Bat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6123935198302208
+    m_Localized: Strawberry poison-dart Frog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6124613182377984
+    m_Localized: American Crocodile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6124707763933184
+    m_Localized: Roseate Spoonbill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6125086899654656
+    m_Localized: Damselflies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6125468501626880
+    m_Localized: Tropical gar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6131741624324096
+    m_Localized: Keel-billed Toucan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6133477227319296
+    m_Localized: Jabiru Stork
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6167491707359232
+    m_Localized: Press to Change Season
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6167776618041344
+    m_Localized: "Dry Season Animals\n\nMost Likely to see from: \n\nDecember to
+      April"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6168136082477056
+    m_Localized: "Rainy Season Animals\n\nMost likely to see from: \n\nMay to November"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

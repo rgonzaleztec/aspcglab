@@ -26,25 +26,26 @@ public class PinInformation : MonoBehaviour
     public GameObject _Rod;
     public bool _Show_Rod = true;
     public GameObject _floatingTextPrefab;
+    public String localizedDatabase = "PNVA_PENINSULA_TEXT";
 
 
-    enum Tipo {Volcan, RioLago, Cerro, Localidad};
+    enum Tipo {Volcan, RioLago, Cerro, Localidad, EtiquetaInformacion};
     [SerializeField] Tipo Pin_Type;
     public string Text;
     public string LocalizedKey;
-    private float TextOffset = 0.050f;
+    private float TextOffset = 0.014f;
 
 
     private Color redColor    = new Color(1f, 0f, 0f);
     private Color blueColor   = new Color(0f, 0f, 1f);
     private Color greenColor  = new Color(0f, 1f, 0f);
     private Color yellowColor = new Color(1f, 1f, 0f);
-  
+    private Color information = new Color(0.43f, 0.45f, 0.18f);  
     private string loadString()
     {
         Debug.Log("Load String");
 
-        var location = LocalizationSettings.StringDatabase.GetLocalizedString("PNVA_PENINSULA_TEXT", this.LocalizedKey);
+        var location = LocalizationSettings.StringDatabase.GetLocalizedString(localizedDatabase, this.LocalizedKey);
 
         if (location != null)
         {
@@ -74,7 +75,7 @@ public class PinInformation : MonoBehaviour
 
     private void showFloatingText()
     {
-        var offset = this.transform.position + (this.transform.up * TextOffset); ; //+ (this.transform.right) + (this.transform.up * 0.0030f);
+        var offset = this._Pointer.transform.position + (this._Pointer.transform.up * TextOffset); ; //+ (this.transform.right) + (this.transform.up * 0.0030f);
         var floatingText = Instantiate(_floatingTextPrefab, offset, Quaternion.identity, this.transform);
         floatingText.GetComponent<TextMeshPro>().text = loadString();
 
@@ -97,6 +98,9 @@ public class PinInformation : MonoBehaviour
                 break;
             case Tipo.Localidad:
                 changeColor(this._Pointer, yellowColor);
+                break;
+            case Tipo.EtiquetaInformacion:
+                changeColor(this._Pointer, information);
                 break;
         }
     }

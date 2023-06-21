@@ -14,7 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: PN_AGUA_TEXT
   m_TableCollectionNameGuidString: f7c8d8b5d904473458d8414c5846e36e
-  m_Entries: []
+  m_Entries:
+  - m_Id: 4327001353572352
+    m_Key: PNA4_Sepal_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4327977619771392
+    m_Key: PNA4_Column_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328096930942976
+    m_Key: PNA4_Petal_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328240309030912
+    m_Key: PNA4_Lip_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328311805136896
+    m_Key: PNA4_Root_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328463479558144
+    m_Key: PNA4_Leaf_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328734859415552
+    m_Key: PNA4_Stem_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328839134007296
+    m_Key: PNA4_Pseudobuld_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5944358682484736
+    m_Key: PNA4_OrchidName_Text
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
