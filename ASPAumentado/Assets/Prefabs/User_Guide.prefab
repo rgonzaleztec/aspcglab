@@ -1603,24 +1603,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83fc2ccb4b349b149a2572425883b0ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  guideType: 2
+  guideType: 0
   markerVideo: {fileID: 6150113706290204619}
   markerText: {fileID: 8316608285389939224}
   experienceVideo: {fileID: 9081739923550546357}
   experienceText: {fileID: 983491418045173337}
   Guides:
-  - marker: {fileID: 32900000, guid: f9f5a4255aef0e34c9febb12e5e88061, type: 3}
-    experience: {fileID: 32900000, guid: 5caa09089863f3f4195ba225fbf11f3a, type: 3}
+  - marker: {fileID: 32900000, guid: 74b2432123f10448eae18b95e718a50a, type: 3}
+    experience: {fileID: 32900000, guid: e426ca3c2791b4a5f9fdf181915bda11, type: 3}
     markerGuideTextKey: Sce_StandMarkerUserGuide_Text
     experienceGuideTextKey: Sce_StandMarkerExperienceUserGuide_Text
     guideType: 0
-  - marker: {fileID: 32900000, guid: 0930e79af2077c644b434603555ef009, type: 3}
-    experience: {fileID: 32900000, guid: fd0411dc2a7a9f943a886b2a5c207e9f, type: 3}
+  - marker: {fileID: 32900000, guid: f70501a1493374278996573a7bb75d68, type: 3}
+    experience: {fileID: 32900000, guid: c64b69762192343038f7f82c4c3d97c3, type: 3}
     markerGuideTextKey: Sce_GroundMarkerUserGuide_Text
     experienceGuideTextKey: Sce_GroundMarkerExperienceUserGuide_Text
     guideType: 1
-  - marker: {fileID: 32900000, guid: 02194dec48322a74ab8f80d3046d92c9, type: 3}
-    experience: {fileID: 32900000, guid: f21f79dc9679cc041b1b55597736dd30, type: 3}
+  - marker: {fileID: 32900000, guid: 6b53b63eb5cda488ca4030c331bc2fc5, type: 3}
+    experience: {fileID: 32900000, guid: 2661e551f47224fa0b78a76934b30995, type: 3}
     markerGuideTextKey: Sce_PlaneDetMarkerUserGuide_Text
     experienceGuideTextKey: Sce_PlaneDetExpMarkerUserGuide_Text
     guideType: 2
