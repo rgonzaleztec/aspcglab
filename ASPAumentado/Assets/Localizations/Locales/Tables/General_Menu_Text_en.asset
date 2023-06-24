@@ -142,6 +142,35 @@ MonoBehaviour:
     m_Localized: Tap screen to place AR object
     m_Metadata:
       m_Items: []
+  - m_Id: 20862367011131392
+    m_Localized: Find the marker and point your device to it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20862785925632000
+    m_Localized: Move around and interact with the objects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20895898475122688
+    m_Localized: Find the marker that is close to the ground and point your device
+      to it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20896458980937728
+    m_Localized: Move around and interact with the objects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20896587821568000
+    m_Localized: 'Scan the floor and an indicator will appear.
+
+
+      Tap the screen
+      to place a 3D Object'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20897034187788288
+    m_Localized: Move around and interact with the objects
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

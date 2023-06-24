@@ -139,6 +139,30 @@ MonoBehaviour:
     m_Key: Sce_PlaceObject_Text
     m_Metadata:
       m_Items: []
+  - m_Id: 20862367011131392
+    m_Key: Sce_StandMarkerUserGuide_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20862785925632000
+    m_Key: Sce_StandMarkerExperienceUserGuide_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20895898475122688
+    m_Key: Sce_GroundMarkerUserGuide_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20896458980937728
+    m_Key: Sce_GroundMarkerExperienceUserGuide_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20896587821568000
+    m_Key: Sce_PlaneDetMarkerUserGuide_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20897034187788288
+    m_Key: Sce_PlaneDetExpMarkerUserGuide_Text
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

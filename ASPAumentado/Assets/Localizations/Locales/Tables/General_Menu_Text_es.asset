@@ -140,7 +140,36 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7550742166458368
-    m_Localized: Toque la pantalla para colocar un ojeto en RA
+    m_Localized: Toque la pantalla para colocar un objeto en RA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20862367011131392
+    m_Localized: Apunta el dispositivo hacia el marcador localizado en el pedestal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20862785925632000
+    m_Localized: "Mu\xE9vete al rededor e interact\xFAa con el objeto"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20895898475122688
+    m_Localized: Apunta el dispositivo hacia el marcador que se encuentra cerca del
+      suelo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20896458980937728
+    m_Localized: "Mu\xE9vete al rededor e interact\xFAa con el objeto"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20896587821568000
+    m_Localized: 'Mueve el dispositivo orientado hacia el suelo, hasta que aparezca
+      un indicador
+
+
+      Presiona la pantalla para colocar un objeto en 3D'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20897034187788288
+    m_Localized: "Mu\xE9vete al rededor e interact\xFAa con el objeto"
     m_Metadata:
       m_Items: []
   references:
