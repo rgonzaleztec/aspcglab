@@ -171,6 +171,14 @@ MonoBehaviour:
     m_Localized: Move around and interact with the objects
     m_Metadata:
       m_Items: []
+  - m_Id: 20900908856463360
+    m_Localized: Experience Guide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20901159206080512
+    m_Localized: Tap Screen to Start Experience
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
