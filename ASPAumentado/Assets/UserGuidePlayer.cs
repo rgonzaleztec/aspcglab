@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Localization.Settings;
 using UnityEngine.Video;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 
 public class UserGuidePlayer : MonoBehaviour
 {
@@ -18,6 +18,17 @@ public class UserGuidePlayer : MonoBehaviour
     }
 
     [System.Serializable]
+    public enum Map
+    {
+        Peninsula,
+        Observatorio,
+        CanoNegro,
+        Parqueagua
+    }
+
+
+
+    [System.Serializable]
     public struct UserGuideInfo
     {
         public VideoClip marker;
@@ -27,6 +38,9 @@ public class UserGuidePlayer : MonoBehaviour
         public GuideType guideType;
     }
     public GuideType guideType;
+    public Map map;
+    public Image backGround;
+
     public VideoPlayer markerVideo;
     public TextMeshProUGUI markerText;
 
@@ -37,6 +51,10 @@ public class UserGuidePlayer : MonoBehaviour
     
 
     public UserGuideInfo[] Guides;
+    public Sprite mapPeninsula;
+    public Sprite mapObservatorio;
+    public Sprite mapCanoNegro;
+    public Sprite mapAgua;
 
 
     // Start is called before the first frame update
@@ -57,9 +75,26 @@ public class UserGuidePlayer : MonoBehaviour
         this.experienceVideo.Play();
     }
 
-    public void printScene(int num)
+    private void changeMap()
     {
-        Debug.Log("Cargando escena: " + num);
+        switch (this.map)
+        {
+            case Map.Peninsula:
+                backGround.sprite = this.mapPeninsula;
+                break;
+            case Map.Parqueagua:
+                backGround.sprite = this.mapAgua;
+                break;
+            case Map.Observatorio:
+                backGround.sprite = this.mapObservatorio;
+                break;
+            case Map.CanoNegro:
+                backGround.sprite = this.mapCanoNegro;
+                break;
+            default:
+                backGround.sprite = this.mapAgua;
+                break;
+        }
     }
 
 
@@ -93,8 +128,8 @@ public class UserGuidePlayer : MonoBehaviour
             }
 
 
-            /* 5 = Península ingles*/
-            /* 5n = Península Escena*/
+            /* 5 = Penï¿½nsula ingles*/
+            /* 5n = Penï¿½nsula Escena*/
             if (numEscena == 3){
                 SceneManager.LoadScene("map_PNAgua");
             }if (numEscena == 31) {                                   
@@ -134,8 +169,8 @@ public class UserGuidePlayer : MonoBehaviour
             }
 
 
-            /* 5 = Península ingles*/
-            /* 5n = Península Escena*/
+            /* 5 = Penï¿½nsula ingles*/
+            /* 5n = Penï¿½nsula Escena*/
             if (numEscena == 5){
                 SceneManager.LoadScene("mapPeninsula");
             }if (numEscena == 51) {                                   //Casetilla
