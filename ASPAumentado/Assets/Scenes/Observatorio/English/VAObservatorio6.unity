@@ -472,19 +472,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8597988787977207446, guid: ecdbbc24e77aec44ab49c0d198257256, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8597988787977207446, guid: ecdbbc24e77aec44ab49c0d198257256, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8597988787977207446, guid: ecdbbc24e77aec44ab49c0d198257256, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8597988787977207446, guid: ecdbbc24e77aec44ab49c0d198257256, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8597988787977207446, guid: ecdbbc24e77aec44ab49c0d198257256, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -492,7 +492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8597988787977207446, guid: ecdbbc24e77aec44ab49c0d198257256, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 8597988787977207446, guid: ecdbbc24e77aec44ab49c0d198257256, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1077,7 +1077,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  RuntimeCollider: 0
   mTrackableName: targetASP
   mInitializedInEditor: 1
   mDataSetPath: 

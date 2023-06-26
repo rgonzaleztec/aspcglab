@@ -23,6 +23,10 @@ MonoBehaviour:
     m_Key: Obs_MapTitle_Text
     m_Metadata:
       m_Items: []
+  - m_Id: 17235877077929984
+    m_Key: Obs6_ColadasViewport_Text
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

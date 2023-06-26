@@ -26,6 +26,10 @@ MonoBehaviour:
     m_Localized: Choose your location
     m_Metadata:
       m_Items: []
+  - m_Id: 17235877077929984
+    m_Localized: Coladas Viewport
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
