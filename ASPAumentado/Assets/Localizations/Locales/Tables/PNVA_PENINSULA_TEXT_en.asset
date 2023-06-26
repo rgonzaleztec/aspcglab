@@ -105,6 +105,10 @@ MonoBehaviour:
     m_Localized: Touch the Posters
     m_Metadata:
       m_Items: []
+  - m_Id: 21376122510893056
+    m_Localized: Panomaric View of the Arenal Volcano.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

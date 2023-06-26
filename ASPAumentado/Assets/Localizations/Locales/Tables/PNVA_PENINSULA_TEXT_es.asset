@@ -105,6 +105,10 @@ MonoBehaviour:
     m_Localized: Toque los Carteles
     m_Metadata:
       m_Items: []
+  - m_Id: 21376122510893056
+    m_Localized: "Vista Panor\xE1mica del Volc\xE1n Arenal y sus alrededores."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

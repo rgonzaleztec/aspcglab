@@ -99,6 +99,10 @@ MonoBehaviour:
     m_Key: Pen6_Tilaran_Text
     m_Metadata:
       m_Items: []
+  - m_Id: 21376122510893056
+    m_Key: Pen6_InfomrationLabel_Text
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
