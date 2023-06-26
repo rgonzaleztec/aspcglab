@@ -60,6 +60,8 @@ public class UserGuidePlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        changeMap();
+
         foreach( UserGuideInfo guide in Guides)
         {
             if (guide.guideType.Equals(this.guideType)){
