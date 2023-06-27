@@ -192,6 +192,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ParqueAgua/PNAgua1.unity
     guid: 7b38b3aa0a001944a9690ffa15344a97
   - enabled: 1
+    path: Assets/Scenes/ParqueAgua/PNAgua2.unity
+    guid: 39372f54ba0f81c4f80077662ec81cd2
+  - enabled: 1
     path: Assets/Scenes/ParqueAgua/PNAgua4.unity
     guid: 21c0149a36b587d4dafebad90490134d
   - enabled: 1
