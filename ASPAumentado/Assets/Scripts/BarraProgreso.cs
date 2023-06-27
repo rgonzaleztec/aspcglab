@@ -29,11 +29,11 @@ public class BarraProgreso : MonoBehaviour
     void cargar()
     {
         cont++;
-        changeBarValue(cont,1000);
-        if (cont <= 1000)
+        changeBarValue(cont,500);
+        if (cont <= 500)
         {
-            if (cont > 800 && cont < 850){
-                Invoke("cargar",0.04f);
+            if (cont > 400 && cont < 450){
+                Invoke("cargar",0.02f);
             }
             else{
                 Invoke("cargar",0.001f);
