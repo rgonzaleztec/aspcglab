@@ -1705,8 +1705,8 @@ MonoBehaviour:
     guideType: 2
   mapPeninsula: {fileID: 21300000, guid: 2f56134bb57bcdb40bcd713f8181bc85, type: 3}
   mapObservatorio: {fileID: 21300000, guid: 13a0f94d49843d14f853dae008342a89, type: 3}
-  mapCanoNegro: {fileID: 21300000, guid: 4050b846c17ed0f439abf8ad2756d9ff, type: 3}
-  mapAgua: {fileID: 21300000, guid: e04bd0bdf7cdc9e40a2fab5676af4cd1, type: 3}
+  mapCanoNegro: {fileID: 21300000, guid: 972bf25097511cd4b89ad7807c812e18, type: 3}
+  mapAgua: {fileID: 21300000, guid: 22633043e59cb6f4daf81e3dcd6aa988, type: 3}
 --- !u!1 &8869993845705331170
 GameObject:
   m_ObjectHideFlags: 0
