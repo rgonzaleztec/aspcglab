@@ -153,6 +153,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CanoNegro/RCanoNegro1.unity
     guid: 281b2b46955d728438161990d89fb554
   - enabled: 1
+    path: Assets/Scenes/CanoNegro/RCAnoNegro2.unity
+    guid: 5ba221d26a535aa409c1fe52e1221992
+  - enabled: 1
     path: Assets/Scenes/CanoNegro/RCanoNegro3.unity
     guid: 5575b63bdaf959645972e7a4c65e2ab3
   - enabled: 1
@@ -197,6 +200,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ParqueAgua/PNAgua4.unity
     guid: 21c0149a36b587d4dafebad90490134d
+  - enabled: 1
+    path: Assets/Scenes/ParqueAgua/PNAgua5.unity
+    guid: d53e3c916e4991c4399716005a8e122d
   - enabled: 1
     path: Assets/Scenes/ParqueAgua/PNAgua7.unity
     guid: 9514b75df710835449d0d06b994b6a9e
