@@ -6,204 +6,207 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Peninsula/English/VAPeninsula7_Sin_Target_Ni_PLane_DEtection.unity
+    guid: 593da188be7c6664cb6d2175996e0c3c
+  - enabled: 0
     path: Assets/Scenes/LoadMenu.unity
     guid: de7dcd10235ccf0489cf0eb5502e20d4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu/Languaje.unity
     guid: f43f62171161280448cd7d61a3f828dd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu/information.unity
     guid: e97e567a4e43148448e7ac6839d950f3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu/experience.unity
     guid: 1817f7850c8f29248b2acee5f335feef
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu/settings.unity
     guid: acef56460baa59a4fa5d188f72ca22e7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu/LanguajeSettings.unity
     guid: d330cee9bbebcb94f85083cecf49c1c8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu/developers.unity
     guid: f3561d68bc2dc7a458a136613c18114b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu/rate.unity
     guid: fa3490a67228b0a42971b015a78b40b2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Observatorio/English/LoadObservatorio.unity
     guid: 504f8ea0ac654b4489fc4fdb9fe93c72
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Observatorio/English/LoadObservatorio1.unity
     guid: ad3d37f47a9e8424c833fac26e467826
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Observatorio/English/LoadObservatorio2.unity
     guid: a5a7c82c81034a941b72c47d9bfb7e2f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Observatorio/English/LoadObservatorio3.unity
     guid: 2e007a74d2cdac745bb42d46b4547dba
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Observatorio/English/LoadObservatorio4.unity
     guid: b7853e5f9f71d3b4cb9855067446739e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Observatorio/English/LoadObservatorio5.unity
     guid: 4cdfec0eab990754a97a86ca37a5cb28
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Observatorio/English/LoadObservatorio6.unity
     guid: 3c1a1e75c059e324faafd5af205a775a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Observatorio/English/LoadObservatorio7.unity
     guid: 34910099cfec510438b62fe774ce94ca
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Observatorio/English/map.unity
     guid: 3aa86a591ea1ea34eb29d9c3d00e94bd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Observatorio/English/VAObservatorio1.unity
     guid: 1ceb4f224cc3da046a00eb8c66edce67
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Observatorio/English/VAObservatorio2.unity
     guid: e85c774863684db4d8918b8c03b4550f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Observatorio/English/VAObservatorio3.unity
     guid: ab60a726b3b537e4bb90e1efcfe52d48
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Observatorio/English/VAObservatorio4.unity
     guid: 9f3ffc0b28d2ccb4c9a7af8a3d7fd76e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Observatorio/English/VAObservatorio5.unity
     guid: 9bb4345a5aa21c04bb7801b01c2e9bea
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Observatorio/English/VAObservatorio6.unity
     guid: 7f7b328f30264c243a16bc19b5d23c48
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Observatorio/English/VAObservatorio7.unity
     guid: 491e53b4d983403459d633f94557298f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Peninsula/English/LoadPeninsula.unity
     guid: b060e3b4a8f761b41bd6f232cca08b2c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Peninsula/English/LoadPeninsula1.unity
     guid: 8aac8100bb8c37b4fb882c5ebe187cda
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Peninsula/English/LoadPeninsula2.unity
     guid: f8fa8bf78e8f043448de025e7e7837c3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Peninsula/English/LoadPeninsula3.unity
     guid: 4fbcd9a968371c4499f24f850ef6225e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Peninsula/English/LoadPeninsula4.unity
     guid: dedb9002eda43364d878bcef0e918d8a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Peninsula/English/LoadPeninsula5.unity
     guid: f30e32b5a4dd35f4cb013901862d6e16
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Peninsula/English/LoadPeninsula6.unity
     guid: 64945c6654a40ee4b9acc93afaaea639
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Peninsula/English/LoadPeninsula7.unity
     guid: 4a6871cd4e547ad4d817307847955270
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Peninsula/English/mapPeninsula.unity
     guid: d8085cde63aed5a4ebe9804a255083e0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Peninsula/English/VAPeninsula1.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Peninsula/English/VAPeninsula2.unity
     guid: 687d82db11eac3c49a6203085ac548c5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Peninsula/English/VAPeninsula3.unity
     guid: a930aaa90085cda43804dcca998cffa5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Peninsula/English/VAPeninsula4.unity
     guid: 91be5d87ea2753f40a4ce219a8969df8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Peninsula/English/VAPeninsula6.unity
     guid: 5602786ad88742347b6a914d2044cc37
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Peninsula/English/VAPeninsula7.unity
     guid: b33a35e16a508e64c8693a6343336fe1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CanoNegro/LoadCanoNegro.unity
     guid: c57a6d986f3507e48aa7692bb97d7f60
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CanoNegro/LoadCanoNegro1.unity
     guid: 63e66426298b65a42bb0f9a2862c37cf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CanoNegro/LoadCanoNegro2.unity
     guid: 4575493714d7f8f4f92efe40971c5a56
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CanoNegro/LoadCanoNegro3.unity
     guid: e163cf18d0c49124c8192a58d865e0cd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CanoNegro/LoadCanoNegro4.unity
     guid: 921578e6ce1117444ac7dec39858ccdc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CanoNegro/LoadCanoNegro5.unity
     guid: 182493982e950ff4db0b14f1f96d38ae
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CanoNegro/LoadCanoNegro6.unity
     guid: 37f42c306f4b6e141aaf5c2323ae1085
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CanoNegro/LoadCanoNegro7.unity
     guid: 3b061aaa5f61ced499b350cdefedacdf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CanoNegro/map_RCanoNegro.unity
     guid: 2a38add829d07344bb4adb0a25a3c793
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CanoNegro/RCanoNegro1.unity
     guid: 281b2b46955d728438161990d89fb554
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CanoNegro/RCAnoNegro2.unity
     guid: 5ba221d26a535aa409c1fe52e1221992
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CanoNegro/RCanoNegro3.unity
     guid: 5575b63bdaf959645972e7a4c65e2ab3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CanoNegro/RCanoNegro4.unity
     guid: a3e19f31a8e44ea489000ba76a75ecef
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CanoNegro/RCanoNegro7.unity
     guid: e67ebc659bc476a47831d1b5b140be95
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ParqueAgua/LoadParqueAgua.unity
     guid: a97f596bf2931ce47aae05da75ac0670
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ParqueAgua/LoadParqueAgua1.unity
     guid: 6614be25178b4154b8f5fbc33233398a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ParqueAgua/LoadParqueAgua2.unity
     guid: 637bb635eb866e542a6a120587fb5604
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ParqueAgua/LoadParqueAgua3.unity
     guid: aac832ae974b9154c878c72b3fa2c24f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ParqueAgua/LoadParqueAgua4.unity
     guid: 1b12e7d37c8a2e84d8ca883312caf130
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ParqueAgua/LoadParqueAgua5.unity
     guid: f6c410aa9f001e34fb11941a3e63d822
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ParqueAgua/LoadParqueAgua6.unity
     guid: 15e69dfc62e021146b93a7b98a276fb6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ParqueAgua/LoadParqueAgua7.unity
     guid: 242f1fe751fe0b644bab6baae1599104
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ParqueAgua/map_PNAgua.unity
     guid: 9e8c3620db440ee4ea7e50793641c69a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ParqueAgua/PNAgua1.unity
     guid: 8c281534eb176a045a5a8c0bd2964cc6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ParqueAgua/PNAgua2.unity
     guid: 39372f54ba0f81c4f80077662ec81cd2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ParqueAgua/PNAgua4.unity
     guid: 21c0149a36b587d4dafebad90490134d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ParqueAgua/PNAgua5.unity
     guid: d53e3c916e4991c4399716005a8e122d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ParqueAgua/PNAgua7.unity
     guid: 9514b75df710835449d0d06b994b6a9e
   m_configObjects:

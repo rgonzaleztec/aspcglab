@@ -171,6 +171,10 @@ MonoBehaviour:
     m_Key: Sce_ExitMsgUserGuide_Text
     m_Metadata:
       m_Items: []
+  - m_Id: 23438812707246080
+    m_Key: Sce_FindingAirAnchor_Text
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

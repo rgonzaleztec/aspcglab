@@ -180,6 +180,10 @@ MonoBehaviour:
     m_Localized: Presiona la Pantalla para Iniciar la Experiencia
     m_Metadata:
       m_Items: []
+  - m_Id: 23438812707246080
+    m_Localized: "Apunta la c\xE1mara al frente y escanea los alrededores."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

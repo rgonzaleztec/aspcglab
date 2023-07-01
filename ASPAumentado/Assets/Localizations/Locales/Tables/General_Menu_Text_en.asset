@@ -179,6 +179,10 @@ MonoBehaviour:
     m_Localized: Tap Screen to Start Experience
     m_Metadata:
       m_Items: []
+  - m_Id: 23438812707246080
+    m_Localized: Point the camera forward and scan the soroundings.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
