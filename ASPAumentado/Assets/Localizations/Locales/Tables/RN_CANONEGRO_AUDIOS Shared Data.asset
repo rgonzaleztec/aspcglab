@@ -87,6 +87,10 @@ MonoBehaviour:
     m_Key: RCN5_Jaguar_Audio
     m_Metadata:
       m_Items: []
+  - m_Id: 10878613760987136
+    m_Key: RCN2_Guajipal_Audio
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 8475763956886536194
@@ -172,6 +176,10 @@ MonoBehaviour:
           - en
           - es
         - m_KeyId: 10874991123845120
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 10878613760987136
           m_TableCodes:
           - en
           - es
