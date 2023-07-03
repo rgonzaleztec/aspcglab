@@ -83,6 +83,10 @@ MonoBehaviour:
     m_Key: RCN4_JabiruDescription_Audio
     m_Metadata:
       m_Items: []
+  - m_Id: 10874991123845120
+    m_Key: RCN5_Jaguar_Audio
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 8475763956886536194
@@ -164,6 +168,10 @@ MonoBehaviour:
           - en
           - es
         - m_KeyId: 6251508435734528
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 10874991123845120
           m_TableCodes:
           - en
           - es

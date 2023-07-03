@@ -162,6 +162,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CanoNegro/RCanoNegro4.unity
     guid: a3e19f31a8e44ea489000ba76a75ecef
   - enabled: 1
+    path: Assets/Scenes/CanoNegro/RCanoNegro5.unity
+    guid: b98ad12862c4268468b1fc230bc275b4
+  - enabled: 1
     path: Assets/Scenes/CanoNegro/RCanoNegro7.unity
     guid: e67ebc659bc476a47831d1b5b140be95
   - enabled: 1

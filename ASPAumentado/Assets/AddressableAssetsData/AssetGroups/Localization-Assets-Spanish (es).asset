@@ -97,6 +97,11 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
+  - m_GUID: 06569e99042a35f4a8e6bb1b3eb6eb89
+    m_Address: CN5s
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 03c4f1130b51a7e4690206959b9a0069, type: 2}
   m_SchemaSet:
