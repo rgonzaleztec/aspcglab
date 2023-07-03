@@ -665,8 +665,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 858320074}
-  m_LocalRotation: {x: 0.25393268, y: 0.09413901, z: 0.024860676, w: -0.9623087}
-  m_LocalPosition: {x: 13.277103, y: -43.733917, z: -62.981197}
+  m_LocalRotation: {x: -0.046457037, y: 0.033546213, z: 0.0015360857, w: 0.9983557}
+  m_LocalPosition: {x: -0.043010145, y: 0.08914928, z: -1.0472184}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1084,6 +1084,7 @@ GameObject:
   - component: {fileID: 1489716676}
   - component: {fileID: 1489716680}
   - component: {fileID: 1489716681}
+  - component: {fileID: 1489716682}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -1364,6 +1365,41 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1489716677}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &1489716682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489716675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18ed12b29a9aa3479eb5083b95f899d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:bcbe1393934d7304c94b46a64115bdd7
+    m_TableEntryReference:
+      m_KeyId: 10875471703003136
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1489716680}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_clip
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!1 &1549538816
 GameObject:
   m_ObjectHideFlags: 0

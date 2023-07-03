@@ -23,6 +23,10 @@ MonoBehaviour:
     m_Key: PNA1_Frog_Audio
     m_Metadata:
       m_Items: []
+  - m_Id: 10875471703003136
+    m_Key: PNA5_Frog_Audio
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 8475763977363914758
@@ -44,6 +48,10 @@ MonoBehaviour:
           - en
           - es
         - m_KeyId: 10875031523381248
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 10875471703003136
           m_TableCodes:
           - en
           - es
