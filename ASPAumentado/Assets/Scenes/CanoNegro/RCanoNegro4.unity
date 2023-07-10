@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -343,7 +343,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5714853}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 5714856}
@@ -482,7 +482,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:3dff6fb11a519dc4a90313d3c1698a86
+      m_TableCollectionName: GUID:c8bf8d50c96034744a278f04847b9a11
     m_TableEntryReference:
       m_KeyId: 1765671700189184
       m_Key: 
@@ -528,7 +528,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Jacana Centroamericana
+  m_text: Lechucita Sabanera
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -1280,7 +1280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:3dff6fb11a519dc4a90313d3c1698a86
+      m_TableCollectionName: GUID:c8bf8d50c96034744a278f04847b9a11
     m_TableEntryReference:
       m_KeyId: 4664564830208
       m_Key: 
@@ -1413,14 +1413,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &452011759
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,7 +1563,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:3dff6fb11a519dc4a90313d3c1698a86
+      m_TableCollectionName: GUID:c8bf8d50c96034744a278f04847b9a11
     m_TableEntryReference:
       m_KeyId: 1700865429504
       m_Key: 
@@ -1718,7 +1710,7 @@ Transform:
   - {fileID: 898518472}
   - {fileID: 1484488129}
   m_Father: {fileID: 5714857}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &499151912
 PrefabInstance:
@@ -2118,27 +2110,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_Version: 2
 --- !u!114 &555391474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3037,7 +3008,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:3dff6fb11a519dc4a90313d3c1698a86
+      m_TableCollectionName: GUID:c8bf8d50c96034744a278f04847b9a11
     m_TableEntryReference:
       m_KeyId: 3819261579264
       m_Key: 
@@ -3092,11 +3063,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsGlobal: 1
-  priority: 0
-  blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: a6560a915ef98420e9faacc1c7438823, type: 2}
 --- !u!4 &832575519
 Transform:
   m_ObjectHideFlags: 0
@@ -3671,7 +3637,7 @@ GameObject:
   - component: {fileID: 1148241631}
   - component: {fileID: 1148241630}
   m_Layer: 5
-  m_Name: Tucan Pico Iris
+  m_Name: "Tuc\xE1n Pico Iris"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4198,9 +4164,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LocalizedAssetReference:
     m_TableReference:
-      m_TableCollectionName: GUID:42e902cb38ab501488c5663eb302e468
+      m_TableCollectionName: GUID:aec53637bcab9f847bd822a8f7fa15c6
     m_TableEntryReference:
-      m_KeyId: 13220106240
+      m_KeyId: 13195641836195840
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -4671,7 +4637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:3dff6fb11a519dc4a90313d3c1698a86
+      m_TableCollectionName: GUID:c8bf8d50c96034744a278f04847b9a11
     m_TableEntryReference:
       m_KeyId: 1774590086533120
       m_Key: 
@@ -4717,7 +4683,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ibis Verde
+  m_text: "Tuc\xE1n Pico Iris"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -5234,7 +5200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:3dff6fb11a519dc4a90313d3c1698a86
+      m_TableCollectionName: GUID:c8bf8d50c96034744a278f04847b9a11
     m_TableEntryReference:
       m_KeyId: 2881650085888
       m_Key: 
@@ -5852,7 +5818,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:3dff6fb11a519dc4a90313d3c1698a86
+      m_TableCollectionName: GUID:c8bf8d50c96034744a278f04847b9a11
     m_TableEntryReference:
       m_KeyId: 3773191344128
       m_Key: 
@@ -6028,7 +5994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:3dff6fb11a519dc4a90313d3c1698a86
+      m_TableCollectionName: GUID:c8bf8d50c96034744a278f04847b9a11
     m_TableEntryReference:
       m_KeyId: 3367048499200
       m_Key: 
@@ -7238,7 +7204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:3dff6fb11a519dc4a90313d3c1698a86
+      m_TableCollectionName: GUID:c8bf8d50c96034744a278f04847b9a11
     m_TableEntryReference:
       m_KeyId: 1771097137270784
       m_Key: 
@@ -7284,7 +7250,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Esp\xE1tula Rosada"
+  m_text: Loro Frentirrojo
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -7697,7 +7663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:3dff6fb11a519dc4a90313d3c1698a86
+      m_TableCollectionName: GUID:c8bf8d50c96034744a278f04847b9a11
     m_TableEntryReference:
       m_KeyId: 2554498568192
       m_Key: 
@@ -7873,7 +7839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:3dff6fb11a519dc4a90313d3c1698a86
+      m_TableCollectionName: GUID:c8bf8d50c96034744a278f04847b9a11
     m_TableEntryReference:
       m_KeyId: 4314592104448
       m_Key: 
@@ -9085,7 +9051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:3dff6fb11a519dc4a90313d3c1698a86
+      m_TableCollectionName: GUID:c8bf8d50c96034744a278f04847b9a11
     m_TableEntryReference:
       m_KeyId: 24901242880
       m_Key: 

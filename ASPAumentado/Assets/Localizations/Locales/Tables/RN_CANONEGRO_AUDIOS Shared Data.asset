@@ -91,6 +91,10 @@ MonoBehaviour:
     m_Key: RCN2_Guajipal_Audio
     m_Metadata:
       m_Items: []
+  - m_Id: 13195641836195840
+    m_Key: RCN4_JabiruDescription_Audio2
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 8475763956886536194
@@ -183,5 +187,9 @@ MonoBehaviour:
           m_TableCodes:
           - en
           - es
+        - m_KeyId: 13195641836195840
+          m_TableCodes:
+          - es
+          - en
         m_TypeString: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null

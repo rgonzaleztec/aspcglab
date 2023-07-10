@@ -8,6 +8,7 @@ public class radio : MonoBehaviour
     //array con nombre de 4 apajaros
     private string[] birds = new string[7];
     public string bird;
+    private string birdAnt = "";
     [SerializeField] private AudioClip jabiru;
     [SerializeField] private AudioClip ibisVerde;
     [SerializeField] private AudioClip espatulaRosa;
@@ -30,7 +31,10 @@ public class radio : MonoBehaviour
         birds[6] = "Tucán Pico Iris";
         Debug.Log("Start Game: " + birds.Length);
 
+        
         bird = birds[Random.Range(0, 7)];
+        birdAnt = bird;
+            
 
         if(bird=="Jabiru")
         {
@@ -70,7 +74,13 @@ public class radio : MonoBehaviour
     {
         StartCoroutine(cambioMsj2());
 
-        bird = birds[Random.Range(0, 4)];
+        while(true){
+            bird = birds[Random.Range(0, 7)];
+            if(bird != birdAnt){
+                birdAnt = bird;
+                break;
+            }
+        }
         if(bird=="Jabiru")
         {
             gameObject.GetComponent<AudioSource>().clip = jabiru;
@@ -103,7 +113,7 @@ public class radio : MonoBehaviour
 
     private IEnumerator atencionMsj()
     {
-        Debug.Log(textMesh.text);
+        Debug.Log("Mensaje 0: " + textMesh.text);
         if(textMesh.text == "¡Pronto se escuchará un nuevo ave!" || textMesh.text == "¡Escucha atentamente!"){
             textMesh.text = "¡Escucha atentamente!";
         }
@@ -143,7 +153,9 @@ public class radio : MonoBehaviour
         }
         else
         {
+            Debug.Log("Mensaje: " + textMesh.text);
             textMesh.text = "Soon a new bird will be heard!";
+            
         }
 
         yield return new WaitForSeconds(.5f); // Pausa de 2 segundos
