@@ -152,7 +152,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:c8bf8d50c96034744a278f04847b9a11
     m_TableEntryReference:
-      m_KeyId: 6167491707359232
+      m_KeyId: 14918569521270784
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -289,13 +289,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GuideAudioSource: {fileID: 8786089056914915465}
   BoardImage: {fileID: 2850006430549196201}
-  button: {fileID: 0}
+  button: {fileID: 8324828637219087673}
   DefaultImage: {fileID: 21300000, guid: 0735cd382d05d244fbb603980a747561, type: 3}
   AudioInformationTable: RN_CANONEGRO_AUDIOS
-  AudioInformationKey: RCN1_Description_Audio
+  AudioInformationKey: RCN6_CN_Description_Audio
   Images:
   - {fileID: 21300000, guid: c18eb4d2721aca24f9cdd954ad3c9d34, type: 3}
   - {fileID: 21300000, guid: 171f8a4b72ba06b4c876c5afe6e9389e, type: 3}
+  - {fileID: 21300000, guid: 54999c1fd6aee3c47b643d5b006829d0, type: 3}
+  - {fileID: 21300000, guid: d9d68604e55e4a445a1f6c561a7f53fd, type: 3}
+  - {fileID: 21300000, guid: f5d1e98923f2a554197bd6889896ed27, type: 3}
 --- !u!1 &572775674642207209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1365,13 +1368,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GuideAudioSource: {fileID: 8786089056914915465}
   BoardImage: {fileID: 2850006430549196201}
-  button: {fileID: 0}
+  button: {fileID: 5602342218359454745}
   DefaultImage: {fileID: 21300000, guid: 0735cd382d05d244fbb603980a747561, type: 3}
   AudioInformationTable: RN_CANONEGRO_AUDIOS
-  AudioInformationKey: 
+  AudioInformationKey: RCN6_CN_SINAC_Audio
   Images:
   - {fileID: 21300000, guid: ffe6ed8bd126abf4cb89379853e62ab8, type: 3}
   - {fileID: 21300000, guid: 59d9a7f5b1df38f498e982cdb158c0df, type: 3}
+  - {fileID: 21300000, guid: 6e62fc8ef5bf55b4aa4d28f54369da24, type: 3}
+  - {fileID: 21300000, guid: 1879f018b2a0d7542acb84fceb581f72, type: 3}
+  - {fileID: 21300000, guid: 544e80838ac59a84fa1c9ec50a569d12, type: 3}
 --- !u!1 &4168280702970735375
 GameObject:
   m_ObjectHideFlags: 0
@@ -1485,15 +1491,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GuideAudioSource: {fileID: 8786089056914915465}
   BoardImage: {fileID: 2850006430549196201}
-  button: {fileID: 0}
+  button: {fileID: 6627812659089831596}
   DefaultImage: {fileID: 21300000, guid: 0735cd382d05d244fbb603980a747561, type: 3}
   AudioInformationTable: RN_CANONEGRO_AUDIOS
-  AudioInformationKey: RCN4_JabiruDescription_Audio
+  AudioInformationKey: RCN6_CN_Community_Audio
   Images:
   - {fileID: 21300000, guid: 337c691350a6057498fe6d3daa1fe515, type: 3}
   - {fileID: 21300000, guid: eb5892e768c370b4f85411f19cad1482, type: 3}
   - {fileID: 21300000, guid: bd8d657a1b06a944db909d38050e336d, type: 3}
   - {fileID: 21300000, guid: 588f3f79e80a66e4cbaab5dfc7a682e0, type: 3}
+  - {fileID: 21300000, guid: 778c1602bc8e4064282d20268b640c7d, type: 3}
 --- !u!1 &4473739519991915712
 GameObject:
   m_ObjectHideFlags: 0
@@ -1999,6 +2006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26fa553c68078b2478225d2c7fae0fa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  behaviour: {fileID: 0}
 --- !u!1 &6597724884149945504
 GameObject:
   m_ObjectHideFlags: 0
@@ -2151,7 +2159,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:c8bf8d50c96034744a278f04847b9a11
     m_TableEntryReference:
-      m_KeyId: 6167491707359232
+      m_KeyId: 14918627486552064
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -2411,7 +2419,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:c8bf8d50c96034744a278f04847b9a11
     m_TableEntryReference:
-      m_KeyId: 6167491707359232
+      m_KeyId: 14918450457563136
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
