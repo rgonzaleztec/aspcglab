@@ -12,6 +12,7 @@ public class ToggleSceneAudio : MonoBehaviour
     public List<AudioSource> audioSources;
 
     private AudioSource[] audioSources2; 
+    private List<AudioSource> playingAudioSources = new List<AudioSource>();
 
 
 
@@ -27,21 +28,23 @@ public class ToggleSceneAudio : MonoBehaviour
 
     public void toggleAudioSources()
     {
+
         stopObj.SetActive( !stopObj.activeInHierarchy );
         playObj.SetActive( !playObj.activeInHierarchy );
 
+
         if(audioSources.Count > 0)
         {
-           
-
             foreach (AudioSource source in audioSources)
             {
                 if(isPlaying)
                 {
-                    source.Stop();
+                    source.volume = 0;
+                    source.Pause();
                 }
                 else
                 {
+                    source.volume = 1;
                     source.Play();
                 }
                 
