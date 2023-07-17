@@ -11,10 +11,6 @@ public class ToggleSceneAudio : MonoBehaviour
 
     public List<AudioSource> audioSources;
 
-    private AudioSource[] audioSources2; 
-    private List<AudioSource> playingAudioSources = new List<AudioSource>();
-
-
 
     // Start is called before the first frame update
     void Start()
@@ -22,8 +18,7 @@ public class ToggleSceneAudio : MonoBehaviour
         stopObj.SetActive(true);
         playObj.SetActive(false);
         
-        audioSources2 = Object.FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
-        Debug.Log("Audio sources in scene: " + audioSources2);
+   
     }
 
     public void toggleAudioSources()
@@ -53,7 +48,6 @@ public class ToggleSceneAudio : MonoBehaviour
 
         isPlaying = !isPlaying;
     }
-
 
 
 

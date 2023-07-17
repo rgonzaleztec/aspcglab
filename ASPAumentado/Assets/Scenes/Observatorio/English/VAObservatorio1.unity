@@ -496,9 +496,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2017707814}
-        m_TargetAssemblyTypeName: AudiosChanche, Assembly-CSharp
-        m_MethodName: PlayUdioUno
+      - m_Target: {fileID: 2017707815}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -535,9 +535,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 2017707814}
-        m_TargetAssemblyTypeName: AudiosChanche, Assembly-CSharp
-        m_MethodName: PauseAudio
+      - m_Target: {fileID: 2017707815}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Pause
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1336,7 +1336,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2017707812}
   - component: {fileID: 2017707815}
-  - component: {fileID: 2017707814}
   - component: {fileID: 2017707813}
   m_Layer: 0
   m_Name: Presentador
@@ -1397,19 +1396,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
---- !u!114 &2017707814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2017707811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10df29a07bcae7a42a658b89a5c50782, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myaudio: {fileID: 2017707815}
 --- !u!82 &2017707815
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1421,7 +1407,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 96e46a2295f34ba459946171f6b62900, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

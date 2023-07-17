@@ -5,17 +5,17 @@ using UnityEngine;
 public class PlaySound : MonoBehaviour
 {
     // Start is called before the first frame update
-    public AudioSource audio;
+    public AudioSource audio1;
 
 
     public void MiPlaySound()
     {
-        audio.Play();
+        audio1.Play();
     }
 
     public void MiStopSound()
     {
-        audio.Stop();
+        audio1.Stop();
     }
 
 }
