@@ -6,13 +6,18 @@ public class Toggle : MonoBehaviour
 {
     [SerializeField] private GameObject background;
     [SerializeField] private radio radioScript;
+    [SerializeField] private radioFelinos radioFelineScript;
     [SerializeField] private AudioClip corecto;
     [SerializeField] private AudioClip incorrecto;
 
     // Start is called before the first frame update
     void Start()
     {
-        radioScript = transform.parent.transform.GetComponent<radio>();
+        try{
+            radioScript = transform.parent.transform.GetComponent<radio>();
+        }catch{
+            radioFelineScript = transform.parent.transform.parent.transform.GetComponent<radioFelinos>();
+        }
         //backgraund es el primer hijo de this
         background = transform.GetChild(0).gameObject;
     }
@@ -23,30 +28,58 @@ public class Toggle : MonoBehaviour
         if (gameObject.GetComponent<UnityEngine.UI.Toggle>().isOn)
         {
             //si name es igual a bird, entonces activar background
-            if (radioScript.bird == gameObject.name)
-            {
-                //cambiar color a Image de background
-                background.GetComponent<UnityEngine.UI.Image>().color = new Color(0, 255, 0, 1);
-                //cambiar audioclip de audiosurce
-                gameObject.GetComponent<AudioSource>().clip = corecto;
-                //reproducir audio
-                gameObject.GetComponent<AudioSource>().Play();
-                Debug.Log("Correcto");
-                //reiniciar 
-                radioScript.reSelection();
-                StartCoroutine(reestartColor());
-            }
-            else
-            {
-                //cambiar color a Image de background a rojo
-                background.GetComponent<UnityEngine.UI.Image>().color = new Color(255, 0, 0, 1);
-                 //cambiar audioclip de audiosurce
-                gameObject.GetComponent<AudioSource>().clip = incorrecto;
-                //reproducir audio
-                gameObject.GetComponent<AudioSource>().Play();
-                Debug.Log("Incorrecto");
-                //llamat co rutina para volver color negro en 2 segundos
-                StartCoroutine(reestartColor());
+            try{
+                if (radioScript.bird == gameObject.name)
+                {
+                    //cambiar color a Image de background
+                    background.GetComponent<UnityEngine.UI.Image>().color = new Color(0, 255, 0, 1);
+                    //cambiar audioclip de audiosurce
+                    gameObject.GetComponent<AudioSource>().clip = corecto;
+                    //reproducir audio
+                    gameObject.GetComponent<AudioSource>().Play();
+                    Debug.Log("Correcto");
+                    //reiniciar 
+                    radioScript.reSelection();
+                    StartCoroutine(reestartColor());
+                }
+                else
+                {
+                    //cambiar color a Image de background a rojo
+                    background.GetComponent<UnityEngine.UI.Image>().color = new Color(255, 0, 0, 1);
+                    //cambiar audioclip de audiosurce
+                    gameObject.GetComponent<AudioSource>().clip = incorrecto;
+                    //reproducir audio
+                    gameObject.GetComponent<AudioSource>().Play();
+                    Debug.Log("Incorrecto");
+                    //llamat co rutina para volver color negro en 2 segundos
+                    StartCoroutine(reestartColor());
+                }
+            }catch{
+                if (radioFelineScript.bird == gameObject.name)
+                {
+                    //cambiar color a Image de background
+                    background.GetComponent<UnityEngine.UI.Image>().color = new Color(0, 255, 0, 1);
+                    //cambiar audioclip de audiosurce
+                    gameObject.GetComponent<AudioSource>().clip = corecto;
+                    //reproducir audio
+                    gameObject.GetComponent<AudioSource>().Play();
+                    Debug.Log("Correcto");
+                    //reiniciar 
+                    radioFelineScript.reSelection();
+                    StartCoroutine(reestartColor());
+                }
+                else
+                {
+                    //cambiar color a Image de background a rojo
+                    background.GetComponent<UnityEngine.UI.Image>().color = new Color(255, 0, 0, 1);
+                    //cambiar audioclip de audiosurce
+                    gameObject.GetComponent<AudioSource>().clip = incorrecto;
+                    //reproducir audio
+                    gameObject.GetComponent<AudioSource>().Play();
+                    Debug.Log("Incorrecto");
+                    //llamat co rutina para volver color negro en 2 segundos
+                    StartCoroutine(reestartColor());
+                }
             }
         }
 
