@@ -555,7 +555,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 590950381446924520, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2403493819941028741, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
       propertyPath: m_PlayOnAwake
@@ -563,7 +563,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3925100846384532420, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4949402149932347561, guid: a63d4d1b2dad26e40aa52d88921e857a, type: 3}
       propertyPath: Loop

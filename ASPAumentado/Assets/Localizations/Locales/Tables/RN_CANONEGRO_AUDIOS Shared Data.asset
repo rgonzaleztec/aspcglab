@@ -95,6 +95,18 @@ MonoBehaviour:
     m_Key: RCN4_JabiruDescription_Audio2
     m_Metadata:
       m_Items: []
+  - m_Id: 14917542688542720
+    m_Key: RCN6_CN_Description_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14917635172945920
+    m_Key: RCN6_CN_Community_Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14917638545166336
+    m_Key: RCN6_CN_SINAC_Audio
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 8475763956886536194
@@ -191,5 +203,17 @@ MonoBehaviour:
           m_TableCodes:
           - es
           - en
+        - m_KeyId: 14917542688542720
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 14917635172945920
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 14917638545166336
+          m_TableCodes:
+          - en
+          - es
         m_TypeString: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null

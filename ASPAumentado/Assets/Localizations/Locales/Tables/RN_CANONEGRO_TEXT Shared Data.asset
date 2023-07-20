@@ -135,6 +135,18 @@ MonoBehaviour:
     m_Key: tucan
     m_Metadata:
       m_Items: []
+  - m_Id: 14918450457563136
+    m_Key: RCN6_CN_Description_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14918569521270784
+    m_Key: RCN6_CN_Community_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14918627486552064
+    m_Key: RCN6_CN_SINAC_Text
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

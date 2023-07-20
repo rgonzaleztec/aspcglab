@@ -1554,7 +1554,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 2PD
+  m_text: 7MA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -1581,8 +1581,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
-  m_fontSizeBase: 35
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1644,12 +1644,12 @@ GameObject:
   - component: {fileID: 1056845251}
   - component: {fileID: 1056845250}
   m_Layer: 5
-  m_Name: Two_Plane_Detection
+  m_Name: Seven_Mid_Air
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1056845249
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1668,7 +1668,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -372.1, y: 62}
+  m_AnchoredPosition: {x: -50, y: -241}
   m_SizeDelta: {x: 75, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1056845250
@@ -1717,7 +1717,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1726857136}
         m_TargetAssemblyTypeName: mainMenu, Assembly-CSharp
-        m_MethodName: goPeninsulaExperience2PD
+        m_MethodName: goPeninsulaExperience7MA
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

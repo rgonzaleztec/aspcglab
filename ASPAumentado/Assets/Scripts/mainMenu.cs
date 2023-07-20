@@ -52,9 +52,9 @@ public class mainMenu : MonoBehaviour
         SceneManager.LoadScene("VAObservatorio7_PhotoBooth_ConTarget");
     }
 
-    public void goPeninsulaExperience2PD()                   //Turismo Responsable
+    public void goPeninsulaExperience7MA()                   //Turismo Responsable
     {
-        SceneManager.LoadScene("VAPeninsula2PD-Prueba_Plane_Detection");
+        SceneManager.LoadScene("VAPeninsula7_MidAirAnchor");
     }
     //*************************************
 
