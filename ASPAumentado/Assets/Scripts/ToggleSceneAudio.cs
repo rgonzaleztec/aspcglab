@@ -21,8 +21,7 @@ public class ToggleSceneAudio : MonoBehaviour
         stopObj.SetActive(true);
         playObj.SetActive(false);
 
-        audioSources2 = Object.FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
-        Debug.Log("Audio sources in scene: " + audioSources2.Count());
+        updateAudioSources();
 
     }
 
@@ -32,7 +31,7 @@ public class ToggleSceneAudio : MonoBehaviour
 
     public void toggleAudioSources()
     {
-
+        updateAudioSources();
         
         //IF audios are playing
         if( isPlaying)
@@ -85,6 +84,12 @@ public class ToggleSceneAudio : MonoBehaviour
 
         }
 
+    }
+
+    public void updateAudioSources()
+    {
+        audioSources2 = Object.FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+        Debug.Log("Audio sources in scene: " + audioSources2.Count());
     }
 
 /*
