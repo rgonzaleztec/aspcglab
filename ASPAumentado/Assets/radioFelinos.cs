@@ -28,6 +28,7 @@ public class radioFelinos : MonoBehaviour
 
         
         bird = birds[Random.Range(0, 4)];
+        Debug.Log("Start Game: " + bird);
         birdAnt = bird;
             
 
@@ -59,7 +60,7 @@ public class radioFelinos : MonoBehaviour
         StartCoroutine(cambioMsj2());
 
         while(true){
-            bird = birds[Random.Range(0, 7)];
+            bird = birds[Random.Range(0, 4)];
             if(bird != birdAnt){
                 birdAnt = bird;
                 break;

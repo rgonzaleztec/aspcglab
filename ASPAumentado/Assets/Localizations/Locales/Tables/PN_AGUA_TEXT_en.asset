@@ -58,6 +58,14 @@ MonoBehaviour:
     m_Localized: Which feline does the sound belong to?
     m_Metadata:
       m_Items: []
+  - m_Id: 17207060122488832
+    m_Localized: Ocelot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17207147804413952
+    m_Localized: Leopard
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

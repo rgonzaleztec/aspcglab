@@ -13,10 +13,20 @@ public class Toggle : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        try{
-            radioScript = transform.parent.transform.GetComponent<radio>();
-        }catch{
-            radioFelineScript = transform.parent.transform.parent.transform.GetComponent<radioFelinos>();
+        // Intentar obtener el componente "radio"
+        radioScript = transform.parent.GetComponent<radio>();
+
+        // Si "radio" no existe, intentar obtener "radioFelinos"
+        if (radioScript == null)
+        {
+            try
+            {
+                radioFelineScript = transform.parent.GetComponent<radioFelinos>();
+            }
+            catch
+            {
+                // Manejar cualquier excepción si es necesario
+            }
         }
         //backgraund es el primer hijo de this
         background = transform.GetChild(0).gameObject;

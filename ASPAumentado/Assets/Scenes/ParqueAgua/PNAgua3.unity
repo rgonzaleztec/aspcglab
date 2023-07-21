@@ -436,7 +436,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &106073787
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1503,7 +1503,7 @@ GameObject:
   - component: {fileID: 423661204}
   - component: {fileID: 423661203}
   m_Layer: 5
-  m_Name: "Esp\xE1tula Rosada"
+  m_Name: Puma Concolor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1950,8 +1950,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: radio, Assembly-CSharp
+      - m_Target: {fileID: 1663810666}
+        m_TargetAssemblyTypeName: radioFelinos, Assembly-CSharp
         m_MethodName: startGame
         m_Mode: 1
         m_Arguments:
@@ -2173,7 +2173,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 642fc00472892354da3b771c023e5b99, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e6bec6c00df0dfd4daa102849e5af81b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2539,7 +2539,6 @@ GameObject:
   - component: {fileID: 866928629}
   - component: {fileID: 866928632}
   - component: {fileID: 866928631}
-  - component: {fileID: 866928630}
   m_Layer: 5
   m_Name: escuchaTxt (3)
   m_TagString: Untagged
@@ -2567,46 +2566,6 @@ RectTransform:
   m_AnchoredPosition: {x: -357.88, y: -1549.0999}
   m_SizeDelta: {x: 253.60645, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &866928630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 866928628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_StringReference:
-    m_TableReference:
-      m_TableCollectionName: GUID:c8bf8d50c96034744a278f04847b9a11
-    m_TableEntryReference:
-      m_KeyId: 3773191344128
-      m_Key: 
-    m_FallbackState: 0
-    m_WaitForCompletion: 0
-    m_LocalVariables: []
-  m_FormatArguments: []
-  m_UpdateString:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 866928631}
-        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
-        m_MethodName: set_text
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
-  references:
-    version: 2
-    RefIds: []
 --- !u!114 &866928631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2627,7 +2586,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Esp\xE1tula Rosada"
+  m_text: Puma Concolor
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -2715,6 +2674,7 @@ GameObject:
   - component: {fileID: 905206923}
   - component: {fileID: 905206925}
   - component: {fileID: 905206924}
+  - component: {fileID: 905206926}
   m_Layer: 5
   m_Name: escuchaTxt (1)
   m_TagString: Untagged
@@ -2839,6 +2799,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 905206922}
   m_CullTransparentMesh: 1
+--- !u!114 &905206926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905206922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:f7c8d8b5d904473458d8414c5846e36e
+    m_TableEntryReference:
+      m_KeyId: 17207060122488832
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 905206924}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  references:
+    version: 2
+    RefIds: []
 --- !u!1001 &913201981
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3747,7 +3747,7 @@ GameObject:
   - component: {fileID: 1246859338}
   - component: {fileID: 1246859337}
   m_Layer: 5
-  m_Name: Ibis Verde
+  m_Name: Leopardo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4111,9 +4111,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LocalizedAssetReference:
     m_TableReference:
-      m_TableCollectionName: GUID:aec53637bcab9f847bd822a8f7fa15c6
+      m_TableCollectionName: GUID:bcbe1393934d7304c94b46a64115bdd7
     m_TableEntryReference:
-      m_KeyId: 13195641836195840
+      m_KeyId: 17195489367347200
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -4154,7 +4154,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: fcca5e401878f574ab5629bddabaa55a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2d4256628cabbba4685fe5fd85c808b2, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -4514,7 +4514,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Informaci\xF3n Jabir\xFA"
+  m_text: "Informaci\xF3n Felinos"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -4883,9 +4883,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_StringReference:
     m_TableReference:
-      m_TableCollectionName: GUID:c8bf8d50c96034744a278f04847b9a11
+      m_TableCollectionName: GUID:f7c8d8b5d904473458d8414c5846e36e
     m_TableEntryReference:
-      m_KeyId: 3367048499200
+      m_KeyId: 17207147804413952
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -4929,7 +4929,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ibis Verde
+  m_text: 'Leopardo
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -5176,9 +5178,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bird: 
   ocelote: {fileID: 8300000, guid: 89348057b3619ab47ab488ec12c714d0, type: 3}
-  puma: {fileID: 0}
-  leopardo: {fileID: 0}
-  jaguar: {fileID: 0}
+  puma: {fileID: 8300000, guid: ccf6631a02310914da02713dc5aa2ccb, type: 3}
+  leopardo: {fileID: 8300000, guid: bc6a7cb3a86ad3e4393808c65baf5224, type: 3}
+  jaguar: {fileID: 8300000, guid: 7386e98eb1616674baabfff4ed4e19b1, type: 3}
   audioCorrecto: {fileID: 0}
   textMesh: {fileID: 1800927597}
 --- !u!1001 &1671574983
@@ -5705,7 +5707,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 006c34cd7f3fc3548a0153991776a2ec, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 924a8d5a4b975804e96b075fa465cec5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6026,7 +6028,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fbfb2fe803faf914b908fb542cdfe25a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0605c755a3a9ad943a70144cf09a3678, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6057,7 +6059,7 @@ GameObject:
   - component: {fileID: 2068694065}
   - component: {fileID: 2068694064}
   m_Layer: 5
-  m_Name: Jacana
+  m_Name: Jaguar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6339,7 +6341,6 @@ GameObject:
   - component: {fileID: 2134590726}
   - component: {fileID: 2134590729}
   - component: {fileID: 2134590728}
-  - component: {fileID: 2134590727}
   m_Layer: 5
   m_Name: escuchaTxt (4)
   m_TagString: Untagged
@@ -6367,46 +6368,6 @@ RectTransform:
   m_AnchoredPosition: {x: -808.38, y: -1549.0999}
   m_SizeDelta: {x: 253.60645, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2134590727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2134590725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_StringReference:
-    m_TableReference:
-      m_TableCollectionName: GUID:c8bf8d50c96034744a278f04847b9a11
-    m_TableEntryReference:
-      m_KeyId: 3819261579264
-      m_Key: 
-    m_FallbackState: 0
-    m_WaitForCompletion: 0
-    m_LocalVariables: []
-  m_FormatArguments: []
-  m_UpdateString:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2134590728}
-        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
-        m_MethodName: set_text
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
-  references:
-    version: 2
-    RefIds: []
 --- !u!114 &2134590728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6427,7 +6388,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Jacana Centroamericana
+  m_text: 'Jaguar
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}

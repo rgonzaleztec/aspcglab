@@ -55,6 +55,14 @@ MonoBehaviour:
     m_Key: "\xBFA cu\xE1l felino pertenece el sonido?"
     m_Metadata:
       m_Items: []
+  - m_Id: 17207060122488832
+    m_Key: manigordo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17207147804413952
+    m_Key: leopardo
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
