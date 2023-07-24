@@ -139,7 +139,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7550742166458368
-    m_Localized: Tap screen to place AR object
+    m_Localized: Tap screen to place a 3D object
     m_Metadata:
       m_Items: []
   - m_Id: 20862367011131392
