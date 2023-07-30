@@ -107,6 +107,10 @@ MonoBehaviour:
     m_Key: RCN6_CN_SINAC_Audio
     m_Metadata:
       m_Items: []
+  - m_Id: 20732304946094080
+    m_Key: RCN3_GasparFish
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 8475763956886536194
@@ -212,6 +216,10 @@ MonoBehaviour:
           - en
           - es
         - m_KeyId: 14917638545166336
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 20732304946094080
           m_TableCodes:
           - en
           - es
