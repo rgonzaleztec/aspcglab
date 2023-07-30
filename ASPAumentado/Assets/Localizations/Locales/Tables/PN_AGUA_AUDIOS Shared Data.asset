@@ -35,6 +35,10 @@ MonoBehaviour:
     m_Key: New Entry
     m_Metadata:
       m_Items: []
+  - m_Id: 20730175003025408
+    m_Key: PNA2_Park_Description
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 8475763977363914758
@@ -68,6 +72,10 @@ MonoBehaviour:
           - es
           - en
         - m_KeyId: 17195489367347200
+          m_TableCodes:
+          - en
+          - es
+        - m_KeyId: 20730175003025408
           m_TableCodes:
           - en
           - es
