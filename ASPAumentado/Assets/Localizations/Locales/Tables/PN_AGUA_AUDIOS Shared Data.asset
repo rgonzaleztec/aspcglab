@@ -39,6 +39,10 @@ MonoBehaviour:
     m_Key: PNA2_Park_Description
     m_Metadata:
       m_Items: []
+  - m_Id: 20731291346395136
+    m_Key: PNA6_Lake
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 8475763977363914758
@@ -79,5 +83,9 @@ MonoBehaviour:
           m_TableCodes:
           - en
           - es
+        - m_KeyId: 20731291346395136
+          m_TableCodes:
+          - es
+          - en
         m_TypeString: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
