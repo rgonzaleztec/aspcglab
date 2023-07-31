@@ -1703,6 +1703,11 @@ MonoBehaviour:
     markerGuideTextKey: Sce_PlaneDetMarkerUserGuide_Text
     experienceGuideTextKey: Sce_PlaneDetExpMarkerUserGuide_Text
     guideType: 2
+  - marker: {fileID: 32900000, guid: cc61febffef7ee14db377c5a1253f0e9, type: 3}
+    experience: {fileID: 32900000, guid: c876af47f072f784baeb951a449ae99c, type: 3}
+    markerGuideTextKey: Sce_MidAirMarkerUserGuide_Text
+    experienceGuideTextKey: Sce_MidAirExpMarkerUserGuide_Text
+    guideType: 3
   mapPeninsula: {fileID: 21300000, guid: 2f56134bb57bcdb40bcd713f8181bc85, type: 3}
   mapObservatorio: {fileID: 21300000, guid: 13a0f94d49843d14f853dae008342a89, type: 3}
   mapCanoNegro: {fileID: 21300000, guid: 972bf25097511cd4b89ad7807c812e18, type: 3}

@@ -183,6 +183,14 @@ MonoBehaviour:
     m_Localized: Point the camera forward and scan the soroundings.
     m_Metadata:
       m_Items: []
+  - m_Id: 34283784486473728
+    m_Localized: Point phone forward and scan the soroundings side to side.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34283967102275584
+    m_Localized: 'Tap the screen to start the experience, and take pictures! '
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

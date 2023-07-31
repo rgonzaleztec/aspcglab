@@ -14,7 +14,8 @@ public class UserGuidePlayer : MonoBehaviour
     {
         StandMarker,
         FloorMarker,
-        PlaneDetection
+        PlaneDetection,
+        MidAir
     }
 
     [System.Serializable]
@@ -44,12 +45,10 @@ public class UserGuidePlayer : MonoBehaviour
     public VideoPlayer markerVideo;
     public TextMeshProUGUI markerText;
 
-
     public VideoPlayer experienceVideo;
     public TextMeshProUGUI experienceText;
 
     
-
     public UserGuideInfo[] Guides;
     public Sprite mapPeninsula;
     public Sprite mapObservatorio;
@@ -107,6 +106,7 @@ public class UserGuidePlayer : MonoBehaviour
 
         if (numEscena == 1){
                 SceneManager.LoadScene("Languaje");
+
             }
 
             /* 2 = Observatorio Ingles*/
@@ -127,7 +127,10 @@ public class UserGuidePlayer : MonoBehaviour
                 SceneManager.LoadScene("VAObservatorio6");
             }if (numEscena == 27){
                 SceneManager.LoadScene("VAObservatorio7");
+            }if (numEscena == 271){
+                SceneManager.LoadScene("VAObservatorio7_MidAirAnchor");
             }
+
 
 
             /* 5 = Pen�nsula ingles*/
@@ -148,6 +151,8 @@ public class UserGuidePlayer : MonoBehaviour
                 SceneManager.LoadScene("PNAgua6");
             }if (numEscena == 37) {                                   
                 SceneManager.LoadScene("PNAgua7");
+            }if (numEscena == 371) {                                   
+                SceneManager.LoadScene("PNAgua7_MidAirAnchor");
             }
 
             /* 4 = Refugio Nacional de Vida Silvestre Cano Negrp*/
@@ -168,6 +173,8 @@ public class UserGuidePlayer : MonoBehaviour
                 SceneManager.LoadScene("RCanoNegro6");
             }if (numEscena == 47){
                 SceneManager.LoadScene("RCanoNegro7");
+            }if (numEscena == 471){
+                SceneManager.LoadScene("RCanoNegro7_MidAirAnchor");
             }
 
 
@@ -189,6 +196,8 @@ public class UserGuidePlayer : MonoBehaviour
                 SceneManager.LoadScene("VAPeninsula6");
             }if (numEscena == 57) {                                   //Mirador  Lago - Volcan
                 SceneManager.LoadScene("VAPeninsula7");
+            }if (numEscena == 571) {                                   //Mirador  Lago - Volcan
+                SceneManager.LoadScene("VAPeninsula7_MidAirAnchor");
             }
             
     }

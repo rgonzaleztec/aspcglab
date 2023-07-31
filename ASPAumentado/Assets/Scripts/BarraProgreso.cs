@@ -45,6 +45,10 @@ public class BarraProgreso : MonoBehaviour
             /* 1 = Primera scena, barra de carga del menu*/
             if (numEscena == 1){
                 SceneManager.LoadScene("Languaje");
+            }if (numEscena == 11){
+                SceneManager.LoadScene("information");
+            }if (numEscena == 12){
+                SceneManager.LoadScene("settings");
             }
 
             /* 2 = Observatorio Ingles*/

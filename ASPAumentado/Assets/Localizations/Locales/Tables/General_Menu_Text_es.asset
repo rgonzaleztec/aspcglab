@@ -75,7 +75,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4158651359232
-    m_Localized: Lenguaje
+    m_Localized: Idioma
     m_Metadata:
       m_Items: []
   - m_Id: 4134978707456
@@ -182,6 +182,15 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 23438812707246080
     m_Localized: "Apunta la c\xE1mara al frente y escanea los alrededores."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34283784486473728
+    m_Localized: "Apunta la c\xE1mara al frente y escanea los alrededores lado a
+      lado."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34283967102275584
+    m_Localized: "Presiona la pantalla para iniciar la experiencia y tomar fotograf\xEDas"
     m_Metadata:
       m_Items: []
   references:

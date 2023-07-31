@@ -39,22 +39,22 @@ public class mainMenu : MonoBehaviour
     // Esto hay que borrarlo *************************************
     public void goCanoNegroExperience7MA()
     {
-        SceneManager.LoadScene("RCanoNegro7_MidAirAnchor");
+        SceneManager.LoadScene("LoadCanoNegro7_MidAir");
     }
 
     public void goParqueAguaExperience7MA()
     {
-        SceneManager.LoadScene("PNAgua7_MidAirAnchor");
+        SceneManager.LoadScene("LoadParqueAgua7_MidAir");
     }
 
     public void goObservatorioExperience7MA()
     {
-        SceneManager.LoadScene("VAObservatorio7_MidAirAnchor");
+        SceneManager.LoadScene("LoadObservatorio7_MidAir");
     }
 
     public void goPeninsulaExperience7MA()                   //Turismo Responsable
     {
-        SceneManager.LoadScene("VAPeninsula7_MidAirAnchor");
+        SceneManager.LoadScene("LoadPeninsula7_MidAir");
     }
     //*************************************
 
