@@ -78,6 +78,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Observatorio/English/VAObservatorio7.unity
     guid: 491e53b4d983403459d633f94557298f
   - enabled: 1
+    path: Assets/Scenes/PruebasMidAir/VAObservatorio7_MidAirAnchor.unity
+    guid: 306d1f873913248aaafdddccf0c6cf38
+  - enabled: 1
     path: Assets/Scenes/Peninsula/English/LoadPeninsula.unity
     guid: b060e3b4a8f761b41bd6f232cca08b2c
   - enabled: 1
@@ -174,6 +177,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CanoNegro/RCanoNegro7.unity
     guid: e67ebc659bc476a47831d1b5b140be95
   - enabled: 1
+    path: Assets/Scenes/PruebasMidAir/RCanoNegro7_MidAirAnchor.unity
+    guid: 9eb3f80e7a43a44c498b783825dc1a5c
+  - enabled: 1
     path: Assets/Scenes/ParqueAgua/LoadParqueAgua.unity
     guid: a97f596bf2931ce47aae05da75ac0670
   - enabled: 1
@@ -216,8 +222,14 @@ EditorBuildSettings:
     path: Assets/Scenes/ParqueAgua/PNAgua5.unity
     guid: d53e3c916e4991c4399716005a8e122d
   - enabled: 1
+    path: Assets/Scenes/ParqueAgua/PNAgua6.unity
+    guid: 97666afa0e7c55f45914add65fcec55d
+  - enabled: 1
     path: Assets/Scenes/ParqueAgua/PNAgua7.unity
     guid: 9514b75df710835449d0d06b994b6a9e
+  - enabled: 1
+    path: Assets/Scenes/PruebasMidAir/PNAgua7_MidAirAnchor.unity
+    guid: d9910b6f66d65457f88fb1b992071814
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e471d2b2d7b6eac49b49d3fbb452be59, type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: f596f96c4aa63d547ae29720beceafca, type: 2}

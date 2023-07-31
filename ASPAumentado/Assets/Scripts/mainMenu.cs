@@ -37,19 +37,19 @@ public class mainMenu : MonoBehaviour
 
 
     // Esto hay que borrarlo *************************************
-    public void goObservatorioExperience1PD()
+    public void goCanoNegroExperience7MA()
     {
-        SceneManager.LoadScene("VAObservatorio1PD-Prueba_Plane_Detection");
+        SceneManager.LoadScene("RCanoNegro7_MidAirAnchor");
     }
 
-    public void goObservatorioExperience2PD()
+    public void goParqueAguaExperience7MA()
     {
-        SceneManager.LoadScene("VAObservatorio2PD-Prueba_Plane_Detection");
+        SceneManager.LoadScene("PNAgua7_MidAirAnchor");
     }
 
-    public void goObservatorioExperience7T()
+    public void goObservatorioExperience7MA()
     {
-        SceneManager.LoadScene("VAObservatorio7_PhotoBooth_ConTarget");
+        SceneManager.LoadScene("VAObservatorio7_MidAirAnchor");
     }
 
     public void goPeninsulaExperience7MA()                   //Turismo Responsable
