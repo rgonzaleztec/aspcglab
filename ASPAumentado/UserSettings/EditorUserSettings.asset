@@ -6,15 +6,23 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
+<<<<<<< Updated upstream
       value: 56070454520d5f5a0956547544710c4441154e2b757972347f794967e1e3676f
       flags: 0
     RecentlyUsedSceneGuid-1:
       value: 0102070756000c0a5b0f597248260944154f4e737f297063797a4e60b4e63169
+=======
+      value: 050757525405085a54085c7241260c441015497b757c77317e2c4b60e6b8666a
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 520451505c510f585b5c097242720e44401541792d7f246975284f64b4e6366e
+>>>>>>> Stashed changes
       flags: 0
     RecentlyUsedSceneGuid-2:
-      value: 5a08575f5207595a0f5d59741173094444164f7d7d2a23317c7a4465bbe1646d
+      value: 5105060054530c0c585f0a2740210944421519287a2a27312878486abbb1646c
       flags: 0
     RecentlyUsedSceneGuid-3:
+<<<<<<< Updated upstream
       value: 5252510451535b09590d0f7114220f444016487a292a7e337b7f1837e1e5626f
       flags: 0
     RecentlyUsedSceneGuid-4:
@@ -28,9 +36,28 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedSceneGuid-7:
       value: 5a53565256015c5a580f0d7041200f4414154f727c7924607c2a4f36bbe23139
+=======
+      value: 5a540c0556035b0b090c587640265a4413164f2f797871697e7f4962e1b66d39
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 5b52065e54005a0f080c5d7546220f4443164d2b742b7632297b4465b6e3376e
+      flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 5008075157535c0f0f0f5c2448725c44104f487a7b7f70667f2c1e6bb3e3306a
+>>>>>>> Stashed changes
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 510057565401505a5e580e7748745b4412161e2f2e2922697d7d4463b3b3603c
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+      value: 070407035656500a5b0b587b49725c44454e417d7d7e766078284536b3b2663c
       flags: 0
     RecentlyUsedSceneGuid-8:
+<<<<<<< Updated upstream
       value: 545703045607515d5e5e5e7444200d444516497c2e2b77692f7c1961b1e36060
+=======
+      value: 5a04055207025c5f0b595d7248700a44424e1c7a2878703274704931b4e16d3d
+>>>>>>> Stashed changes
       flags: 0
     RecentlyUsedSceneGuid-9:
       value: 5a06025053540f5a5d0b5b2145765944434e497e2d2c2266782f1e36e1b5613c
