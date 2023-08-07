@@ -184,6 +184,10 @@ MonoBehaviour:
     m_Localized: "Apunta la c\xE1mara al frente y escanea los alrededores."
     m_Metadata:
       m_Items: []
+  - m_Id: 36815945246363648
+    m_Localized: "\xBFCu\xE1nto crees que mide el \xE1rbol de ceiba?"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -175,6 +175,10 @@ MonoBehaviour:
     m_Key: Sce_FindingAirAnchor_Text
     m_Metadata:
       m_Items: []
+  - m_Id: 36815945246363648
+    m_Key: ceiba
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
