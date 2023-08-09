@@ -191,6 +191,10 @@ MonoBehaviour:
     m_Localized: 'Tap the screen to start the experience, and take pictures! '
     m_Metadata:
       m_Items: []
+  - m_Id: 36815945246363648
+    m_Localized: How tall do you think the ceiba tree measures?
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -43,6 +43,10 @@ MonoBehaviour:
     m_Key: PNA6_Lake
     m_Metadata:
       m_Items: []
+  - m_Id: 23549610076852224
+    m_Key: estrato
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 8475763977363914758
@@ -84,6 +88,10 @@ MonoBehaviour:
           - en
           - es
         - m_KeyId: 20731291346395136
+          m_TableCodes:
+          - es
+          - en
+        - m_KeyId: 23549610076852224
           m_TableCodes:
           - es
           - en
