@@ -18,7 +18,9 @@ public class ToggleSceneAudio : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        stopObj.SetActive(true);
+        if(stopObj != null) stopObj.SetActive(true);
+        if(playObj != null) playObj.SetActive(false);
+
         playObj.SetActive(false);
 
         updateAudioSources();
@@ -81,6 +83,23 @@ public class ToggleSceneAudio : MonoBehaviour
             stopObj.SetActive(!stopObj.activeInHierarchy);
             playObj.SetActive(!playObj.activeInHierarchy);
 
+
+        }
+
+    }
+
+
+    public void StopAllAudio()
+    {
+        updateAudioSources();
+
+        foreach (AudioSource source in audioSources2)
+        {
+
+            if (source.isPlaying)
+            {
+                source.Stop();
+            }
 
         }
 
