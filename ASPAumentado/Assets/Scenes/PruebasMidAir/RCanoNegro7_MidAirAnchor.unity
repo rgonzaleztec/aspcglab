@@ -761,7 +761,7 @@ PrefabInstance:
       objectReference: {fileID: 1374123753}
     - target: {fileID: 6209192672568245612, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: goPeninsula
+      value: goCanoNegroExperience
       objectReference: {fileID: 0}
     - target: {fileID: 6209192672612338603, guid: f1bb74d42c3d13a40973eacfba680963, type: 3}
       propertyPath: experienceTitle
