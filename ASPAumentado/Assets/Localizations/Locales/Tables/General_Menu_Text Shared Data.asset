@@ -187,6 +187,8 @@ MonoBehaviour:
     m_Key: ceiba
     m_Metadata:
       m_Items: []
+  m_Metadata:
+    m_Items: []
   m_KeyGenerator:
     rid: 5044602863899639810
   references:

@@ -51,7 +51,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1398967099392
-    m_Localized: Nacionalidad
+    m_Localized: "Pa\xEDs de Procedencia"
     m_Metadata:
       m_Items: []
   - m_Id: 1701401583616
@@ -63,7 +63,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1339781275648
-    m_Localized: Edad
+    m_Localized: "A\xF1o Nacimiento"
     m_Metadata:
       m_Items: []
   - m_Id: 2295591854080

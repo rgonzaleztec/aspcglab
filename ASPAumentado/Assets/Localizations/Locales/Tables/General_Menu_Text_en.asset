@@ -35,15 +35,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1339781275648
-    m_Localized: Age
+    m_Localized: Year of Birth
     m_Metadata:
       m_Items: []
   - m_Id: 1398967099392
-    m_Localized: Nationality
+    m_Localized: Country of Origin
     m_Metadata:
       m_Items: []
   - m_Id: 1478348496896
-    m_Localized: Sex
+    m_Localized: Gender
     m_Metadata:
       m_Items: []
   - m_Id: 1701401583616

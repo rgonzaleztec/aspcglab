@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.UI;
 
 
 public class dataValidation : MonoBehaviour
 {
     public GameObject panel;
-    public TMP_InputField age;
-    public TMP_InputField nationality;
+    public TMP_Dropdown age;
+    public TMP_Dropdown nationality;
 
     // Start is called before the first frame update
     private string sex = "";
@@ -40,10 +41,10 @@ public class dataValidation : MonoBehaviour
     
     public void validation(){
 
-        string ageData = age.text;
-        string nationalityData = nationality.text;
+        string ageData = age.options[age.value].text;
+        string nationalityData = nationality.options[nationality.value].text;
 
-        if(ageData == "" || nationalityData == "" || sex == ""){
+        if (ageData == "" || nationalityData == "" || sex == ""){
             panel.SetActive(true);
         }else{
             SceneManager.LoadScene("experience");
@@ -52,10 +53,10 @@ public class dataValidation : MonoBehaviour
 
     public void validationEspañol(){
 
-        string ageData = age.text;
-        string nationalityData = nationality.text;
+        string ageData = age.options[age.value].text;
+        string nationalityData = nationality.options[nationality.value].text;
 
-        if(ageData == "" || nationalityData == "" || sex == ""){
+        if (ageData == "" || nationalityData == "" || sex == ""){
             panel.SetActive(true);
         }else{
             SceneManager.LoadScene("experienceEspañol");
