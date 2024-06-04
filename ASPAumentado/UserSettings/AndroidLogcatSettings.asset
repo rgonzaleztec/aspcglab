@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "LHBDU17930002558",
+    "m_SelectedDeviceId": "R8YW60VGC7F",
     "m_SelectedPackage": {
-        "deviceId": "LHBDU17930002558",
-        "name": "com.ITCRSC.CGLAB.PNVA",
-        "processId": 19284,
+        "deviceId": "R8YW60VGC7F",
+        "name": "com.ITCRSC.CGLAB.NatureAR",
+        "processId": 18479,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -12,6 +12,12 @@
             "deviceId": "LHBDU17930002558",
             "name": "com.ITCRSC.CGLAB.PNVA",
             "processId": 19284,
+            "exited": false
+        },
+        {
+            "deviceId": "R8YW60VGC7F",
+            "name": "com.ITCRSC.CGLAB.NatureAR",
+            "processId": 18479,
             "exited": false
         }
     ],

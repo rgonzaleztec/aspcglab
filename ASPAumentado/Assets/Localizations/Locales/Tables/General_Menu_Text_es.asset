@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 61625851904
-    m_Localized: Elija un Idioma
+    m_Localized: Elije un Idioma
     m_Metadata:
       m_Items: []
   - m_Id: 193176002560
@@ -67,7 +67,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2295591854080
-    m_Localized: Elije tu experiencia
+    m_Localized: Elije una experiencia
     m_Metadata:
       m_Items: []
   - m_Id: 4054041223168
@@ -140,7 +140,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7550742166458368
-    m_Localized: Toque la pantalla para colocar un objeto 3D
+    m_Localized: Toca la pantalla para colocar un objeto 3D
     m_Metadata:
       m_Items: []
   - m_Id: 20862367011131392
@@ -148,7 +148,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 20862785925632000
-    m_Localized: "Mu\xE9vete al rededor e interact\xFAa con el objeto"
+    m_Localized: "Mu\xE9vete alrededor e interact\xFAa con el objeto"
     m_Metadata:
       m_Items: []
   - m_Id: 20895898475122688
@@ -157,7 +157,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 20896458980937728
-    m_Localized: "Mu\xE9vete al rededor e interact\xFAa con el objeto"
+    m_Localized: "Mu\xE9vete alrededor e interact\xFAa con el objeto"
     m_Metadata:
       m_Items: []
   - m_Id: 20896587821568000
@@ -169,7 +169,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 20897034187788288
-    m_Localized: "Mu\xE9vete al rededor e interact\xFAa con el objeto"
+    m_Localized: "Mu\xE9vete alrededor e interact\xFAa con el objeto"
     m_Metadata:
       m_Items: []
   - m_Id: 20900908856463360
