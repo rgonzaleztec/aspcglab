@@ -104,6 +104,6 @@ public class Toggle : MonoBehaviour
         yield return new WaitForSeconds(2.0f); // Pausa de 2 segundos
 
         // Código después de la pausa
-        background.GetComponent<UnityEngine.UI.Image>().color = new Color(0, 0, 0, 1);
+        background.GetComponent<UnityEngine.UI.Image>().color = Color.white;
     }
 }
