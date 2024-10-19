@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class BarraProgreso : MonoBehaviour
 {
     Slider barra;
-    private int cont = 0;
+    private int cont = 200;
     public int numEscena;
 
     private void Start()
@@ -33,7 +33,7 @@ public class BarraProgreso : MonoBehaviour
         if (cont <= 500)
         {
             if (cont > 400 && cont < 450){
-                Invoke("cargar",0.02f);
+                Invoke("cargar",0.002f);
             }
             else{
                 Invoke("cargar",0.001f);
@@ -49,6 +49,9 @@ public class BarraProgreso : MonoBehaviour
                 SceneManager.LoadScene("information");
             }if (numEscena == 12){
                 SceneManager.LoadScene("settings");
+            }if (numEscena == 13)
+            {
+                SceneManager.LoadScene("experience");
             }
 
             /* 2 = Observatorio Ingles*/
