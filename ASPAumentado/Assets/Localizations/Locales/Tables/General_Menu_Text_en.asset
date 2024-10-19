@@ -195,6 +195,14 @@ MonoBehaviour:
     m_Localized: How tall do you think the ceiba tree measures?
     m_Metadata:
       m_Items: []
+  - m_Id: 195926433667870720
+    m_Localized: Scan Marker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195926770785054720
+    m_Localized: Move around and interact
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

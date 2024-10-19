@@ -187,6 +187,14 @@ MonoBehaviour:
     m_Key: ceiba
     m_Metadata:
       m_Items: []
+  - m_Id: 195926433667870720
+    m_Key: Sce_DefaultMarkerUserGuide_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195926770785054720
+    m_Key: Sce_DafaultMarkerExperienceUserGuide_Text
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

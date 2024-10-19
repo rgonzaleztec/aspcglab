@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: map
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1772689101723646472, guid: 53aaf3d5b31946345897a570c08b1d9f, type: 3}
+      propertyPath: guideType
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5120953969050930156, guid: 53aaf3d5b31946345897a570c08b1d9f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 41
@@ -369,7 +373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6603805063571417749, guid: 9fbd7b71f0cea974c8789d965b87c62b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fbd7b71f0cea974c8789d965b87c62b, type: 3}

@@ -197,6 +197,14 @@ MonoBehaviour:
     m_Localized: "\xBFCu\xE1nto crees que mide el \xE1rbol de ceiba?"
     m_Metadata:
       m_Items: []
+  - m_Id: 195926433667870720
+    m_Localized: Escanea el marcador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195926770785054720
+    m_Localized: "M\xFAevete e interact\xFAa"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

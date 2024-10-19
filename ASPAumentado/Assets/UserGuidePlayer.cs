@@ -15,7 +15,8 @@ public class UserGuidePlayer : MonoBehaviour
         StandMarker,
         FloorMarker,
         PlaneDetection,
-        MidAir
+        MidAir,
+        Default
     }
 
     [System.Serializable]
@@ -38,14 +39,18 @@ public class UserGuidePlayer : MonoBehaviour
         public string experienceGuideTextKey;
         public GuideType guideType;
     }
+
     public GuideType guideType;
     public Map map;
     public Image backGround;
 
+    
     public VideoPlayer markerVideo;
+    public GameObject markerImage;
     public TextMeshProUGUI markerText;
 
     public VideoPlayer experienceVideo;
+    public GameObject experienceImage;
     public TextMeshProUGUI experienceText;
 
     
@@ -61,19 +66,38 @@ public class UserGuidePlayer : MonoBehaviour
     {
         changeMap();
 
-        foreach( UserGuideInfo guide in Guides)
+        if(this.guideType.Equals(GuideType.Default))
         {
-            if (guide.guideType.Equals(this.guideType)){
-                this.markerVideo.clip = guide.marker;
-                this.markerText.text = LocalizationSettings.StringDatabase.GetLocalizedString("General_Menu_Text", guide.markerGuideTextKey);
+            markerVideo.gameObject.SetActive(false);
+            markerImage.SetActive(true);
+            markerText.text = LocalizationSettings.StringDatabase.GetLocalizedString("General_Menu_Text", "Sce_DefaultMarkerUserGuide_Text");
 
-                this.experienceVideo.clip = guide.experience;
-                this.experienceText.text = LocalizationSettings.StringDatabase.GetLocalizedString("General_Menu_Text", guide.experienceGuideTextKey);
-            } 
+
+            experienceVideo.gameObject.SetActive(false);
+            experienceImage.SetActive(true);
+            experienceText.text = LocalizationSettings.StringDatabase.GetLocalizedString("General_Menu_Text", "Sce_DafaultMarkerExperienceUserGuide_Text");
+
+
+        }
+        else
+        {
+            foreach (UserGuideInfo guide in Guides)
+            {
+                if (guide.guideType.Equals(this.guideType))
+                {
+                    this.markerVideo.clip = guide.marker;
+                    this.markerText.text = LocalizationSettings.StringDatabase.GetLocalizedString("General_Menu_Text", guide.markerGuideTextKey);
+
+                    this.experienceVideo.clip = guide.experience;
+                    this.experienceText.text = LocalizationSettings.StringDatabase.GetLocalizedString("General_Menu_Text", guide.experienceGuideTextKey);
+                }
+            }
+
+            this.markerVideo.Play();
+            this.experienceVideo.Play();
+
         }
 
-        this.markerVideo.Play();
-        this.experienceVideo.Play();
     }
 
     private void changeMap()
