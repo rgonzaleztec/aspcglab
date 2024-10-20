@@ -147,6 +147,30 @@ MonoBehaviour:
     m_Key: RCN6_CN_SINAC_Text
     m_Metadata:
       m_Items: []
+  - m_Id: 182766097397837824
+    m_Key: RCN1_AnimalsLabel_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182766486239178752
+    m_Key: RCN1_CanBeLokedLabel_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182766886308671488
+    m_Key: RCN1_RainySeasonStartMonth_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182766928650170368
+    m_Key: RCN1_RainySeasonFinishMonth_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182766993687048192
+    m_Key: RCN1_DrySeasonStartMonth_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182767077103366144
+    m_Key: RCN1_DrySeasonFinishMonth_Text
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

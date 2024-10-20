@@ -79,16 +79,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6167491707359232
-    m_Localized: Press to Change Season
+    m_Localized: Change Season
     m_Metadata:
       m_Items: []
   - m_Id: 6167776618041344
-    m_Localized: "Dry Season Animals\n\nMost Likely to see from: \n\nDecember to
-      April"
+    m_Localized: DRY SEASON
     m_Metadata:
       m_Items: []
   - m_Id: 6168136082477056
-    m_Localized: "Rainy Season Animals\n\nMost likely to see from: \n\nMay to November"
+    m_Localized: Rainy Season
     m_Metadata:
       m_Items: []
   - m_Id: 24901242880
@@ -149,6 +148,30 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 14918627486552064
     m_Localized: SINAC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182766097397837824
+    m_Localized: Animals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182766486239178752
+    m_Localized: 'They can be observed between:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182766886308671488
+    m_Localized: May
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182766928650170368
+    m_Localized: November
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182766993687048192
+    m_Localized: December
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182767077103366144
+    m_Localized: April
     m_Metadata:
       m_Items: []
   references:
