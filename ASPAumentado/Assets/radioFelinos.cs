@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Localization.Settings;
 
 public class radioFelinos : MonoBehaviour
 {
@@ -18,8 +19,16 @@ public class radioFelinos : MonoBehaviour
     //textMesh pro gui text
     [SerializeField] public TextMeshProUGUI textMesh;
 
+    private string listenCarefullyText = "";
+    private string soonNewSoundText = "";
+
+
     public void startGame()
     {
+        listenCarefullyText = LocalizationSettings.StringDatabase.GetLocalizedString("RN_CANONEGRO_TEXT", "RCN_ListenCarefully");
+        soonNewSoundText = LocalizationSettings.StringDatabase.GetLocalizedString("RN_CANONEGRO_TEXT", "RCN_NuevoSonido");
+
+
         birds[0] = "Manigordo";
         birds[1] = "Leopardo";
         birds[2] = "Puma Concolor";
@@ -86,70 +95,71 @@ public class radioFelinos : MonoBehaviour
         
     }
 
+
     private IEnumerator atencionMsj()
     {
         Debug.Log("Mensaje 0: " + textMesh.text);
-        if(textMesh.text == "¡Pronto se escuchará un nuevo felino!" || textMesh.text == "¡Escucha atentamente!"){
-            textMesh.text = "¡Escucha atentamente!";
+        if(textMesh.text == soonNewSoundText || textMesh.text == listenCarefullyText){
+            textMesh.text = listenCarefullyText;
         }
         else
         {
-            textMesh.text = "Listen carefully!";
+            textMesh.text = listenCarefullyText;
         }
         yield return new WaitForSeconds(.5f); // Pausa de 2 segundos
         //cambiar color rojo a textMesh
-        textMesh.color = new Color(255, 0, 0, 1);
+        textMesh.color = Color.yellow;
         yield return new WaitForSeconds(.5f); // Pausa de 2 segundos
         //cambiar color rojo a textMesh
-        textMesh.color = new Color(0, 0, 0, 1);
+        textMesh.color = Color.white;
         yield return new WaitForSeconds(.5f); // Pausa de 2 segundos
         //cambiar color rojo a textMesh
-        textMesh.color = new Color(255, 0, 0, 1);
+        textMesh.color = Color.yellow;
         yield return new WaitForSeconds(.5f); // Pausa de 2 segundos
         //cambiar color rojo a textMesh
-        textMesh.color = new Color(0, 0, 0, 1);
+        textMesh.color = Color.white;
         yield return new WaitForSeconds(.5f); // Pausa de 2 segundos
         //cambiar color rojo a textMesh
-        textMesh.color = new Color(255, 0, 0, 1);
+        textMesh.color = Color.yellow;
         yield return new WaitForSeconds(.5f); // Pausa de 2 segundos
         //cambiar color rojo a textMesh
-        textMesh.color = new Color(0, 0, 0, 1);
-        
+        textMesh.color = Color.white;
+
     }
 
     private IEnumerator cambioMsj2()
     {
         // Código antes de la pausa
-        if(textMesh.text == "¡Escucha atentamente!" || textMesh.text == "¡Pronto se escuchará un nuevo felino!")
+        if(textMesh.text == listenCarefullyText || textMesh.text == soonNewSoundText)
         {
-            textMesh.text = "¡Pronto se escuchará un nuevo felino!";
+            textMesh.text = soonNewSoundText;
         }
         else
         {
             Debug.Log("Mensaje: " + textMesh.text);
-            textMesh.text = "Soon a new feline will be heard!";
+            textMesh.text = soonNewSoundText;
             
         }
 
         yield return new WaitForSeconds(.5f); // Pausa de 2 segundos
         //cambiar color rojo a textMesh
-        textMesh.color = new Color(255, 0, 0, 1);
+        textMesh.color = Color.yellow;
         
         yield return new WaitForSeconds(.5f); // Pausa de 2 segundos
         //cambiar color rojo a textMesh
-        textMesh.color = new Color(0, 0, 0, 1);
+        textMesh.color = Color.white;
         yield return new WaitForSeconds(.5f); // Pausa de 2 segundos
         //cambiar color rojo a textMesh
-        textMesh.color = new Color(255, 0, 0, 1);
+        textMesh.color = Color.yellow;
         yield return new WaitForSeconds(.5f); // Pausa de 2 segundos
         //cambiar color rojo a textMesh
-        textMesh.color = new Color(0, 0, 0, 1);
+        textMesh.color = Color.white;
         yield return new WaitForSeconds(.5f); // Pausa de 2 segundos
         //cambiar color rojo a textMesh
-        textMesh.color = new Color(255, 0, 0, 1);
+        textMesh.color = Color.yellow;
         yield return new WaitForSeconds(.5f); // Pausa de 2 segundos
         //cambiar color rojo a textMesh
-        textMesh.color = new Color(0, 0, 0, 1);
+        textMesh.color = Color.white;
         startGame();
 
     }

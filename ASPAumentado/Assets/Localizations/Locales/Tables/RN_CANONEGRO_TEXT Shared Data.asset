@@ -100,7 +100,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2881650085888
-    m_Key: "\xA1Escucha atentamente!"
+    m_Key: RCN_ListenCarefully
     m_Metadata:
       m_Items: []
   - m_Id: 3367048499200
@@ -169,6 +169,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 182767077103366144
     m_Key: RCN1_DrySeasonFinishMonth_Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182997267016445952
+    m_Key: RCN_NuevoSonido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183007947958382592
+    m_Key: RCN1_TouchImages_Text
     m_Metadata:
       m_Items: []
   m_Metadata:

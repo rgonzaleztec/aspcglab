@@ -27,6 +27,10 @@ MonoBehaviour:
     m_Key: Obs6_ColadasViewport_Text
     m_Metadata:
       m_Items: []
+  - m_Id: 191833778369458176
+    m_Key: Obs2_PumaInfor_Btn
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

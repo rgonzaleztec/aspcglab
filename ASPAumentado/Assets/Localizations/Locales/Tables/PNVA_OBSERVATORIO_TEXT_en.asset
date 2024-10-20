@@ -30,6 +30,10 @@ MonoBehaviour:
     m_Localized: Coladas Viewport
     m_Metadata:
       m_Items: []
+  - m_Id: 191833778369458176
+    m_Localized: "Learn about the puma\r"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

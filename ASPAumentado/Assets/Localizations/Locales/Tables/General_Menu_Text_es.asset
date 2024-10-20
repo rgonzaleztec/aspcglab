@@ -131,7 +131,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7541962154397696
-    m_Localized: Encuentra el Marcador
+    m_Localized: Encuentre el marcador
     m_Metadata:
       m_Items: []
   - m_Id: 7549773743607808
@@ -177,7 +177,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 20901159206080512
-    m_Localized: Presiona la Pantalla para Iniciar la Experiencia
+    m_Localized: Presiona la pantalla para iniciar la experiencia
     m_Metadata:
       m_Items: []
   - m_Id: 23438812707246080
@@ -202,7 +202,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 195926770785054720
-    m_Localized: "M\xFAevete e interact\xFAa"
+    m_Localized: "Mu\xE9vete e interact\xFAa"
     m_Metadata:
       m_Items: []
   references:

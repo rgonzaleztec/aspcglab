@@ -1129,7 +1129,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Find Marker
+  m_text: Find marker
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9bb85783b2fb99f43af36a52585ea153, type: 2}
   m_sharedMaterial: {fileID: 4517214817446264990, guid: 9bb85783b2fb99f43af36a52585ea153, type: 2}

@@ -91,11 +91,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 24901242880
-    m_Localized: Game
+    m_Localized: Play game
     m_Metadata:
       m_Items: []
   - m_Id: 1700865429504
-    m_Localized: Jabiru Information
+    m_Localized: Information
     m_Metadata:
       m_Items: []
   - m_Id: 2554498568192
@@ -103,7 +103,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2881650085888
-    m_Localized: Listen carefully!
+    m_Localized: Listen to the sound and pick the animal
     m_Metadata:
       m_Items: []
   - m_Id: 3367048499200
@@ -172,6 +172,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 182767077103366144
     m_Localized: April
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182997267016445952
+    m_Localized: Get ready! You'll hear a new sound soon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183007947958382592
+    m_Localized: Tap the images
     m_Metadata:
       m_Items: []
   references:

@@ -7,10 +7,10 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"last_search.B655095F" = "at:estra"
+	"last_search.B655095F" = "at:"
 	"OpenInspectorPreview.B655095F" = "0"
 	"currentGroup.B655095F" = "all"
-	"last_search.B655092D" = "st:RCN1_CanBeLokedLabel_Text"
+	"last_search.B655092D" = "st:RCN1_TouchImages_Text"
 	"OpenInspectorPreview.B655092D" = "0"
 	"currentGroup.B655092D" = "all"
 }
@@ -69,6 +69,8 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"st:RCN1_TouchImages_Text"
+	"st:Obs2_PumaInfor_Btn"
 	"st:RCN1_CanBeLokedLabel_Text"
 	"st:RCN1_AnimalsLabel_Text"
 	"st:RCN1_ChanceSeasonBTN_Text"

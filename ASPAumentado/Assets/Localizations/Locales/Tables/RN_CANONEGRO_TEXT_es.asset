@@ -95,7 +95,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1700865429504
-    m_Localized: "Informaci\xF3n Jabir\xFA"
+    m_Localized: "Informaci\xF3n"
     m_Metadata:
       m_Items: []
   - m_Id: 2554498568192
@@ -103,7 +103,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2881650085888
-    m_Localized: "\xA1Escucha atentamente!"
+    m_Localized: Escucha el sonido y elige el animal
     m_Metadata:
       m_Items: []
   - m_Id: 3367048499200
@@ -115,7 +115,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3819261579264
-    m_Localized: Jacana Centroamericana
+    m_Localized: Jacana
     m_Metadata:
       m_Items: []
   - m_Id: 4314592104448
@@ -172,6 +172,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 182767077103366144
     m_Localized: Abril
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182997267016445952
+    m_Localized: "\xA1Prep\xE1rate! Pronto escuchar\xE1s un nuevo sonido"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183007947958382592
+    m_Localized: "Toca las im\xE1genes"
     m_Metadata:
       m_Items: []
   references:

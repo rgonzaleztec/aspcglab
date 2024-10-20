@@ -131,7 +131,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7541962154397696
-    m_Localized: Find Marker
+    m_Localized: Find marker
     m_Metadata:
       m_Items: []
   - m_Id: 7549773743607808
@@ -176,7 +176,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 20901159206080512
-    m_Localized: Tap Screen to Start Experience
+    m_Localized: Tap screen to start experience
     m_Metadata:
       m_Items: []
   - m_Id: 23438812707246080
